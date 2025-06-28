@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    elementFormDefault="qualified">
+
+  <!-- Elemento raíz -->
+  <xs:element name="pelicula">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="titulo" type="xs:string"/>
+        <xs:element name="fecha_estreno" type="xs:date"/>
+        <xs:element name="resumen" type="xs:string" minOccurs="0"/>
+        <xs:element name="ranking" type="xs:decimal"/>
+        <xs:element name="director">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="estado_civil" type="EstadoCivil"/>
+              <xs:element name="telefono" type="Telefono"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="productor" minOccurs="0" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string"/>
+              <xs:element name="aporte" type="xs:decimal"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="actores">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="actor" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="tipo_actuacion" type="TipoActuacion"/>
+                    <xs:element name="salario" type="xs:decimal"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="premios" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="premio" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="nombre" type="xs:string"/>
+                    <xs:element name="ranking" type="xs:decimal"/>
+                    <xs:element name="certamen" type="TipoCertamen"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="criticas" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="critica" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="autor" type="xs:string"/>
+                    <xs:element name="medio" type="xs:string"/>
+                    <xs:element name="fecha" type="xs:date"/>
+                    <xs:element name="comentario" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- Tipos enumerados -->
+  <xs:simpleType name="TipoActuacion">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Protagonista"/>
+      <xs:enumeration value="Secundario"/>
+      <xs:enumeration value="De reparto"/>
+      <xs:enumeration value="Extra"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="TipoCertamen">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Nacional"/>
+      <xs:enumeration value="Internacional"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="EstadoCivil">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Soltero"/>
+      <xs:enumeration value="Casado"/>
+      <xs:enumeration value="Divorciado"/>
+      <xs:enumeration value="Viudo"/>
+      <xs:enumeration value="Unión libre"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="Telefono">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="\d{10}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+</xs:schema>

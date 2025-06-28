@@ -1,0 +1,25 @@
+id_critica,medio,fecha,autor,id_pelicula
+1,La Repubblica,1990-08-16,Mario Rossi,999
+2,Corriere della Sera,1990-08-29,Lucia Bianchi,999
+3,Il Giornale,1990-08-10,Enzo Ferrari,999
+4,El País,2013-06-15,Ana García,1
+5,Le Monde,2013-06-20,Pierre Dubois,1
+6,The Guardian,2018-09-05,John Smith,2
+7,La Vanguardia,2018-09-12,Carmen López,2
+8,El Universal,2014-12-01,Miguel Torres,3
+9,Clarín,2014-12-08,María Fernández,3
+10,The New York Times,2022-02-20,Sarah Johnson,4
+11,Los Angeles Times,2022-02-25,David Wilson,4
+12,Variety,2009-04-10,Lisa Brown,5
+13,Hollywood Reporter,2009-04-15,Mark Davis,5
+14,Cahiers du Cinéma,2012-08-20,Jean-Luc Martin,6
+15,Sight & Sound,2012-08-25,Emma Thompson,6
+16,Rolling Stone,2009-12-28,Alex Rodriguez,7
+17,Entertainment Weekly,2010-01-05,Jennifer Lee,7
+18,Cinéma Télérama,2020-04-10,François Dubois,8
+19,Positif,2020-04-18,Marie Claire,8
+20,Film Comment,2022-04-02,Robert Taylor,9
+21,Cineaste,2022-04-10,Susan Miller,9
+22,IndieWire,2024-09-22,Tom Anderson,10
+23,The Wrap,2024-09-28,Rachel Green,10
+24,Screen International,2022-11-15,James White,11

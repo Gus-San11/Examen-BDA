@@ -1,0 +1,62 @@
+services:
+  postgres-caso1:
+    build: .
+    container_name: postgres-caso1-estrella
+    environment:
+      POSTGRES_DB: caso1
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./scripts:/scripts
+    networks:
+      - caso1-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d caso1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  consultas-caso1:
+    image: postgres:15
+    container_name: consultas-caso1
+    depends_on:
+      postgres-caso1:
+        condition: service_healthy
+    environment:
+      PGPASSWORD: 123
+    volumes:
+      - ./consultas_modelo_estrella.sql:/consultas.sql
+    networks:
+      - caso1-network
+    command: >
+      sh -c "
+        echo 'Esperando a que PostgreSQL esté listo...' &&
+        sleep 10 &&
+        echo 'Ejecutando consultas de prueba...' &&
+        psql -h postgres-caso1 -U postgres -d caso1 -f /consultas.sql &&
+        echo 'Consultas ejecutadas exitosamente.' &&
+        tail -f /dev/null
+      "
+
+  adminer:
+    image: adminer:latest
+    container_name: adminer-caso1
+    ports:
+      - "8080:8080"
+    networks:
+      - caso1-network
+    restart: unless-stopped
+    depends_on:
+      - postgres-caso1
+
+volumes:
+  postgres_data:
+    driver: local
+
+networks:
+  caso1-network:
+    driver: bridge

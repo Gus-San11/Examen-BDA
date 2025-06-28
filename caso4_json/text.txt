@@ -1,0 +1,7 @@
+3. Configuración del Entorno de Desarrollo
+a) Configure un entorno de desarrollo basado en Docker que incluya:
+•    Un contenedor para MongoDB
+•    Un contenedor para MongoDB Compass o mongo-express (herramientas de administración)
+•    Un contenedor para el entorno de desarrollo de la aplicación (Python)
+b) Proporcione los archivos Docker y Docker Compose necesarios para replicar su entorno
+PyMongo para Python

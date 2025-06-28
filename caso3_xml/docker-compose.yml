@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  postgres:
+    build: .
+    environment:
+      POSTGRES_DB: caso3
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./peliculas.xml:/data/peliculas.xml
+      - ./carga.py:/app/carga.py
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d caso3"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  app:
+    build: .
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: caso3
+      DB_USER: postgres
+      DB_PASSWORD: 123
+    volumes:
+      - ./test.py:/app/test.py
+      - ./carga.py:/app/carga.py
+      - ./peliculas.xml:/app/peliculas.xml
+    command: ["python3", "test.py"]
+
+volumes:
+  postgres_data:

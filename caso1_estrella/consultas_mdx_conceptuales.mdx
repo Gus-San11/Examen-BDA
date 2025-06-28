@@ -1,0 +1,458 @@
+/*
+=================================================================
+CONSULTAS MDX CONCEPTUALES PARA MODELO ESTRELLA DE PELÍCULAS
+=================================================================
+IMPORTANTE: MDX (Multidimensional Expressions) se usa con cubos OLAP
+como SQL Server Analysis Services, no con PostgreSQL.
+
+Este archivo muestra CONCEPTUALMENTE cómo serían las consultas
+si el modelo estrella estuviera implementado como un cubo OLAP.
+=================================================================
+*/
+
+-- ===========================
+-- DEFINICIÓN CONCEPTUAL DEL CUBO
+-- ===========================
+/*
+Cubo: [Peliculas]
+Dimensiones:
+- [Pelicula] (titulo, genero, año)
+- [Actor] (nombre, edad, estado_civil)  
+- [Director] (nombre, nacionalidad)
+- [Productor] (nombre, empresa)
+- [Tiempo] (año, mes, trimestre)
+
+Medidas:
+- [Salario] (SUM, AVG, MAX, MIN)
+- [Aportacion] (SUM, AVG)
+- [Ranking] (AVG, MAX, MIN)
+*/
+
+-- ===========================
+-- A) TOTAL SALARIOS POR PELÍCULA
+-- ===========================
+/*
+SELECT 
+  [Measures].[Salario] ON COLUMNS,
+  [Pelicula].[Titulo].MEMBERS ON ROWS
+FROM [Peliculas]
+WHERE [Pelicula].[Titulo].[Cinema Paradiso]
+*/
+
+-- ===========================
+-- B) ANÁLISIS MULTIDIMENSIONAL POR ACTOR Y TIEMPO
+-- ===========================
+/*
+SELECT 
+  {[Measures].[Salario], [Measures].[Ranking]} ON COLUMNS,
+  [Actor].[Nombre].MEMBERS ON ROWS
+FROM [Peliculas]
+WHERE (
+  [Pelicula].[Titulo].[Cinema Paradiso],
+  [Tiempo].[Año].[1990]
+)
+*/
+
+-- ===========================
+-- C) APORTES POR PRODUCTOR CON DRILL-DOWN
+-- ===========================
+/*
+SELECT 
+  [Measures].[Aportacion] ON COLUMNS,
+  DESCENDANTS(
+    [Productor].[Franco Cristaldi],
+    [Productor].[Nombre],
+    SELF_AND_AFTER
+  ) ON ROWS
+FROM [Peliculas]
+*/
+
+-- ===========================
+-- D) ANÁLISIS TEMPORAL CON JERARQUÍAS
+-- ===========================
+/*
+SELECT 
+  {[Measures].[Salario], [Measures].[Aportacion]} ON COLUMNS,
+  [Tiempo].[Año-Trimestre-Mes].MEMBERS ON ROWS
+FROM [Peliculas]
+WHERE [Tiempo].[Año].[1990]
+*/
+
+-- ===========================
+-- E) TOP 5 ACTORES POR SALARIO
+-- ===========================
+/*
+SELECT 
+  [Measures].[Salario] ON COLUMNS,
+  TOPCOUNT(
+    [Actor].[Nombre].MEMBERS,
+    5,
+    [Measures].[Salario]
+  ) ON ROWS
+FROM [Peliculas]
+*/
+
+-- ===========================
+-- F) RANKING PROMEDIO POR DIRECTOR Y PELÍCULA
+-- ===========================
+/*
+WITH MEMBER [Measures].[Ranking Promedio] AS
+  AVG([Tiempo].[Año].MEMBERS, [Measures].[Ranking])
+SELECT 
+  {[Measures].[Ranking], [Measures].[Ranking Promedio]} ON COLUMNS,
+  [Director].[Nombre].MEMBERS * [Pelicula].[Titulo].MEMBERS ON ROWS
+FROM [Peliculas]
+WHERE [Director].[Nombre].[Giuseppe Tornatore]
+*/
+
+-- ===========================
+-- G) ANÁLISIS COMPARATIVO ENTRE PERÍODOS
+-- ===========================
+/*
+WITH 
+  SET [PeriodoActual] AS [Tiempo].[Trimestre].[Q2 1990]
+  SET [PeriodoAnterior] AS [Tiempo].[Trimestre].[Q1 1990]
+SELECT 
+  {[PeriodoActual], [PeriodoAnterior]} ON COLUMNS,
+  {[Measures].[Salario], [Measures].[Aportacion]} ON ROWS
+FROM [Peliculas]
+WHERE [Pelicula].[Titulo].[Cinema Paradiso]
+*/
+
+-- ===========================
+-- H) MEDIDA CALCULADA: RETORNO DE INVERSIÓN
+-- ===========================
+/*
+WITH MEMBER [Measures].[ROI] AS
+  [Measures].[Ranking] / [Measures].[Aportacion] * 100,
+  FORMAT_STRING = "Percent"
+SELECT 
+  {[Measures].[Aportacion], [Measures].[Ranking], [Measures].[ROI]} ON COLUMNS,
+  [Productor].[Nombre].MEMBERS ON ROWS
+FROM [Peliculas]
+*/
+
+-- ===========================
+-- I) CONSULTA CON FILTROS COMPLEJOS
+-- ===========================
+/*
+SELECT 
+  [Measures].[Salario] ON COLUMNS,
+  FILTER(
+    [Actor].[Nombre].MEMBERS,
+    [Measures].[Salario] > 1000000
+  ) ON ROWS
+FROM [Peliculas]
+WHERE (
+  [Pelicula].[Titulo].[Cinema Paradiso],
+  [Director].[Nombre].[Giuseppe Tornatore]
+)
+*/
+
+-- ===========================
+-- J) ANÁLISIS DE CONTRIBUCIÓN PORCENTUAL
+-- ===========================
+/*
+WITH MEMBER [Measures].[Porcentaje del Total] AS
+  [Measures].[Salario] / 
+  ([Measures].[Salario], [Actor].[Nombre].[All]),
+  FORMAT_STRING = "Percent"
+SELECT 
+  {[Measures].[Salario], [Measures].[Porcentaje del Total]} ON COLUMNS,
+  [Actor].[Nombre].MEMBERS ON ROWS
+FROM [Peliculas]
+WHERE [Pelicula].[Titulo].[Cinema Paradiso]
+*/
+
+/*
+=================================================================
+NOTAS SOBRE IMPLEMENTACIÓN MDX REAL:
+=================================================================
+
+Para implementar estas consultas MDX realmente, necesitarías:
+
+1. SQL Server Analysis Services (SSAS)
+2. Crear un cubo OLAP basado en el modelo estrella
+3. Definir dimensiones con jerarquías apropiadas
+4. Configurar medidas y cálculos
+5. Procesar el cubo con datos del data warehouse
+
+VENTAJAS de MDX sobre SQL para análisis multidimensional:
+- Sintaxis optimizada para análisis OLAP
+- Manejo nativo de jerarquías temporales
+- Funciones avanzadas de ranking y comparación
+- Cálculos complejos entre medidas
+- Mejor rendimiento para consultas analíticas
+
+DESVENTAJAS:
+- Requiere infraestructura OLAP específica
+- Mayor complejidad de implementación
+- Menos flexibilidad que SQL para consultas ad-hoc
+=================================================================
+*/
+/*
+=================================================================
+SIMULACIÓN DE CUBO OLAP CON SQL - IMPLEMENTACIÓN PRÁCTICA
+=================================================================
+Esta sección implementa las consultas MDX usando SQL avanzado de PostgreSQL
+para simular un cubo OLAP sin necesidad de infraestructura adicional.
+=================================================================
+*/
+
+-- ===========================
+-- VISTAS PARA SIMULAR DIMENSIONES OLAP
+-- ===========================
+
+-- Vista de dimensión temporal con jerarquías
+CREATE OR REPLACE VIEW dim_tiempo_olap AS
+SELECT 
+    id_fecha,
+    anio,
+    mes,
+    dia,
+    trimestre,
+    CASE 
+        WHEN trimestre = 1 THEN 'Q1-' || anio
+        WHEN trimestre = 2 THEN 'Q2-' || anio  
+        WHEN trimestre = 3 THEN 'Q3-' || anio
+        WHEN trimestre = 4 THEN 'Q4-' || anio
+    END as periodo_trimestral,
+    CASE 
+        WHEN mes <= 6 THEN 'H1-' || anio
+        ELSE 'H2-' || anio
+    END as semestre,
+    anio || '-' || LPAD(mes::text, 2, '0') as periodo_mensual
+FROM dim_fecha;
+
+-- Vista de hechos enriquecida con métricas calculadas
+CREATE OR REPLACE VIEW hechos_olap AS
+SELECT 
+    h.*,
+    -- Métricas calculadas (simulando medidas OLAP)
+    CASE 
+        WHEN h.aportacion > 0 THEN h.ranking / h.aportacion * 100 
+        ELSE 0 
+    END as roi_porcentaje,
+    h.salario / NULLIF(h.aportacion, 0) * 100 as costo_salario_porcentaje,
+    RANK() OVER (ORDER BY h.salario DESC) as ranking_salario,
+    PERCENT_RANK() OVER (ORDER BY h.salario) as percentil_salario
+FROM hechos_peliculas h;
+
+-- ===========================
+-- A) TOTAL SALARIOS POR PELÍCULA (Equivalente MDX)
+-- ===========================
+/*
+Simula: SELECT [Measures].[Salario] ON COLUMNS, [Pelicula].[Titulo].MEMBERS ON ROWS
+*/
+SELECT 
+    p.titulo as "Película",
+    SUM(h.salario) as "Total Salarios",
+    AVG(h.salario) as "Salario Promedio",
+    COUNT(*) as "Número de Registros"
+FROM hechos_olap h
+JOIN dim_pelicula p ON h.id_pelicula = p.id_pelicula
+GROUP BY CUBE(p.titulo)
+ORDER BY "Total Salarios" DESC NULLS LAST;
+
+-- ===========================
+-- B) ANÁLISIS MULTIDIMENSIONAL POR ACTOR Y TIEMPO
+-- ===========================
+/*
+Simula: SELECT {[Measures].[Salario], [Measures].[Ranking]} ON COLUMNS,
+        [Actor].[Nombre].MEMBERS ON ROWS WHERE ([Tiempo].[Año].[1990])
+*/
+SELECT 
+    a.nombre as "Actor",
+    t.anio as "Año",
+    t.periodo_trimestral as "Trimestre",
+    SUM(h.salario) as "Total Salarios",
+    AVG(h.ranking) as "Ranking Promedio",
+    h.roi_porcentaje as "ROI %"
+FROM hechos_olap h
+JOIN dim_actor a ON h.id_actor = a.id_actor
+JOIN dim_tiempo_olap t ON h.id_fecha = t.id_fecha
+WHERE t.anio = 1990
+GROUP BY ROLLUP(a.nombre, t.anio, t.periodo_trimestral, h.roi_porcentaje)
+ORDER BY "Total Salarios" DESC NULLS LAST;
+
+-- ===========================
+-- C) APORTES POR PRODUCTOR CON DRILL-DOWN
+-- ===========================
+/*
+Simula: DESCENDANTS([Productor].[Franco Cristaldi], [Productor].[Nombre], SELF_AND_AFTER)
+*/
+WITH productor_jerarquia AS (
+    SELECT 
+        pr.nombre as productor,
+        p.titulo as pelicula,
+        SUM(h.aportacion) as aportacion_total,
+        AVG(h.ranking) as ranking_promedio,
+        COUNT(*) as num_producciones
+    FROM hechos_olap h
+    JOIN dim_productor pr ON h.id_productor = pr.id_productor  
+    JOIN dim_pelicula p ON h.id_pelicula = p.id_pelicula
+    GROUP BY GROUPING SETS (
+        (pr.nombre),
+        (pr.nombre, p.titulo),
+        ()
+    )
+)
+SELECT 
+    COALESCE(productor, 'TOTAL GENERAL') as "Nivel",
+    COALESCE(pelicula, 'TODAS LAS PELÍCULAS') as "Detalle",
+    aportacion_total as "Aportación Total",
+    ranking_promedio as "Ranking Promedio",
+    num_producciones as "Número de Producciones"
+FROM productor_jerarquia
+ORDER BY productor NULLS FIRST, pelicula NULLS FIRST;
+
+-- ===========================
+-- D) ANÁLISIS TEMPORAL CON JERARQUÍAS
+-- ===========================
+/*
+Simula: [Tiempo].[Año-Trimestre-Mes].MEMBERS con drill-down temporal
+*/
+SELECT 
+    t.anio as "Año",
+    t.periodo_trimestral as "Trimestre", 
+    t.periodo_mensual as "Mes",
+    SUM(h.salario) as "Total Salarios",
+    SUM(h.aportacion) as "Total Aportaciones",
+    AVG(h.ranking) as "Ranking Promedio",
+    COUNT(*) as "Número de Registros"
+FROM hechos_olap h
+JOIN dim_tiempo_olap t ON h.id_fecha = t.id_fecha
+GROUP BY ROLLUP(t.anio, t.periodo_trimestral, t.periodo_mensual)
+HAVING COUNT(*) > 0
+ORDER BY t.anio, t.periodo_trimestral, t.periodo_mensual NULLS FIRST;
+
+-- ===========================
+-- E) TOP 5 ACTORES POR SALARIO (Simulando TOPCOUNT)
+-- ===========================
+/*
+Simula: TOPCOUNT([Actor].[Nombre].MEMBERS, 5, [Measures].[Salario])
+*/
+WITH actores_ranking AS (
+    SELECT 
+        a.nombre as actor,
+        a.edad,
+        a.estado_civil,
+        SUM(h.salario) as total_salarios,
+        AVG(h.ranking) as ranking_promedio,
+        h.percentil_salario,
+        ROW_NUMBER() OVER (ORDER BY SUM(h.salario) DESC) as posicion
+    FROM hechos_olap h
+    JOIN dim_actor a ON h.id_actor = a.id_actor
+    GROUP BY a.nombre, a.edad, a.estado_civil, h.percentil_salario
+)
+SELECT 
+    posicion as "Top",
+    actor as "Actor",
+    edad as "Edad",
+    estado_civil as "Estado Civil",
+    total_salarios as "Total Salarios",
+    ranking_promedio as "Ranking Promedio",
+    ROUND(percentil_salario * 100, 2) || '%' as "Percentil"
+FROM actores_ranking 
+WHERE posicion <= 5
+ORDER BY posicion;
+
+-- ===========================
+-- F) MEDIDAS CALCULADAS Y KPIs
+-- ===========================
+/*
+Simula: WITH MEMBER [Measures].[ROI] AS [Measures].[Ranking] / [Measures].[Aportacion] * 100
+*/
+SELECT 
+    'KPIs Generales' as "Categoría",
+    'ROI Promedio' as "Métrica",
+    ROUND(AVG(roi_porcentaje), 2) || '%' as "Valor"
+FROM hechos_olap
+UNION ALL
+SELECT 
+    'KPIs Generales',
+    'Costo Salario vs Aportación',
+    ROUND(AVG(costo_salario_porcentaje), 2) || '%'
+FROM hechos_olap
+UNION ALL
+SELECT 
+    'KPIs Generales', 
+    'Salario Total',
+    '$' || TO_CHAR(SUM(salario), 'FM999,999,999.00')
+FROM hechos_olap
+UNION ALL
+SELECT
+    'KPIs Generales',
+    'Aportación Total', 
+    '$' || TO_CHAR(SUM(aportacion), 'FM999,999,999.00')
+FROM hechos_olap;
+
+-- ===========================
+-- G) ANÁLISIS COMPARATIVO ENTRE PERÍODOS
+-- ===========================
+/*
+Simula: Comparación temporal con LAG/LEAD functions
+*/
+WITH metricas_periodo AS (
+    SELECT 
+        t.periodo_trimestral,
+        SUM(h.salario) as salarios_periodo,
+        SUM(h.aportacion) as aportacion_periodo,
+        AVG(h.ranking) as ranking_periodo
+    FROM hechos_olap h
+    JOIN dim_tiempo_olap t ON h.id_fecha = t.id_fecha
+    GROUP BY t.periodo_trimestral, t.trimestre, t.anio
+    ORDER BY t.anio, t.trimestre
+)
+SELECT 
+    periodo_trimestral as "Período",
+    salarios_periodo as "Salarios Actuales",
+    LAG(salarios_periodo) OVER (ORDER BY periodo_trimestral) as "Salarios Período Anterior",
+    CASE 
+        WHEN LAG(salarios_periodo) OVER (ORDER BY periodo_trimestral) IS NOT NULL THEN
+            ROUND(((salarios_periodo - LAG(salarios_periodo) OVER (ORDER BY periodo_trimestral)) / 
+                   LAG(salarios_periodo) OVER (ORDER BY periodo_trimestral) * 100), 2) || '%'
+        ELSE 'N/A'
+    END as "Variación %",
+    aportacion_periodo as "Aportación",
+    ranking_periodo as "Ranking Promedio"
+FROM metricas_periodo;
+
+-- ===========================
+-- H) SIMULACIÓN DE DRILL-THROUGH
+-- ===========================
+/*
+Permite obtener datos detallados desde una celda agregada (drill-through)
+*/
+CREATE OR REPLACE FUNCTION drill_through_pelicula(titulo_param TEXT)
+RETURNS TABLE (
+    pelicula TEXT,
+    director TEXT,
+    actor TEXT,
+    productor TEXT,
+    fecha DATE,
+    salario NUMERIC,
+    aportacion NUMERIC,
+    ranking NUMERIC,
+    roi_calculado NUMERIC
+) AS $$
+BEGIN
+    RETURN QUERY
+    SELECT 
+        p.titulo::TEXT,
+        d.nombre::TEXT,
+        a.nombre::TEXT,
+        pr.nombre::TEXT,
+        h.id_fecha,
+        h.salario,
+        h.aportacion,
+        h.ranking,
+        h.roi_porcentaje
+    FROM hechos_olap h
+    JOIN dim_pelicula p ON h.id_pelicula = p.id_pelicula
+    JOIN dim_director d ON h.id_director = d.id_director
+    JOIN dim_actor a ON h.id_actor = a.id_actor
+    JOIN dim_productor pr ON h.id_productor = pr.id_productor
+    WHERE p.titulo = titulo_param;
+END;
+$$ LANGUAGE plpgsql;

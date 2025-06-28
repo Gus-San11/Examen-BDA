@@ -1,0 +1,21 @@
+id_premio,nombre,resumen,certamen,lugar,tipo,id_pelicula
+1,Oscar,Mejor película extranjera,Internacional,EEUU,Internacional,999
+2,Palme d'Or,Mejor película,Festival de Cannes,Francia,Internacional,5
+3,León de Oro,Mejor película,Festival de Venecia,Italia,Internacional,5
+4,Oso de Oro,Mejor película,Festival de Berlín,Alemania,Internacional,14
+5,Goya,Mejor película,Premios Goya,España,Nacional,2
+6,César,Mejor película extranjera,Premios César,Francia,Internacional,2
+7,BAFTA,Mejor película extranjera,Premios BAFTA,Reino Unido,Internacional,1
+8,Globo de Oro,Mejor película dramática,Globos de Oro,EEUU,Internacional,4
+9,Premio del Jurado,Mención especial,Festival de Cannes,Francia,Internacional,8
+10,Concha de Oro,Mejor película,Festival de San Sebastián,España,Internacional,9
+11,Silver Bear,Mejor actor,Festival de Berlín,Alemania,Internacional,6
+12,Prix Louis-Delluc,Mejor película francesa,Francia,Francia,Nacional,7
+13,David di Donatello,Mejor película,Italia,Italia,Nacional,3
+14,Critics Choice,Mejor película,Critics Choice Awards,EEUU,Internacional,10
+15,Screen Actors Guild,Mejor reparto,SAG Awards,EEUU,Internacional,11
+16,Satellite Award,Mejor película dramática,Satellite Awards,EEUU,Internacional,12
+17,Independent Spirit,Mejor película,Independent Spirit Awards,EEUU,Nacional,13
+18,Ariel,Mejor película,Premios Ariel,México,Nacional,15
+19,Coral,Mejor película,Festival de La Habana,Cuba,Internacional,16
+20,Cóndor de Plata,Mejor película,Argentina,Argentina,Nacional,1

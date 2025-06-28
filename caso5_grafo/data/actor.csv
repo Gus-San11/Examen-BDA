@@ -1,0 +1,202 @@
+id_actor,nombre,fecha_nac,lugar_nac,direccion,telefono,estado_civil
+1,Hugo Eloisa Coronado,1996-05-15,San Víctor los altos,"Viaducto Guinea Ecuatorial 414 Edif. 049 , Depto. 035
+Vieja Irán, DGO 99551",8011333658,Soltero
+2,Patricio Aguirre Gamboa,1996-09-19,Vieja Côte dIvoire,"Retorno Sur Cabrera 223 Interior 511
+Vieja Barbados, VER 80431",9227710719,Divorciado
+3,Marcela Jerónimo González,1988-05-09,Nueva Ucrania,"Diagonal Sur Burgos 001 Interior 487
+San Alejandro los bajos, CHIS 03665-0143",7851058870,Viudo
+4,María Eugenia Cotto Curiel,1989-01-22,San Vicente los bajos,"Andador Mali 559 916
+Vieja Paraguay, TLAX 92262",8500166719,Soltero
+5,Sonia Zaragoza Alcaraz,1997-03-26,Vieja Argentina,"Periférico Norte Amaya 444 Interior 961
+San Elena los bajos, MEX 52154",6124739265,Viudo
+6,Ing. Benito Valladares,1992-08-18,San Lorena los bajos,"Viaducto Tlaxcala 304 Edif. 166 , Depto. 988
+San Antonio los bajos, TAB 77051",3050407193,Soltero
+7,Hernán José Eduardo Valdés,1992-08-20,Vieja Mali,"Periférico Sur Arredondo 605 410
+Vieja Malawi, MICH 46071-5377",6867574255,Union libre
+8,Mtro. Antonia Olmos,1968-06-19,San Irma los bajos,"Boulevard Chiapas 645 148
+Vieja República de Corea, DGO 23675",3832674169,Divorciado
+9,Marisela Estrada Pérez,1987-06-21,Vieja Bolivia,"Periférico Norte Prieto 106 Edif. 571 , Depto. 454
+San Liliana los altos, SON 58029-3358",4507549805,Divorciado
+10,Cristian Beatriz Rosas,1965-07-27,San Verónica de la Montaña,"Privada Sur Caraballo 978 545
+Nueva Rwanda, DGO 16829-4651",4673712626,Union libre
+11,Caridad Puente,1969-01-08,Nueva China,"Circunvalación Rendón 688 653
+San Julia de la Montaña, VER 41209-6093",6950626307,Soltero
+12,Ing. Ana María Peralta,1965-04-03,San Raúl de la Montaña,"Cerrada Sur García 938 527
+Vieja Turquía, VER 48480-2054",3998545400,Union libre
+13,Lic. Pamela Barragán,1967-01-21,San Cristal de la Montaña,"Boulevard Tamaulipas 599 Edif. 686 , Depto. 291
+Nueva Georgia, GTO 59576-1461",2532503708,Soltero
+14,Delia Arcelia Espinal,1965-10-11,San Arcelia de la Montaña,"Corredor Norte Pedroza 601 366
+Nueva El Salvador, VER 01138-1289",2453637614,Casado
+15,Jesús Nájera Tirado,1955-11-18,San María Elena los altos,"Eje vial ex República Yugoslava de Macedonia 233 Interior 049
+Nueva Kenya, PUE 11028",0014492383,Viudo
+16,Cristobal Rafaél Ballesteros,1996-12-12,Nueva Chile,"Avenida Campeche 309 Interior 065
+Vieja Nigeria, BC 24707-2833",8575040325,Viudo
+17,Luis Miguel Rendón Carbajal,1975-04-06,San Miriam de la Montaña,"Continuación Serna 719 Edif. 956 , Depto. 965
+San Delia de la Montaña, ZAC 23353",3390942139,Viudo
+18,Jaime Elisa Ledesma,1959-07-27,Vieja El Salvador,"Avenida Sevilla 070 398
+Vieja Suecia, SLP 35456",9841415798,Union libre
+19,Mauricio Mauricio Mata,1988-04-19,San Camilo los altos,"Andador Jordania 947 Edif. 953 , Depto. 857
+San Zoé los bajos, CHIH 67531-1394",1075781229,Viudo
+20,Arcelia Vela,1986-04-15,San Reynaldo los bajos,"Calle Portugal 817 Edif. 994 , Depto. 545
+Vieja Granada, AGS 72918",5709070144,Divorciado
+21,Abelardo Sonia Noriega Cintrón,1985-10-10,San Francisco Javier de la Montaña,"Ampliación Colima 575 726
+Vieja Haití, AGS 19166-0536",5813787371,Soltero
+22,Alicia Violeta Fonseca,1989-12-09,Nueva Fiji,"Diagonal Yucatán 157 662
+San Porfirio de la Montaña, TAMPS 68240-6932",3305307275,Union libre
+23,Darío Hilda Apodaca,1985-02-06,San José Emilio los altos,"Continuación Norte Barajas 364 Edif. 880 , Depto. 401
+Vieja Rwanda, JAL 62041",2360511423,Divorciado
+24,Virginia Iván Mojica Jáquez,1969-08-21,Vieja Antigua y Barbuda,"Pasaje ex República Yugoslava de Macedonia 083 450
+Vieja República de Corea, HGO 93717-7432",5902019195,Viudo
+25,Yeni Micaela Mena,1986-04-16,San Antonio de la Montaña,"Retorno Norte Ríos 982 Interior 335
+Nueva Croacia, TAB 90781",6135319919,Union libre
+26,Margarita Graciela Valenzuela,1991-10-14,San Daniela los bajos,"Eje vial Nauru 031 Interior 763
+San Virginia de la Montaña, COAH 57412",6426419171,Soltero
+27,Pedro Fonseca,1978-05-11,San Jesús los altos,"Corredor Islas Marshall 143 583
+San Victoria de la Montaña, JAL 89595",9219815478,Casado
+28,Margarita Castañeda,1963-02-25,San José Emilio de la Montaña,"Circunvalación Nayarit 430 Interior 215
+San Cecilia los bajos, ZAC 41799-3719",1055972802,Soltero
+29,Bernabé Ortega,1977-08-01,Vieja Malasia,"Peatonal Norte Carrasco 550 Edif. 428 , Depto. 949
+Vieja República de Corea, BC 58081-2061",7082938540,Divorciado
+30,Dr. Silvano Lozada,1980-06-25,Nueva Polonia,"Diagonal Norte Nava 258 592
+San Julia los bajos, TAMPS 97403-2148",1221363144,Viudo
+31,Sr(a). Esparta Fonseca,1998-02-13,Vieja Sudáfrica,"Circunvalación México 080 Edif. 320 , Depto. 788
+San Celia de la Montaña, TAB 23235-9295",2799750416,Divorciado
+32,Jaime Peralta Coronado,1989-06-08,San Omar los bajos,"Corredor Baja California Sur 354 625
+Vieja Somalia, MOR 14153",1949474996,Soltero
+33,Gonzalo Antonio Olivares Almaraz,1990-08-02,Vieja Liechtenstein,"Eje vial Calvillo 867 Interior 195
+San Ángela los bajos, BCS 28008",9545309299,Casado
+34,Marisol Valle Orozco,1970-07-28,San Gonzalo los bajos,"Avenida Nayarit 606 997
+San Ariadna los altos, VER 97347",1463664311,Soltero
+35,Paulina Vera Corona,1989-05-24,Vieja Maldivas,"Periférico Sur Campos 106 Edif. 984 , Depto. 632
+Vieja Sri Lanka, TAB 21378-8085",2164540368,Divorciado
+36,Linda Peralta,1981-02-22,San Timoteo los bajos,"Calzada Norte Canales 172 201
+Vieja Paraguay, MICH 25343",3871977858,Viudo
+37,Bruno Gabriela Franco Benítez,1992-01-31,Vieja Niger,"Privada Sisneros 968 Interior 736
+Nueva Andorra, HGO 19823",8243015948,Divorciado
+38,Ing. María del Carmen Abrego,1984-09-05,Vieja Austria,"Continuación México 790 618
+Nueva Vietman, MEX 61032",5368553562,Casado
+39,Alejandro Barrera Olivas,1992-06-06,San Héctor los altos,"Cerrada San Luis Potosí 111 Edif. 458 , Depto. 558
+San Camilo de la Montaña, OAX 82797",8858974395,Divorciado
+40,Delia Magaña Canales,1975-09-17,Vieja Australia,"Boulevard Norte Linares 770 Edif. 827 , Depto. 468
+San Emilio de la Montaña, NAY 23192",2061961324,Viudo
+41,Bianca Cornelio Alba,1975-12-12,San Josefina los bajos,"Cerrada Baeza 223 Edif. 166 , Depto. 311
+Nueva Kazajstán, COAH 34944",5267349456,Soltero
+42,Humberto Amelia Monroy,1999-10-07,Nueva Croacia,"Callejón San Luis Potosí 994 313
+Vieja Pakistán, CAMP 43666",8779604204,Viudo
+43,Jacobo Jorge Luis Valdez Moya,1972-05-19,Vieja Azerbaiyán,"Calzada Guinea Bissau 735 667
+San Adriana de la Montaña, MOR 34934-1299",5974276278,Casado
+44,Dr. Jorge Feliciano,1999-10-17,Vieja Camerún,"Viaducto Maldonado 741 Edif. 642 , Depto. 159
+San Guillermo los altos, AGS 22531-2497",5447863147,Soltero
+45,Mauricio Mariana Jimínez,1960-08-14,Nueva Palau,"Peatonal Sur Olivera 627 Edif. 768 , Depto. 524
+San Pilar los bajos, BC 73457-3248",7564948235,Divorciado
+46,Zacarías Burgos,1956-08-15,San Gabriel de la Montaña,"Circuito Sonora 237 Edif. 201 , Depto. 916
+Vieja Brunei Darussalam, VER 54867",9780112264,Viudo
+47,Francisco Tórrez Tamez,1996-03-03,Nueva Alemania,"Continuación Norte Rocha 220 329
+Nueva Marruecos, HGO 64940",4265017217,Viudo
+48,Sr(a). Adriana Cazares,1973-03-17,Vieja Perú,"Viaducto Sur Laureano 526 Interior 052
+Nueva Malta, MEX 14443",2335115502,Union libre
+49,Sandra Cristian Huerta,1966-09-04,Vieja Iraq,"Calzada Hinojosa 993 Edif. 722 , Depto. 273
+Vieja Australia, MICH 88096",5648083319,Soltero
+50,Leonardo Rael,1964-10-16,Nueva Guyana,"Periférico Tabasco 351 Edif. 546 , Depto. 441
+San Jesús de la Montaña, COL 59835-8087",7273651915,Union libre
+51,María Eugenia Frida Díaz Barrera,1994-09-07,San Omar los altos,"Ampliación Mali 889 Edif. 236 , Depto. 404
+Vieja Islas Salomón, AGS 08365-2124",0735790708,Union libre
+52,Gerónimo Emilia Loya Razo,1958-04-03,Nueva España,"Viaducto República Federal Democrática de Nepal 903 Edif. 588 , Depto. 396
+San Oswaldo los altos, NL 92274",4207784536,Union libre
+53,Reynaldo Valdés,1997-03-02,San Evelio de la Montaña,"Callejón Espinosa 086 747
+Nueva Brasil, OAX 19179",6887414650,Union libre
+54,Reina Bustos Valverde,1958-01-17,San Teresa los bajos,"Corredor Pedraza 925 027
+Nueva Bélgica, JAL 92170-7897",8381359530,Union libre
+55,Sofía Godínez Solorio,1955-05-15,Nueva Nicaragua,"Prolongación Quintanilla 243 Edif. 789 , Depto. 854
+San Estela de la Montaña, TLAX 73967-7159",2100750856,Soltero
+56,Trinidad Dolores Bañuelos Rocha,1981-07-21,San Lucía los bajos,"Circuito San Luis Potosí 870 858
+San Caridad de la Montaña, OAX 51485-1143",2222537951,Divorciado
+57,Silvia Lerma,1997-06-14,San Trinidad los bajos,"Periférico República de Moldova 808 515
+Nueva Marruecos, MICH 22510-9261",6674457097,Union libre
+58,Óliver Luis Manuel Puga Bahena,1965-10-14,Vieja Madagascar,"Retorno Zambia 583 Interior 752
+Vieja Bahamas, TAB 42596",7356137868,Divorciado
+59,Leticia Débora Matías Alarcón,1963-04-09,Vieja Luxemburgo,"Privada Quintana Roo 155 Edif. 354 , Depto. 467
+San Roberto los bajos, NL 85622",7442925419,Viudo
+60,Esparta Arroyo,1988-08-03,San Eugenia los altos,"Circunvalación Chiapas 380 Edif. 670 , Depto. 299
+San Felix los altos, MICH 38987-1847",9458368990,Soltero
+61,Ilse Pascual Briseño Ballesteros,1982-02-02,Vieja República Unida de Tanzanía,"Boulevard Tlaxcala 779 068
+San Blanca los altos, QRO 55270-8743",5181142661,Union libre
+62,Leonel Miriam Raya,1967-02-21,San Elvia los altos,"Avenida Ramírez 573 Edif. 534 , Depto. 108
+San Irene los bajos, NAY 97288-5200",8399451011,Union libre
+63,Marisol Murillo,1968-01-18,Vieja San Vicente y las Granadinas,"Continuación Barbados 657 997
+San Barbara los bajos, GTO 09769",9458892954,Viudo
+64,Luz Ojeda Quintana,1966-04-15,Nueva Haití,"Boulevard Bolivia 581 Interior 467
+San Gerardo los bajos, DGO 80650",4702746973,Divorciado
+65,Wilfrido Uriel Ramírez Pacheco,1963-12-08,Nueva Ecuador,"Cerrada Chipre 666 Interior 032
+Vieja Guinea, BC 77376",0005208788,Casado
+66,Lic. Elvia Rico,1965-07-19,Vieja Georgia,"Cerrada Norte Mesa 533 Edif. 686 , Depto. 499
+Nueva Estonia, CAMP 86377-6671",5675319336,Divorciado
+67,Liliana Rubén Quiñónez Saucedo,1997-08-30,Vieja Italia,"Retorno Alfaro 265 Interior 893
+Vieja Gabón, BCS 76438-5808",8040702684,Union libre
+68,Mtro. Oswaldo Tirado,1996-06-30,Vieja Noruega,"Periférico Norte Noriega 446 955
+Nueva Turquía, QRO 88315-9934",2996829215,Divorciado
+69,Alfonso Diego Roque Serrato,1980-12-30,Vieja Andorra,"Avenida Norte Alfaro 114 Interior 837
+Nueva Honduras, COAH 10935",3791524783,Union libre
+70,Lic. Débora Lovato,1975-06-22,Nueva Eslovaquia,"Pasaje Nayarit 188 Interior 109
+Vieja Eslovenia, MEX 85682-8394",0678800730,Soltero
+71,Agustín Sanches,1972-11-09,San Óscar los bajos,"Continuación Oaxaca 014 Edif. 489 , Depto. 918
+Vieja Chad, BCS 39488",9176509770,Divorciado
+72,Ing. Wilfrido Aponte,1964-06-21,Vieja Qatar,"Calle Cornejo 831 Interior 622
+San Helena los bajos, TAB 59128-7655",5014094938,Viudo
+73,Ing. Cristobal Soria,1975-04-22,Vieja Suiza,"Circuito Noruega 677 Interior 230
+Vieja Japón, NL 19154",1914337645,Divorciado
+74,Jorge Violeta Bustamante Mascareñas,1966-06-12,San Hermelinda de la Montaña,"Diagonal San Luis Potosí 402 Interior 319
+Nueva Benin, CAMP 12217",7624335829,Divorciado
+75,Jorge Luis Oquendo Solano,1990-08-10,Nueva Pakistán,"Privada Norte Heredia 135 Edif. 543 , Depto. 058
+San Silvano de la Montaña, GTO 27830",7733239104,Casado
+76,Dr. Juana Vergara,1976-12-22,Nueva Congo,"Andador Oaxaca 396 Interior 807
+Vieja Grecia, MEX 88873-0197",6174372419,Divorciado
+77,Bianca Menchaca Chavarría,1957-12-13,San Fernando los bajos,"Peatonal Chavarría 521 769
+San Francisca los bajos, TAMPS 60859",4511519047,Viudo
+78,Mayte Puga,1960-09-01,San Esther de la Montaña,"Privada Belarús 324 564
+San Víctor los altos, HGO 54928-0582",6362407009,Casado
+79,Alta  Gracia Conchita Urías Olivas,1985-10-02,San Jorge de la Montaña,"Cerrada Muro 051 Interior 399
+Nueva Mongolia, AGS 10783",6574357172,Casado
+80,Eloisa Emilia Polanco Granados,1983-04-07,Nueva Irán,"Calle Roque 415 Edif. 201 , Depto. 794
+San Trinidad de la Montaña, TAMPS 34584",4185927983,Casado
+81,Norma Aguilera Nájera,1965-09-01,Nueva Japón,"Circunvalación Sur Santiago 760 Interior 402
+San Clara los bajos, MOR 16302-2663",9542336244,Soltero
+82,Raquel Mata Suárez,1959-08-27,San Carlos los bajos,"Eje vial Tonga 902 650
+Vieja Serbia, MICH 08322",6381631586,Casado
+83,Mtro. Mayte Velázquez,1971-10-11,Vieja Egipto,"Andador Norte Olivares 014 Interior 119
+San Reynaldo los bajos, SLP 15935-2341",8345477708,Casado
+84,Sr(a). Concepción Mercado,1987-08-01,San Margarita de la Montaña,"Viaducto Hernández 113 Interior 550
+San Rafaél los altos, Q. ROO 67723-7971",4112693541,Union libre
+85,Pilar Andrea Reyna,1984-02-21,San Antonio de la Montaña,"Diagonal Australia 313 988
+San Aldo los bajos, SIN 97018",5655867249,Soltero
+86,María Cristina Escobar Moreno,1980-06-19,San Sergio los bajos,"Callejón Ocasio 682 895
+San Lilia los bajos, QRO 96369",9579346587,Union libre
+87,Florencia Rebeca Vásquez Núñez,1973-01-02,San Abel los altos,"Diagonal Norte Benavides 515 Interior 997
+San Uriel de la Montaña, BCS 90998-5390",6967574140,Casado
+88,Andrea María Eugenia Gonzales,1981-08-06,Nueva Malasia,"Andador Sur Otero 432 Edif. 625 , Depto. 690
+Nueva Brunei Darussalam, HGO 03476",2533780179,Casado
+89,Reynaldo Herrera,1960-01-04,San Patricia los altos,"Circuito Gallegos 241 Edif. 046 , Depto. 924
+Vieja Gabón, BCS 76158",6536805078,Union libre
+90,Flavio Luis Manuel Jaime,1987-02-14,San Evelio los altos,"Andador Longoria 670 Interior 243
+San José Carlos de la Montaña, BC 34343",9623396884,Union libre
+91,Natalia Rodrígez,1981-10-12,San Guillermina los altos,"Cerrada Sur Olivera 588 Interior 910
+San Lucas los bajos, SON 30322-8159",0129870413,Soltero
+92,Lic. Gustavo Borrego,1982-05-28,San Rodrigo de la Montaña,"Pasaje Sur Linares 317 Interior 963
+Vieja Chad, TAMPS 75315-3938",4641505568,Union libre
+93,Dr. Esmeralda Acuña,1963-04-26,Vieja Sri Lanka,"Privada Zacatecas 003 Interior 992
+San Marisela de la Montaña, CHIH 31552-9367",0149672883,Casado
+94,Mtro. José María Tamayo,1979-07-17,Nueva Uganda,"Ampliación India 904 Edif. 009 , Depto. 489
+Nueva Palau, HGO 47228-8446",0777322797,Casado
+95,Héctor Catalina Cabán,1989-05-30,San Eugenia de la Montaña,"Andador Sur Ordóñez 229 Edif. 324 , Depto. 464
+San Marisol los altos, TAB 63667-8832",0168400377,Viudo
+96,Indira Ofelia Parra Ruelas,1966-05-24,San Ángela los bajos,"Circuito Norte Rincón 328 Edif. 450 , Depto. 890
+Vieja Federación de Rusia, TAMPS 59733-6023",0710035979,Union libre
+97,Guillermina Altamirano Lovato,1967-12-15,San Isabela los bajos,"Peatonal Norte Tello 913 Interior 367
+San Esteban los bajos, SIN 28023",7800747200,Divorciado
+98,Luis Catalina Cantú,1990-05-24,Nueva Chipre,"Periférico Finlandia 922 Edif. 054 , Depto. 414
+San Gabriel de la Montaña, CHIH 16885",5356713019,Viudo
+99,René Magdalena Bañuelos,1973-06-28,San Manuel los altos,"Diagonal Ulloa 535 Interior 958
+Vieja Omán, TLAX 32461",0460968252,Soltero
+100,Ángela Frías Quintero,1968-03-15,Nueva Malawi,"Pasaje Congo 409 Interior 608
+San Uriel de la Montaña, CHIS 91721-1081",6261108110,Viudo
+999,Salvatore Di Vita,1960-03-12,Roma,Calle Cine 123,9014804100,Soltero

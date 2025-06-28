@@ -1,0 +1,202 @@
+id_productor,nombre,direccion,telefono
+1,Ing. Frida Valadez,"Callejón Sur Lugo 194 Edif. 562 , Depto. 058
+San Mónica los altos, BC 24665-9400",9427269555
+2,Oswaldo Claudia Rodríguez Carrasco,"Privada Nuevo León 952 731
+San Óliver de la Montaña, JAL 55610-4256",8652385655
+3,Nancy Valencia,"Cerrada Congo 609 Edif. 065 , Depto. 969
+Nueva Brasil, SLP 68075",1927355745
+4,Agustín Alvarado Arriaga,"Privada Nayarit 914 420
+San Aida los altos, MICH 87399-5194",1274404691
+5,Luisa Tovar,"Calle Norte Aranda 526 198
+Vieja Polonia, NAY 45540-6186",2544368171
+6,Mauricio Maestas,"Privada Nayarit 516 Interior 356
+San Amalia de la Montaña, ZAC 26830-5988",6235723475
+7,Francisca Mascareñas,"Boulevard Morelos 195 319
+Nueva San Vicente y las Granadinas, CAMP 41737",8868542284
+8,Inés Delia Peralta Varela,"Eje vial Oaxaca 567 101
+Nueva Paraguay, DF 08696",7989617151
+9,Francisca Fonseca Gallardo,"Cerrada Baja California 856 316
+Nueva República Checa, QRO 97275",5804893042
+10,Mtro. Josefina Bueno,"Retorno Brunei Darussalam 645 Interior 374
+San Yuridia los altos, SON 44239-6716",3565044971
+11,José Emilio Naranjo Vergara,"Pasaje Sur Urrutia 327 860
+San David los bajos, Q. ROO 88215-2433",2937087086
+12,Leonor Esteban Enríquez Chacón,"Avenida Bahrein 686 Edif. 496 , Depto. 230
+Nueva Dinamarca, PUE 45673-2756",4044785745
+13,Marcela Luis Manuel Tejada,"Viaducto Haití 542 Interior 439
+Vieja Camerún, TLAX 50405",2373606389
+14,José Eduardo Olivera Naranjo,"Peatonal Ruiz 749 Interior 736
+San Mario los bajos, COL 86245-4794",3000329895
+15,Yuridia Pérez,"Calzada Sur Cadena 903 Edif. 310 , Depto. 421
+San Nadia los bajos, MEX 50809-9836",1658397556
+16,Sr(a). Horacio Curiel,"Corredor Muñoz 743 Edif. 145 , Depto. 899
+San Lucas los altos, YUC 21145",1154958855
+17,Lic. Ramiro Herrera,"Retorno Herrera 061 Interior 339
+Vieja Andorra, CHIH 96714-5481",5954198360
+18,Rosalia Merino,"Circuito Finlandia 580 Interior 880
+San Ernesto los altos, TLAX 78572",2186021070
+19,Abigail Tafoya,"Boulevard Israel 305 555
+Nueva Japón, TLAX 47776",3955776638
+20,Dr. Delia Salas,"Andador Zacatecas 554 845
+Vieja Guinea Bissau, QRO 84500-7540",8893087570
+21,Salma Quezada Briones,"Ampliación Yucatán 079 Edif. 955 , Depto. 225
+San Rebeca los bajos, MICH 53996",6046425780
+22,Lic. Ramiro López,"Andador San Marino 734 440
+Vieja Tuvalu, PUE 86460-7140",0355676947
+23,Fabiola Almanza Tejeda,"Periférico República Popular Democrática de Corea 025 Edif. 803 , Depto. 332
+San Francisca los bajos, MICH 77154",2782319393
+24,Teodoro Yolanda Aguirre,"Prolongación Campeche 622 Interior 947
+Nueva Guyana, DGO 51994-2644",7442592209
+25,Gloria Aida Gálvez Rentería,"Avenida Norte Rascón 736 Edif. 437 , Depto. 043
+Vieja Letonia, SON 65518",7634313483
+26,María Teresa Armenta Vázquez,"Ampliación Palomo 850 507
+Nueva Serbia, QRO 14906-9584",5194380425
+27,Nicolás Pineda,"Boulevard Campeche 851 Edif. 085 , Depto. 633
+San César los bajos, Q. ROO 63689-0614",5635986361
+28,Miguel Oswaldo Aguirre Tejeda,"Circuito Sinaloa 863 Interior 077
+Nueva Irlanda, BC 89191",2936376515
+29,Dr. José Eduardo Urrutia,"Corredor Gambia 309 710
+Nueva Islas Marshall, VER 05096",3745797254
+30,Lic. Luz Ulibarri,"Callejón Matías 573 Edif. 973 , Depto. 280
+Nueva Kenya, NL 70213",6478466577
+31,Ramón Débora Cruz Arevalo,"Peatonal Sur Palacios 663 Interior 321
+San Margarita de la Montaña, NAY 22168",6300624014
+32,Salvador Eugenia Ureña,"Periférico Granado 208 Edif. 398 , Depto. 103
+San Abril los altos, AGS 67879-3607",4306878320
+33,Wendolin Gaytán Lozano,"Diagonal Castañeda 955 Edif. 157 , Depto. 259
+San Helena los altos, GTO 75872",7474715823
+34,Alta  Gracia Ávalos,"Andador León 380 Edif. 802 , Depto. 583
+San Timoteo los bajos, JAL 78277-2278",0926814883
+35,Luz Aguilera,"Periférico Granada 606 Interior 041
+San Mario los bajos, SLP 89880",5407193977
+36,Ing. Lorenzo Rivero,"Avenida Norte Ríos 567 Interior 238
+San Humberto de la Montaña, GRO 02144-5046",8193061557
+37,Lic. Anabel Carreón,"Ampliación Norte Medina 948 Interior 662
+Nueva Liechtenstein, OAX 26023-0433",7788861158
+38,Catalina Botello Salcedo,"Retorno Beltrán 710 Edif. 062 , Depto. 190
+San Judith los altos, HGO 93355",6558045048
+39,Lic. Alonso Navarro,"Diagonal Sudáfrica 316 Interior 129
+San Ángel los bajos, CHIS 77711",6301556777
+40,Estela Wilfrido Hinojosa,"Retorno Chihuahua 020 Interior 622
+Vieja Suiza, GTO 51158-9096",1276238340
+41,Dr. Karina Malave,"Circunvalación Norte Villalpando 636 Interior 239
+Nueva Austria, CHIH 36142",8872318908
+42,Dalia Leal,"Diagonal Quintana Roo 253 Interior 006
+Nueva Zambia, DF 37441",7936130200
+43,Ana María Salvador Carrillo,"Viaducto Norte Carranza 660 622
+Nueva Honduras, ZAC 42367-8745",3052652525
+44,Rosa Adán Vanegas,"Circuito Michoacán de Ocampo 874 675
+Nueva Indonesia, GRO 89271",6779129271
+45,Arturo Nazario,"Circuito Guyana 566 Edif. 171 , Depto. 271
+Nueva Japón, JAL 72522",8873455636
+46,Ramiro Lugo Perales,"Boulevard Norte Cantú 685 Interior 027
+San Claudia los altos, CHIH 16905",8119972277
+47,René Rafaél Mercado Robledo,"Avenida Tabasco 380 217
+San Óscar los bajos, NAY 33074",5128304151
+48,Mtro. Yuridia Serrato,"Diagonal Norte Leiva 676 Interior 198
+Vieja Namibia, MICH 73408-9624",8127007587
+49,Raúl Amador Palacios,"Eje vial Villagómez 020 580
+San Caridad los bajos, NAY 51058",4233183429
+50,Vanesa Zaragoza,"Eje vial Norte Segovia 994 097
+San José Emilio los altos, CHIH 30630",0459094818
+51,Luis Alejandro,"Ampliación Bahrein 464 100
+San Carolina los altos, NL 72434-4290",4368737186
+52,Ing. Yolanda Páez,"Eje vial Sinaloa 882 Interior 807
+Nueva Irlanda, BCS 54378",1932028837
+53,Sr(a). Ángel Juárez,"Andador Abreu 937 050
+Vieja Líbano, COL 96330-9544",1534008041
+54,Ing. Francisco Valdez,"Callejón Tabasco 202 Interior 833
+San Alejandra los bajos, Q. ROO 46551",7548185731
+55,Verónica Salcido Carrión,"Retorno Morelos 361 Edif. 119 , Depto. 803
+San Camilo los bajos, GTO 12489-2556",2006766924
+56,Pamela Limón Loera,"Pasaje Norte Salas 588 Edif. 893 , Depto. 301
+Nueva Bhután, MEX 85002",2245199305
+57,Jorge Sanches González,"Callejón Linares 870 431
+San Salvador de la Montaña, AGS 52329-0276",6955461992
+58,Ivonne Matías Cedillo,"Eje vial Zarate 001 Interior 801
+Nueva Belarús, MOR 78376",1303110551
+59,Miguel Jacobo Santillán,"Cerrada Tamaulipas 994 Edif. 286 , Depto. 579
+Vieja Estonia, AGS 34878-9421",5916188631
+60,Noelia Solís,"Retorno Caldera 331 317
+Vieja Myanmar, CHIS 43407",5598461024
+61,Juana Judith Rascón,"Calle Norte Mondragón 472 Edif. 542 , Depto. 817
+Nueva Francia, NL 74923-6995",3565815261
+62,Uriel Hidalgo,"Viaducto Belarús 138 Interior 470
+Nueva Dominicana, COL 02576-5340",1432915380
+63,Alonso Bruno Fonseca,"Continuación Chihuahua 591 292
+San Santiago los altos, DGO 25155-7582",5778907196
+64,Mtro. Eva Cabán,"Calzada Jalisco 002 237
+Nueva Camerún, SLP 80357-6492",1070301989
+65,Samuel Cynthia Grijalva,"Cerrada Perales 592 Edif. 924 , Depto. 407
+San Mauro los bajos, SIN 30100",5613686330
+66,Juan Marcela Cotto Báez,"Continuación Sur Sisneros 130 Interior 409
+San Eloy los altos, BC 40111-4614",1608518788
+67,Eloisa Isabela Arriaga Aparicio,"Pasaje Puebla 515 Interior 794
+San Felix los bajos, SON 31376-0928",7305302580
+68,Magdalena Berta Linares,"Corredor Ramón 652 Edif. 007 , Depto. 019
+San Espartaco de la Montaña, PUE 66621",6046025979
+69,Magdalena Dolores Quintero Griego,"Calzada Querétaro 821 Edif. 452 , Depto. 649
+San Zacarías los bajos, NAY 43896",7726772291
+70,Ing. Magdalena Campos,"Avenida Distrito Federal 883 Interior 625
+San Mayte los altos, YUC 55580",6520147799
+71,Dr. Norma Razo,"Diagonal Granada 064 Interior 446
+San Linda los altos, DF 65645-6648",4708786940
+72,Guadalupe Susana Muñoz Melgar,"Calzada Chile 130 Interior 159
+Nueva Suiza, MEX 33229",3590983147
+73,Estefanía Vicente Galindo Arevalo,"Andador Norte Mireles 601 545
+Vieja Perú, NL 09926-2983",8268288803
+74,Mtro. Gonzalo Navarro,"Calle Angola 461 123
+Vieja Venezuela, SLP 82850-3872",6456541203
+75,Sr(a). Marisol Garrido,"Cerrada Aguascalientes 190 Interior 745
+Nueva Saint Kitts y Nevis, GRO 84719-1836",7790170546
+76,Cornelio Valles Gómez,"Calle Sur Carranza 958 Interior 542
+San Dalia de la Montaña, PUE 15802",1236588252
+77,Gloria Sofía Bétancourt Tamez,"Privada Sur Barragán 822 814
+San Nicolás los altos, PUE 24772-1864",1515678727
+78,Santiago Santillán Gaona,"Privada Norte Ruelas 640 Edif. 435 , Depto. 024
+San Francisco de la Montaña, DF 66083",5976213834
+79,Sara Lira Franco,"Viaducto Colima 935 Interior 404
+San David de la Montaña, DF 03157",3951436977
+80,Mtro. Noemí Gaytán,"Periférico Peres 215 464
+San Modesto los altos, ZAC 03654-8598",4743436204
+81,Alma Santiago Girón,"Pasaje Colima 133 Edif. 768 , Depto. 840
+Vieja República Dominicana, COL 27942",8570948546
+82,Israel Fabiola Ramírez Gutiérrez,"Avenida Norte Ontiveros 983 Edif. 910 , Depto. 714
+San Carlos los altos, DGO 67374",8741450312
+83,Francisco Treviño Cantú,"Corredor Norte Arreola 700 686
+Vieja Filipinas, QRO 17153",1243652330
+84,Sr(a). Luis Manuel Villanueva,"Calzada Sur Alcántar 066 Edif. 697 , Depto. 538
+San Rosalia de la Montaña, QRO 80569",6328129332
+85,Sr(a). Susana Jaimes,"Prolongación Norte Murillo 747 Interior 155
+Nueva Serbia, GRO 33926-8748",4334769407
+86,Teresa Serna,"Ampliación Norte Alonzo 775 Edif. 131 , Depto. 468
+San Rebeca los bajos, TLAX 69647-6307",8686617097
+87,Mtro. Carlota Castañeda,"Continuación Sur Rentería 704 Edif. 584 , Depto. 405
+San Jos los altos, BC 69945",3363342704
+88,Dr. Julio Duarte,"Andador Norte Ortega 151 Interior 420
+Nueva Costa Rica, TAMPS 17690",1662648053
+89,Ilse Andrés Balderas Mercado,"Diagonal Norte Acuña 516 Edif. 310 , Depto. 550
+Nueva Dominicana, NL 01280-4077",5434462527
+90,Tomás Solorio Corona,"Privada Norte Espino 103 Edif. 466 , Depto. 261
+Vieja Polonia, QRO 59633-1403",8157632037
+91,Rolando Ávila Suárez,"Periférico Rumania 762 335
+San Agustín los altos, MOR 67740-0596",3368477377
+92,Eugenio Luevano Pacheco,"Circunvalación Chihuahua 260 Edif. 507 , Depto. 127
+Nueva Países Bajos, COAH 80268",8183064955
+93,Marcos Valencia,"Circuito Norte Rosario 060 811
+Nueva Rumania, TLAX 16611-5323",1120911077
+94,Liliana Elena Nájera Godínez,"Eje vial Etiopía 832 Edif. 187 , Depto. 246
+San José Carlos los bajos, SON 04485",1988594251
+95,Eloy Ariadna Mojica Nieto,"Avenida Guanajuato 563 Edif. 028 , Depto. 084
+Vieja Reino Unido de Gran Bretaña e Irlanda del Norte, CHIS 76828",6654559534
+96,Fabiola Mateo,"Ampliación Norte Serna 362 043
+Vieja Egipto, VER 75368-9719",4974718551
+97,Cornelio Briseño,"Privada Sur Vera 728 Interior 859
+San Ramón los altos, VER 10170",8968331324
+98,Ing. Helena Murillo,"Eje vial Norte Calderón 563 Edif. 453 , Depto. 344
+San Jos de la Montaña, SLP 12472",2056241862
+99,Diego Salazar Armendáriz,"Prolongación Marruecos 417 Interior 294
+San Antonio los altos, GRO 27534",8133585923
+100,Daniel Paola Zapata,"Pasaje Bañuelos 080 Interior 456
+San Andrés los altos, ZAC 54161",8051760187
+999,Franco Cristaldi,"Via Produzione, Italia",9218314846

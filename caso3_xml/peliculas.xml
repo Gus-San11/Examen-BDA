@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='utf-8'?>
+<peliculas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema_peliculas.xsd">
+  <pelicula id="1">
+    <titulo>Cinema Paradiso</titulo>
+    <fecha_estreno>1990-08-15</fecha_estreno>
+    <resumen>Película italiana sobre la infancia y el cine, narrando la vida de un niño en un pueblo siciliano. La historia muestra su evolución, sus sueños, su amor por el cine y su relación con Alfredo, el proyeccionista del pequeño cine del pueblo.</resumen>
+    <ranking>4.8</ranking>
+    <director>
+      <nombre>Giuseppe Tornatore</nombre>
+      <telefono>5512345678</telefono>
+      <estado_civil>Soltero</estado_civil>
+      <fecha_nacimiento>1956-05-27</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Philippe Noiret</nombre>
+        <telefono>5523456789</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>1930-10-01</fecha_nacimiento>
+        <salario>150000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+      <actor>
+        <nombre>Salvatore Cascio</nombre>
+        <telefono>5534567890</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>1979-11-08</fecha_nacimiento>
+        <salario>80000</salario>
+        <tipo_actuacion>Secundario</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Franco Cristaldi</nombre>
+        <telefono>5545678901</telefono>
+        <estado_civil>Viudo</estado_civil>
+        <fecha_nacimiento>1924-10-03</fecha_nacimiento>
+        <aporte_economico>250000</aporte_economico>
+      </productor>
+    </productores>
+    <premios>
+      <premio>
+        <nombre>Oscar a Mejor Película Extranjera</nombre>
+        <lugar>EE.UU.</lugar>
+        <ranking>1</ranking>
+      </premio>
+    </premios>
+    <criticas>
+      <critica>
+        <autor>Roger Ebert</autor>
+        <medio>Chicago Sun-Times</medio>
+        <fecha>1990-08-20</fecha>
+        <texto>Una carta de amor al cine que emociona profundamente.</texto>
+      </critica>
+    </criticas>
+  </pelicula>
+  <pelicula id="2">
+    <titulo>Pelicula 2</titulo>
+    <fecha_estreno>2002-05-12</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 2. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>4.3</ranking>
+    <director>
+      <nombre>Director 2</nombre>
+      <telefono>5500000002</telefono>
+      <estado_civil>Casado</estado_civil>
+      <fecha_nacimiento>1962-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 2A</nombre>
+        <telefono>5510000002</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>1972-07-10</fecha_nacimiento>
+        <salario>102000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 2</nombre>
+        <telefono>5520000002</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>1952-09-20</fecha_nacimiento>
+        <aporte_economico>204000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+  <pelicula id="3">
+    <titulo>Pelicula 3</titulo>
+    <fecha_estreno>2003-05-13</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 3. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>3.5</ranking>
+    <director>
+      <nombre>Director 3</nombre>
+      <telefono>5500000003</telefono>
+      <estado_civil>Soltero</estado_civil>
+      <fecha_nacimiento>1963-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 3A</nombre>
+        <telefono>5510000003</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>1973-07-10</fecha_nacimiento>
+        <salario>103000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 3</nombre>
+        <telefono>5520000003</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>1953-09-20</fecha_nacimiento>
+        <aporte_economico>206000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+  <pelicula id="4">
+    <titulo>Pelicula 4</titulo>
+    <fecha_estreno>2004-05-14</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 4. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>3.9</ranking>
+    <director>
+      <nombre>Director 4</nombre>
+      <telefono>5500000004</telefono>
+      <estado_civil>Casado</estado_civil>
+      <fecha_nacimiento>1964-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 4A</nombre>
+        <telefono>5510000004</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>1974-07-10</fecha_nacimiento>
+        <salario>104000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 4</nombre>
+        <telefono>5520000004</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>1954-09-20</fecha_nacimiento>
+        <aporte_economico>208000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+  <pelicula id="5">
+    <titulo>Pelicula 5</titulo>
+    <fecha_estreno>2005-05-15</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 5. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>4.3</ranking>
+    <director>
+      <nombre>Director 5</nombre>
+      <telefono>5500000005</telefono>
+      <estado_civil>Soltero</estado_civil>
+      <fecha_nacimiento>1965-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 5A</nombre>
+        <telefono>5510000005</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>1975-07-10</fecha_nacimiento>
+        <salario>105000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 5</nombre>
+        <telefono>5520000005</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>1955-09-20</fecha_nacimiento>
+        <aporte_economico>210000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+  <pelicula id="6">
+    <titulo>Pelicula 6</titulo>
+    <fecha_estreno>2006-05-16</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 6. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>3.5</ranking>
+    <director>
+      <nombre>Director 6</nombre>
+      <telefono>5500000006</telefono>
+      <estado_civil>Casado</estado_civil>
+      <fecha_nacimiento>1966-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 6A</nombre>
+        <telefono>5510000006</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>1976-07-10</fecha_nacimiento>
+        <salario>106000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 6</nombre>
+        <telefono>5520000006</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>1956-09-20</fecha_nacimiento>
+        <aporte_economico>212000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+  <pelicula id="7">
+    <titulo>Pelicula 7</titulo>
+    <fecha_estreno>2007-05-17</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 7. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>3.9</ranking>
+    <director>
+      <nombre>Director 7</nombre>
+      <telefono>5500000007</telefono>
+      <estado_civil>Soltero</estado_civil>
+      <fecha_nacimiento>1967-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 7A</nombre>
+        <telefono>5510000007</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>1977-07-10</fecha_nacimiento>
+        <salario>107000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 7</nombre>
+        <telefono>5520000007</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>1957-09-20</fecha_nacimiento>
+        <aporte_economico>214000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+  <pelicula id="8">
+    <titulo>Pelicula 8</titulo>
+    <fecha_estreno>2008-05-18</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 8. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>4.3</ranking>
+    <director>
+      <nombre>Director 8</nombre>
+      <telefono>5500000008</telefono>
+      <estado_civil>Casado</estado_civil>
+      <fecha_nacimiento>1968-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 8A</nombre>
+        <telefono>5510000008</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>1978-07-10</fecha_nacimiento>
+        <salario>108000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 8</nombre>
+        <telefono>5520000008</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>1958-09-20</fecha_nacimiento>
+        <aporte_economico>216000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+  <pelicula id="9">
+    <titulo>Pelicula 9</titulo>
+    <fecha_estreno>2009-05-19</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 9. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>3.5</ranking>
+    <director>
+      <nombre>Director 9</nombre>
+      <telefono>5500000009</telefono>
+      <estado_civil>Soltero</estado_civil>
+      <fecha_nacimiento>1969-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 9A</nombre>
+        <telefono>5510000009</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>1979-07-10</fecha_nacimiento>
+        <salario>109000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 9</nombre>
+        <telefono>5520000009</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>1959-09-20</fecha_nacimiento>
+        <aporte_economico>218000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+  <pelicula id="10">
+    <titulo>Pelicula 10</titulo>
+    <fecha_estreno>20010-05-110</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 10. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>3.9</ranking>
+    <director>
+      <nombre>Director 10</nombre>
+      <telefono>5500000010</telefono>
+      <estado_civil>Casado</estado_civil>
+      <fecha_nacimiento>19610-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 10A</nombre>
+        <telefono>5510000010</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>19710-07-10</fecha_nacimiento>
+        <salario>110000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 10</nombre>
+        <telefono>5520000010</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>19510-09-20</fecha_nacimiento>
+        <aporte_economico>220000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+  <pelicula id="11">
+    <titulo>Pelicula 11</titulo>
+    <fecha_estreno>20011-05-111</fecha_estreno>
+    <resumen>Esta es una descripción detallada y ficticia de la película número 11. Incluye elementos narrativos únicos, desarrollo de personajes y temas relevantes para el público contemporáneo. Esta sinopsis cumple con el límite requerido de 300 caracteres exactos para validación del esquema XML.</resumen>
+    <ranking>4.3</ranking>
+    <director>
+      <nombre>Director 11</nombre>
+      <telefono>5500000011</telefono>
+      <estado_civil>Soltero</estado_civil>
+      <fecha_nacimiento>19611-06-15</fecha_nacimiento>
+    </director>
+    <actores>
+      <actor>
+        <nombre>Actor 11A</nombre>
+        <telefono>5510000011</telefono>
+        <estado_civil>Soltero</estado_civil>
+        <fecha_nacimiento>19711-07-10</fecha_nacimiento>
+        <salario>111000</salario>
+        <tipo_actuacion>Protagonico</tipo_actuacion>
+      </actor>
+    </actores>
+    <productores>
+      <productor>
+        <nombre>Productor 11</nombre>
+        <telefono>5520000011</telefono>
+        <estado_civil>Casado</estado_civil>
+        <fecha_nacimiento>19511-09-20</fecha_nacimiento>
+        <aporte_economico>222000</aporte_economico>
+      </productor>
+    </productores>
+  </pelicula>
+</peliculas>
