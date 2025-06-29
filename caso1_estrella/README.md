@@ -1,76 +1,76 @@
-# Caso 1: Modelo Estrella - Base de Datos de Películas
+# Caso 1: Modelo Estrella - Base de Datos de Peliculas
 
-## Descripción
-Este proyecto implementa un modelo de base de datos en estrella para el análisis de información cinematográfica, específicamente enfocado en la película "Cinema Paradiso" y sus datos relacionados.
+## Descripcion
+Este proyecto implementa un modelo de base de datos en estrella para el analisis de informacion cinematografica, especificamente enfocado en la pelicula "Cinema Paradiso" y sus datos relacionados.
 
 ## Arquitectura del Sistema
 
 ### Modelo Estrella Implemen### 3. Migración a OLAP (Opcional)
 Para aprovech### 5. Comparación SQL vs MDX vs Cubo OLAP Simulado
 
-#### SQL Tradicional (Implementación base):
-- ✅ Funciona con PostgreSQL existente
-- ✅ Sintaxis familiar y estándar
-- ✅ Mayor flexibilidad para consultas ad-hoc
-- ✅ Mejor para operaciones transaccionales
+#### SQL Tradicional (Implementacion base):
+- Funciona con PostgreSQL existente
+- Sintaxis familiar y estandar
+- Mayor flexibilidad para consultas ad-hoc
+- Mejor para operaciones transaccionales
 
 #### MDX Real (Conceptual):
-- ✅ Optimizado para análisis multidimensional
-- ✅ Manejo nativo de jerarquías temporales
-- ✅ Funciones avanzadas de ranking y comparación
-- ✅ Mejor rendimiento para consultas analíticas complejas
-- ❌ Requiere infraestructura OLAP específica (SSAS)
+- Optimizado para analisis multidimensional
+- Manejo nativo de jerarquias temporales
+- Funciones avanzadas de ranking y comparacion
+- Mejor rendimiento para consultas analiticas complejas
+- Requiere infraestructura OLAP especifica (SSAS)
 
-#### Cubo OLAP Simulado (Implementado) ⭐:
-- ✅ **Combina lo mejor de ambos mundos**
-- ✅ Análisis multidimensional con PostgreSQL
-- ✅ Vistas y funciones optimizadas para OLAP
-- ✅ Drill-down, drill-through y métricas calculadas
-- ✅ Dashboard y KPIs automáticos
-- ✅ Sin necesidad de infraestructura adicional
-- ✅ Escalable y mantenibleas MDX:
+#### Cubo OLAP Simulado (Implementado):
+- **Combina lo mejor de ambos mundos**
+- Analisis multidimensional con PostgreSQL
+- Vistas y funciones optimizadas para OLAP
+- Drill-down, drill-through y metricas calculadas
+- Dashboard y KPIs automaticos
+- Sin necesidad de infraestructura adicional
+- Escalable y mantenibleas MDX:
 - **SQL Server Analysis Services**: Crear cubo basado en el modelo estrella
 - **Power BI**: Conectar directamente al modelo tabular
-- **Excel**: Crear tablas dinámicas avanzadas
+- **Excel**: Crear tablas dinamicas avanzadas
 
-### 4. Simulación de Cubo OLAP Implementada ✅
+### 4. Simulacion de Cubo OLAP Implementada
 
-**¡NOVEDAD!** Se ha implementado una simulación completa de cubo OLAP usando PostgreSQL que permite:
+**NOVEDAD!** Se ha implementado una simulacion completa de cubo OLAP usando PostgreSQL que permite:
 
 #### Funcionalidades OLAP Disponibles:
-- ✅ **Vistas dimensionales** con jerarquías temporales
-- ✅ **Métricas calculadas** (ROI, percentiles, rankings)
-- ✅ **Drill-through** para obtener datos detallados
-- ✅ **Funciones de análisis** multidimensional
-- ✅ **Dashboard principal** con KPIs
-- ✅ **Análisis de contribución** por dimensiones
-- ✅ **Consultas CUBE y ROLLUP** para agregaciones
-- ✅ **Índices optimizados** para consultas analíticas
+- **Vistas dimensionales** con jerarquias temporales
+- **Metricas calculadas** (ROI, percentiles, rankings)
+- **Drill-through** para obtener datos detallados
+- **Funciones de analisis** multidimensional
+- **Dashboard principal** con KPIs
+- **Analisis de contribucion** por dimensiones
+- **Consultas CUBE y ROLLUP** para agregaciones
+- **Indices optimizados** para consultas analiticas
 
 #### Componentes del Cubo OLAP:
 ```sql
 -- Vistas principales
-dim_tiempo_olap          -- Dimensión temporal con jerarquías
-hechos_olap             -- Hechos con métricas calculadas
-dim_personas_olap       -- Dimensión consolidada de personas
+dim_tiempo_olap          -- Dimension temporal con jerarquias
+hechos_olap             -- Hechos con metricas calculadas
+dim_personas_olap       -- Dimension consolidada de personas
 
--- Funciones analíticas
-drill_through_detallado()     -- Exploración detallada
-analisis_contribucion()       -- Análisis de participación
+-- Funciones analiticas
+drill_through_detallado()     -- Exploracion detallada
+analisis_contribucion()       -- Analisis de participacion
 actualizar_cubo_olap()       -- Mantenimiento del cubo
 
--- Vistas de análisis
-dashboard_principal          -- KPIs y métricas generales
+-- Vistas de analisis
+dashboard_principal          -- KPIs y metricas generales
 analisis_temporal           -- Tendencias temporales
-ranking_personas           -- Clasificación por performance
+ranking_personas           -- Clasificacion por performance
 ```
 
-#### Ventajas de la Simulación OLAP:
-- 🚀 **Rendimiento mejorado** con índices especializados
-- 📊 **Análisis multidimensional** sin infraestructura adicional
-- 🔍 **Drill-down y drill-through** funcionales
-- 📈 **Métricas calculadas** automáticas (ROI, percentiles)
-- 🎯 **Compatibilidad total** con PostgreSQL existente
+#### Ventajas de la Simulacion OLAP:
+- **Rendimiento mejorado** con indices especializados
+- **Analisis multidimensional** sin infraestructura adicional
+- **Drill-down y drill-through** funcionales
+- **Metricas calculadas** automaticas (ROI, percentiles)
+- **Compatibilidad total** con PostgreSQL existente
 ```
            dim_fecha
                |
@@ -87,7 +87,7 @@ dim_actor --- hechos_peliculas --- dim_productor
 ### Tablas del Modelo
 
 #### Tabla de Hechos
-- **hechos_peliculas**: Contiene las métricas y hechos centrales
+- **hechos_peliculas**: Contiene las metricas y hechos centrales
   - `id_pelicula` (FK)
   - `id_actor` (FK)
   - `id_director` (FK)
@@ -98,11 +98,11 @@ dim_actor --- hechos_peliculas --- dim_productor
   - `ranking` (NUMERIC)
 
 #### Tablas de Dimensiones
-- **dim_pelicula**: Información de películas
-- **dim_actor**: Información de actores
-- **dim_director**: Información de directores
-- **dim_productor**: Información de productores
-- **dim_fecha**: Dimensión temporal
+- **dim_pelicula**: Informacion de peliculas
+- **dim_actor**: Informacion de actores
+- **dim_director**: Informacion de directores
+- **dim_productor**: Informacion de productores
+- **dim_fecha**: Dimension temporal
 
 ## Requisitos del Sistema
 
@@ -118,17 +118,17 @@ dim_actor --- hechos_peliculas --- dim_productor
 
 ## Pasos para Ejecutar el Proyecto
 
-### 1. Preparación del Entorno
+### 1. Preparacion del Entorno
 ```powershell
 # Navegar al directorio del proyecto
 cd "c:\Users\Hogar\OneDrive\Documents\BDA\Examen\caso1_estrella"
 
-# Verificar que Docker esté corriendo
+# Verificar que Docker este corriendo
 docker --version
 docker-compose --version
 ```
 
-### 2. Construcción y Ejecución
+### 2. Construccion y Ejecucion
 ```powershell
 # Construir y levantar todos los servicios
 docker-compose up --build
@@ -137,9 +137,9 @@ docker-compose up --build
 docker-compose up --build -d
 ```
 
-### 3. Verificación del Estado
+### 3. Verificacion del Estado
 ```powershell
-# Verificar que los contenedores estén corriendo
+# Verificar que los contenedores esten corriendo
 docker-compose ps
 
 # Ver logs de la base de datos
@@ -151,16 +151,16 @@ docker-compose logs consultas-caso1
 
 ### 4. Acceso a la Base de Datos
 
-#### Opción A: Adminer (Interfaz Web)
+#### Opcion A: Adminer (Interfaz Web)
 1. Abrir navegador en `http://localhost:8080`
-2. Configurar conexión:
+2. Configurar conexion:
    - **Sistema**: PostgreSQL
    - **Servidor**: postgres-caso1
    - **Usuario**: postgres
-   - **Contraseña**: 123
+   - **Contrasena**: 123
    - **Base de datos**: caso1
 
-#### Opción B: Línea de Comandos
+#### Opcion B: Linea de Comandos
 ```powershell
 # Conectar directamente a PostgreSQL
 docker-compose exec postgres-caso1 psql -U postgres -d caso1
@@ -168,7 +168,7 @@ docker-compose exec postgres-caso1 psql -U postgres -d caso1
 # Listar todas las tablas
 docker-compose exec postgres-caso1 psql -U postgres -d caso1 -c "\dt"
 
-# Ver estructura de tabla específica
+# Ver estructura de tabla especifica
 docker-compose exec postgres-caso1 psql -U postgres -d caso1 -c "\d hechos_peliculas"
 ```
 
@@ -176,49 +176,35 @@ docker-compose exec postgres-caso1 psql -U postgres -d caso1 -c "\d hechos_pelic
 
 ```
 caso1_estrella/
-├── docker-compose.yml            # Orquestación de contenedores
+├── docker-compose.yml            # Orquestacion de contenedores
 ├── Dockerfile                   # Imagen personalizada de PostgreSQL
 ├── caso1.sql                    # Estructura del modelo estrella
 ├── poblado_modelo_estrella.sql  # Datos de prueba
-├── consultas_sql_corregidas.sql      # ✅ Consultas SQL funcionales 
-├── consultas_mdx_conceptuales.mdx    # ✅ Consultas MDX conceptuales para OLAP
-├── test_connection.py           # Script de prueba de conexión
-├── README.md                    # Esta documentación
-└── scripts/                     # Scripts adicionales
+├── consultas_sql_corregidas.sql      # Consultas SQL funcionales 
+├── consultas_mdx_conceptuales.mdx    # Consultas MDX conceptuales para OLAP
+├── test_connection.py           # Script de prueba de conexion
+├── README.md                    # Esta documentacion
 ```
 
-## 🎯 Menú de Opciones de Consulta
+## Menu de Opciones de Consulta
 
 El proyecto ofrece **DOS ENFOQUES** para trabajar con el modelo estrella:
 
-### 📊 **Opción A: Consultas SQL Tradicionales (Recomendado para PostgreSQL)**
+### **Opcion A: Consultas SQL Tradicionales (Recomendado para PostgreSQL)**
 - **Archivo**: `consultas_sql_corregidas.sql`
-- **Tecnología**: SQL estándar con PostgreSQL
+- **Tecnologia**: SQL estandar con PostgreSQL
 - **Ventajas**: 
-  - ✅ Funciona inmediatamente con la infraestructura actual
-  - ✅ Sintaxis familiar y probada
-  - ✅ Ideal para análisis directo y reportes
+  - Funciona inmediatamente con la infraestructura actual
+  - Sintaxis familiar y probada
+  - Ideal para analisis directo y reportes
 
-### 🔮 **Opción B: Consultas MDX Conceptuales (Referencia para OLAP)**
+### **Opcion B: Consultas MDX Conceptuales (Referencia para OLAP)**
 - **Archivo**: `consultas_mdx_conceptuales.mdx`
-- **Tecnología**: MDX (Multidimensional Expressions)
+- **Tecnologia**: MDX (Multidimensional Expressions)
 - **Ventajas**:
-  - ✅ Referencia para implementaciones OLAP futuras
-  - ✅ Sintaxis optimizada para análisis multidimensional
-  - ✅ Ideal para migración a SQL Server Analysis Services
-
-### 🤔 **¿Cuál elegir?**
-
-| Criterio | SQL Tradicional | MDX Conceptual |
-|----------|----------------|----------------|
-| **Ejecución inmediata** | ✅ Si | ❌ No (requiere SSAS) |
-| **Infraestructura actual** | ✅ PostgreSQL | ❌ Requiere OLAP Server |
-| **Curva de aprendizaje** | ✅ Baja | ⚠️ Media-Alta |
-| **Análisis multidimensional** | ⚠️ Limitado | ✅ Nativo |
-| **Flexibilidad** | ✅ Alta | ⚠️ Media |
-| **Rendimiento OLAP** | ⚠️ Bueno | ✅ Excelente |
-
-**💡 Recomendación**: Comienza con **Opción A** (SQL) para resultados inmediatos, usa **Opción B** (MDX) como referencia para futuras implementaciones OLAP.
+  - Referencia para implementaciones OLAP futuras
+  - Sintaxis optimizada para analisis multidimensional
+  - Ideal para migracion a SQL Server Analysis Services
 
 ## Servicios del Docker Compose
 
@@ -227,31 +213,31 @@ El proyecto ofrece **DOS ENFOQUES** para trabajar con el modelo estrella:
 - **Puerto**: 5433:5432
 - **Base de datos**: caso1
 - **Usuario**: postgres
-- **Contraseña**: 123
-- **Función**: Base de datos principal con modelo estrella
+- **Contrasena**: 123
+- **Funcion**: Base de datos principal con modelo estrella
 
 ### 2. consultas-caso1
 - **Imagen**: postgres:15
-- **Función**: Ejecuta automáticamente las consultas de prueba
-- **Dependencia**: Espera a que postgres-caso1 esté saludable
+- **Funcion**: Ejecuta automaticamente las consultas de prueba
+- **Dependencia**: Espera a que postgres-caso1 este saludable
 
 ### 3. adminer
 - **Imagen**: adminer:latest
 - **Puerto**: 8080:8080
-- **Función**: Interfaz web para administración de base de datos
+- **Funcion**: Interfaz web para administracion de base de datos
 
-## Consultas de Análisis Disponibles
+## Consultas de Analisis Disponibles
 
-### 📁 Archivos de Consultas
+### Archivos de Consultas
 
-1. **`consultas_sql_corregidas.sql`** ✅ - **Consultas SQL funcionales para PostgreSQL**
-2. **`consultas_mdx_conceptuales.mdx`** ✅ - **Consultas MDX conceptuales para cubos OLAP**
+1. **`consultas_sql_corregidas.sql`** - **Consultas SQL funcionales para PostgreSQL**
+2. **`consultas_mdx_conceptuales.mdx`** - **Consultas MDX conceptuales para cubos OLAP**
 
 ---
 
-### 🚀 **OPCIÓN A: Consultas SQL Funcionales (PostgreSQL)**
+### **OPCION A: Consultas SQL Funcionales (PostgreSQL)**
 
-#### A) Total de Salarios por Película
+#### A) Total de Salarios por Pelicula
 ```sql
 SELECT 
     SUM(h.salario) AS total_salarios,
@@ -264,7 +250,7 @@ WHERE p.titulo = 'Cinema Paradiso'
 GROUP BY p.titulo, d.nombre;
 ```
 
-#### B) Información Completa de la Película
+#### B) Informacion Completa de la Pelicula
 ```sql
 SELECT 
     p.titulo, d.nombre AS director, a.nombre AS actor,
@@ -290,7 +276,7 @@ GROUP BY pr.nombre ORDER BY total_aporte DESC;
 
 ---
 
-### 🎯 **OPCIÓN B: Consultas MDX Conceptuales (Cubos OLAP)**
+### **OPCION B: Consultas MDX Conceptuales (Cubos OLAP)**
 
 #### A) Total Salarios con MDX
 ```mdx
@@ -301,7 +287,7 @@ FROM [Peliculas]
 WHERE [Pelicula].[Titulo].[Cinema Paradiso]
 ```
 
-#### B) Análisis Temporal con Jerarquías
+#### B) Analisis Temporal con Jerarquias
 ```mdx
 SELECT 
   {[Measures].[Salario], [Measures].[Aportacion]} ON COLUMNS,
@@ -318,11 +304,11 @@ SELECT
 FROM [Peliculas]
 ```
 
-**📋 Nota**: Las consultas MDX requieren SQL Server Analysis Services o similar para ejecutarse. Son conceptuales para planificación futura.
+**Nota**: Las consultas MDX requieren SQL Server Analysis Services o similar para ejecutarse. Son conceptuales para planificacion futura.
 
-## Comandos Útiles
+## Comandos Utiles
 
-### Gestión de Contenedores
+### Gestion de Contenedores
 ```powershell
 # Detener todos los servicios
 docker-compose down
@@ -330,19 +316,19 @@ docker-compose down
 # Detener y eliminar volúmenes
 docker-compose down -v
 
-# Reiniciar un servicio específico
+# Reiniciar un servicio especifico
 docker-compose restart postgres-caso1
 
 # Ver logs en tiempo real
 docker-compose logs -f postgres-caso1
 ```
 
-### Comandos de Ejecución por Opción
+### Comandos de Ejecucion por Opcion
 
-#### 🚀 **OPCIÓN A: Ejecutar Consultas SQL (Recomendado)**
+#### **OPCION A: Ejecutar Consultas SQL (Recomendado)**
 
 ```powershell
-# Verificar datos básicos
+# Verificar datos basicos
 docker-compose exec postgres-caso1 psql -U postgres -d caso1 -c "SELECT COUNT(*) FROM hechos_peliculas;"
 docker-compose exec postgres-caso1 psql -U postgres -d caso1 -c "SELECT * FROM dim_pelicula;"
 
@@ -354,7 +340,7 @@ docker cp consultas_sql_corregidas.sql postgres-caso1-estrella:/tmp/
 docker-compose exec postgres-caso1 psql -U postgres -d caso1 -f /tmp/consultas_sql_corregidas.sql
 ```
 
-#### 🎯 **OPCIÓN B: Referencia MDX (Solo Conceptual)**
+#### **OPCION B: Referencia MDX (Solo Conceptual)**
 
 ```powershell
 # Ver archivo de consultas MDX conceptuales
@@ -369,7 +355,7 @@ Get-Content consultas_mdx_conceptuales.mdx
 
 ---
 
-### ⚡ **Inicio Rápido - Opción Recomendada**
+### **Inicio Rapido - Opcion Recomendada**
 
 ```powershell
 # 1. Levantar el entorno
@@ -378,16 +364,16 @@ docker-compose up --build
 # 2. Verificar que funciona
 docker-compose exec postgres-caso1 psql -U postgres -d caso1 -c "SELECT p.titulo, d.nombre AS director, a.nombre AS actor, h.salario FROM hechos_peliculas h JOIN dim_pelicula p ON h.id_pelicula = p.id_pelicula JOIN dim_director d ON h.id_director = d.id_director JOIN dim_actor a ON h.id_actor = a.id_actor;"
 
-# 3. Ejecutar análisis completo
+# 3. Ejecutar analisis completo
 docker cp consultas_sql_corregidas.sql postgres-caso1-estrella:/tmp/
 docker-compose exec postgres-caso1 psql -U postgres -d caso1 -f /tmp/consultas_sql_corregidas.sql
 ```
 
-## Solución de Problemas
+## Solucion de Problemas
 
 ### Error: Puerto en Uso
 ```powershell
-# Verificar qué está usando el puerto 5433
+# Verificar que esta usando el puerto 5433
 netstat -ano | findstr :5433
 
 # Cambiar puerto en docker-compose.yml si es necesario
@@ -395,65 +381,36 @@ netstat -ano | findstr :5433
 
 ### Error: Docker no Disponible
 ```powershell
-# Verificar que Docker Desktop esté corriendo
+# Verificar que Docker Desktop este corriendo
 docker info
 
 # Reiniciar Docker Desktop si es necesario
 ```
 
 ### Error en Consultas
-- Las consultas están diseñadas para el modelo estrella específico
+- Las consultas estan disenadas para el modelo estrella especifico
 - Verificar que las tablas y columnas existan antes de ejecutar
 - Revisar logs: `docker-compose logs consultas-caso1`
 
 ## Datos de Prueba
 
 El sistema incluye datos de ejemplo para:
-- **Película**: Cinema Paradiso (1990)
+- **Pelicula**: Cinema Paradiso (1990)
 - **Director**: Giuseppe Tornatore
 - **Actor**: Ejemplo de actor principal
 - **Productor**: Franco Cristaldi
-- **Métricas**: Salarios, aportes económicos, rankings
+- **Metricas**: Salarios, aportes economicos, rankings
 
-## Próximos Pasos
+## Proximos Pasos
 
-### 1. **Optimización SQL (Opción A)**
-- Implementar índices específicos para el modelo estrella
-- Crear vistas materializadas para consultas frecuentes
-- Agregar más datos de prueba para análisis más completos
-
-### 2. **Migración a OLAP Real (Opción B)**
+### 1. **Migracion a OLAP Real (Opcion B)**
 Para implementar las consultas MDX:
 - **SQL Server Analysis Services (SSAS)**: Crear cubo basado en el modelo estrella
 - **Power BI**: Crear modelo tabular y conectar
-- **Azure Analysis Services**: Implementación en la nube
-
-### 3. **Comparación Final de Enfoques**
-
-| Aspecto | SQL (Opción A) | MDX (Opción B) |
-|---------|----------------|----------------|
-| **Estado** | ✅ Funcional | 📋 Conceptual |
-| **Ejecución** | ✅ Inmediata | ❌ Requiere SSAS |
-| **Aprendizaje** | ✅ Fácil | ⚠️ Complejo |
-| **Infraestructura** | ✅ Mínima | ❌ Especializada |
-| **Análisis OLAP** | ⚠️ Limitado | ✅ Nativo |
-| **Futuro** | ✅ Extensible | ✅ Escalable |
-
-### 4. **Recomendación de Uso**
-
-- **Desarrollo/Testing**: Usar **Opción A** (SQL)
-- **Producción Empresarial**: Considerar **Opción B** (MDX + SSAS)
-- **Prototipado rápido**: **Opción A** siempre
-- **Análisis avanzado futuro**: Planificar migración a **Opción B**
-
-### 5. **Expansión del Modelo**
-- Ampliar el dataset con más películas y personal
-- Incluir dimensiones adicionales (género, país, presupuesto)
-- Integrar herramientas de visualización (Power BI, Tableau)
-
-## Contacto y Soporte
+- **Azure Analysis Services**: Implementacion en la nube
 
 Para problemas o mejoras, revisar:
 - Logs de Docker: `docker-compose logs`
 - Estado de servicios: `docker-compose ps`
-- Conexión a BD: Usar test_connection.py
+- Conexion a BD: Usar test_connection.py
+
