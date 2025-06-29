@@ -1,0 +1,810 @@
+[
+    {
+        "id_pelicula": 1,
+        "titulo": "Sunt sit amet.",
+        "fecha": "2013-05-29",
+        "resumen": " Quia adipisci veritatis aut cupiditate dignissimos sint. Eos magni quia ipsum. Officia corporis vel placeat.\nEx ut vel est ab nemo vel quasi. Labore dicta suscipit occaecati praesentium dolorem. Culpa mollitia dolore esse perferendis qui. Ducimus eum voluptatibus deserunt necessitatibus. Ad soluta rem nulla.",
+        "ranking": 2.3,
+        "id_director": 8
+    },
+    {
+        "id_pelicula": 2,
+        "titulo": "Explicabo omnis.",
+        "fecha": "2018-08-09",
+        "resumen": " Temporibus fugit atque fugit. Cupiditate magni occaecati ad eveniet distinctio. Numquam veniam voluptas incidunt eum facilis. Ipsum officiis accusantium ea autem. Sit illo delectus eveniet voluptatem. Porro tempora laboriosam harum. Veniam nam quis dolorem repellendus nostrum totam.",
+        "ranking": 3.1,
+        "id_director": 6
+    },
+    {
+        "id_pelicula": 3,
+        "titulo": "Consequuntur repellat distinctio.",
+        "fecha": "2014-11-15",
+        "resumen": " Nesciunt soluta sit repellendus ea sit. Quod voluptate illum qui. Enim veritatis facilis quidem doloremque illum voluptas. Autem cupiditate nihil. Quam quidem velit at veritatis. Perspiciatis tenetur asperiores. Doloremque dolore non harum quaerat perferendis sed. Assumenda ducimus soluta eligendi soluta quo.",
+        "ranking": 2.0,
+        "id_director": 18
+    },
+    {
+        "id_pelicula": 4,
+        "titulo": "Vel nihil totam.",
+        "fecha": "2022-02-04",
+        "resumen": " Quasi similique rerum fugit. Neque exercitationem ducimus commodi.\nEsse aut commodi sit. Dolore aut neque ut repellat quisquam corporis. Tempora repellendus temporibus distinctio nesciunt fugiat odit. Pariatur facilis cum odit beatae tenetur tempora sequi.",
+        "ranking": 2.3,
+        "id_director": 3
+    },
+    {
+        "id_pelicula": 5,
+        "titulo": "Ab magnam ipsum.",
+        "fecha": "2009-03-24",
+        "resumen": " Rem rem fuga inventore. Esse fuga maiores ducimus itaque. Vero numquam porro consequatur eius debitis sint. Veniam mollitia odio exercitationem. Doloremque dicta dolores placeat facere sapiente praesentium error. Ipsum blanditiis consequatur harum. Quidem ipsum ipsa veritatis laborum voluptatem exercitationem.",
+        "ranking": 4.5,
+        "id_director": 14
+    },
+    {
+        "id_pelicula": 6,
+        "titulo": "Iure doloremque nisi quod.",
+        "fecha": "2012-08-03",
+        "resumen": " Iusto quo consequatur repellendus. Vitae occaecati reprehenderit fuga perferendis cumque quo distinctio. Placeat architecto magnam eum. Itaque nesciunt quod dolorum commodi magni. Inventore magni omnis omnis quisquam aliquam. Ut tempore reiciendis excepturi et sapiente veritatis.",
+        "ranking": 2.0,
+        "id_director": 5
+    },
+    {
+        "id_pelicula": 7,
+        "titulo": "Occaecati eos.",
+        "fecha": "2009-12-20",
+        "resumen": " Autem totam exercitationem iusto officiis autem aut illum. Molestiae suscipit nostrum ratione iste quasi. Soluta cumque beatae ratione ratione. Sequi ipsum corporis occaecati. Numquam totam autem corporis ullam. Dolore aperiam totam iusto. Ipsa ad aperiam beatae quisquam. Facilis ipsa accusamus cum explicabo at.",
+        "ranking": 3.0,
+        "id_director": 12
+    },
+    {
+        "id_pelicula": 8,
+        "titulo": "Assumenda veniam neque.",
+        "fecha": "2020-03-23",
+        "resumen": " Occaecati incidunt perferendis odio minus. Recusandae magnam nulla quibusdam facere deleniti eaque. Odio quo facilis illum at in. Eligendi illum sit perspiciatis nam.\nImpedit at delectus accusantium. Esse laudantium iusto rerum. Ipsam quos ratione molestias ipsam.",
+        "ranking": 3.2,
+        "id_director": 20
+    },
+    {
+        "id_pelicula": 9,
+        "titulo": "Cupiditate ipsum praesentium.",
+        "fecha": "2022-03-25",
+        "resumen": " Sint repellendus repudiandae aliquid libero. Quae dolor hic. Corrupti possimus quibusdam officia.\nA sed dolore neque fugiat. Non eligendi nam consequuntur. Officia mollitia molestiae eligendi. Consequatur officia mollitia error repudiandae tempore. Asperiores maxime soluta commodi. Laborum excepturi delectus cupiditate.",
+        "ranking": 3.2,
+        "id_director": 11
+    },
+    {
+        "id_pelicula": 10,
+        "titulo": "Voluptates maiores velit.",
+        "fecha": "2024-09-14",
+        "resumen": " Delectus commodi quasi nihil ut ad. Suscipit similique enim. Nihil perferendis quod error. Illo eius omnis voluptates. Architecto ut incidunt magni.\nCorporis nihil voluptate minima dolorum quae eveniet. Iure cumque voluptatibus fugit. Ab quo fugit totam quia id. Autem sequi cum odio impedit voluptatem omnis quaerat.",
+        "ranking": 1.4,
+        "id_director": 16
+    },
+    {
+        "id_pelicula": 11,
+        "titulo": "Deserunt numquam praesentium.",
+        "fecha": "2022-11-07",
+        "resumen": " Ut nemo vel. Molestias maiores architecto deserunt culpa doloribus magnam. Cupiditate magni a modi. Minima nihil debitis asperiores. Beatae nam porro rem.\nAccusamus nulla reiciendis. Qui maiores quis quo. Sunt sit ipsam dolor ipsum tempora. Explicabo incidunt ut laboriosam dignissimos magnam exercitationem.",
+        "ranking": 3.6,
+        "id_director": 8
+    },
+    {
+        "id_pelicula": 12,
+        "titulo": "Quod quos amet ullam.",
+        "fecha": "2024-07-16",
+        "resumen": " Corporis necessitatibus modi laudantium possimus. Optio culpa ipsam inventore ipsam. Amet impedit nihil magni necessitatibus in. Magnam consectetur ea facilis possimus accusantium dolores. Porro quod ut vitae aliquam quod eos. Debitis alias tenetur commodi. Est ratione facilis architecto molestiae ducimus deserunt.",
+        "ranking": 2.5,
+        "id_director": 4
+    },
+    {
+        "id_pelicula": 13,
+        "titulo": "Vel iste.",
+        "fecha": "2009-03-08",
+        "resumen": " Provident dolore accusamus in consequuntur nemo eligendi. Odio temporibus libero facere commodi eligendi fugit quo. A nostrum esse atque veniam vitae maxime. Non dolor facilis. Sed dignissimos minus recusandae maiores ea ut. Beatae voluptatibus vero fuga at magnam natus. Sint corrupti minima commodi possimus pariatur iste.",
+        "ranking": 2.8,
+        "id_director": 14
+    },
+    {
+        "id_pelicula": 14,
+        "titulo": "Tempore error.",
+        "fecha": "2022-03-24",
+        "resumen": " Possimus minus necessitatibus optio a quod eius. Asperiores dicta harum aperiam. Illo quia nemo aliquam magni libero consequatur. Voluptas fugit minima quam quaerat. Repudiandae nisi tempore id officiis. Earum optio accusantium reprehenderit. Modi tempore quam libero. Reprehenderit alias voluptatum quis. Voluptatibus earum asperiores vel omnis explicabo.",
+        "ranking": 4.9,
+        "id_director": 16
+    },
+    {
+        "id_pelicula": 15,
+        "titulo": "Aspernatur sit.",
+        "fecha": "2013-01-11",
+        "resumen": " Maxime repellendus asperiores id quos. Harum natus fugiat exercitationem non sit quis. Delectus ea aliquid modi officia. Sequi iusto vel ut harum hic. Saepe cum enim rerum.\nDistinctio a consequatur. Doloremque dolorum commodi nisi ipsum.\nTempora officiis voluptas esse.",
+        "ranking": 2.2,
+        "id_director": 4
+    },
+    {
+        "id_pelicula": 16,
+        "titulo": "Praesentium quam in.",
+        "fecha": "2013-03-01",
+        "resumen": " Voluptatem soluta dolor atque qui ducimus vel officiis. Velit quisquam fuga aspernatur ut laudantium. Deserunt et sunt ea. Explicabo deserunt vero odit tenetur hic. Sequi voluptas aliquid fugit in.\nNihil quasi dolorem autem culpa omnis. Aliquam asperiores voluptatibus.",
+        "ranking": 3.0,
+        "id_director": 2
+    },
+    {
+        "id_pelicula": 17,
+        "titulo": "Corrupti iusto.",
+        "fecha": "2020-11-23",
+        "resumen": " Nostrum cum ullam.\nHarum aut eos. Maiores odio repellendus unde iure. Sed enim magni quo. Tempora illum dolorem necessitatibus inventore aut praesentium. Iure culpa sapiente voluptatem asperiores. Mollitia ipsum libero inventore dolorum. Pariatur accusamus iste iste odio numquam similique. Aperiam voluptates eaque quod dolores debitis fugit.",
+        "ranking": 4.1,
+        "id_director": 6
+    },
+    {
+        "id_pelicula": 18,
+        "titulo": "Dignissimos minus.",
+        "fecha": "2018-03-04",
+        "resumen": " Maiores architecto placeat temporibus animi fuga eligendi. Facere voluptatum exercitationem ipsa iste consectetur id. Unde et odit nobis dicta. Autem repudiandae modi delectus iste.\nPerferendis voluptate nemo asperiores reprehenderit. Libero vitae rerum eius quos.",
+        "ranking": 4.7,
+        "id_director": 10
+    },
+    {
+        "id_pelicula": 19,
+        "titulo": "Sint ab sapiente.",
+        "fecha": "2017-06-01",
+        "resumen": " Magnam repellat doloribus illo. Autem suscipit consectetur nemo dolores quia consectetur. Nisi natus nemo impedit ullam. Voluptas culpa quod. Nulla dolorem ipsam facere libero. Voluptas neque explicabo magnam aliquid dolor. Autem similique consequuntur quas sed pariatur maiores.\nCommodi voluptate praesentium nihil itaque tempore. Quibusdam itaque dolorum illo.",
+        "ranking": 4.7,
+        "id_director": 19
+    },
+    {
+        "id_pelicula": 20,
+        "titulo": "Inventore.",
+        "fecha": "2022-12-06",
+        "resumen": " Fugiat consequatur rem esse praesentium voluptates explicabo. Sequi reiciendis repellat sunt totam saepe libero alias. Debitis nulla modi ab. Reprehenderit fugit inventore deserunt perferendis. Consectetur omnis doloremque. Aliquam sit quas quis. Sapiente totam atque.",
+        "ranking": 3.3,
+        "id_director": 2
+    },
+    {
+        "id_pelicula": 21,
+        "titulo": "Vel perspiciatis.",
+        "fecha": "2009-10-28",
+        "resumen": " Enim laboriosam optio possimus quos dignissimos fugiat. Aliquid magnam soluta illum. Molestias explicabo at perferendis. Totam accusantium quas quos. Ducimus sit odio tempore voluptas.\nEnim maiores impedit fuga animi eum. Sunt molestias odit illo. Earum vel distinctio architecto impedit dolore fugiat voluptatibus. Delectus pariatur nihil iste.",
+        "ranking": 1.6,
+        "id_director": 3
+    },
+    {
+        "id_pelicula": 22,
+        "titulo": "Dignissimos laudantium amet.",
+        "fecha": "2016-12-06",
+        "resumen": " Minus ab quasi voluptates quibusdam officiis. Amet minus eaque architecto. Quibusdam sed ratione dolorum necessitatibus. Porro sed dolores possimus beatae dicta.\nSaepe quo doloribus. Ipsam in quibusdam rerum expedita labore. Dolore eveniet asperiores dignissimos optio reiciendis aliquam. Odio odit consequatur ad nesciunt aspernatur quae.",
+        "ranking": 2.0,
+        "id_director": 20
+    },
+    {
+        "id_pelicula": 23,
+        "titulo": "Debitis laudantium.",
+        "fecha": "2010-02-04",
+        "resumen": " Nostrum iusto tenetur dignissimos itaque. Nemo vel dolores debitis eveniet. Repellat exercitationem omnis dolore quo libero consequatur. Ad nihil ab iure aliquid fuga dolorem fugit. Nulla hic unde necessitatibus quaerat. Voluptate minima deserunt dicta itaque.",
+        "ranking": 2.1,
+        "id_director": 15
+    },
+    {
+        "id_pelicula": 24,
+        "titulo": "Corporis maxime.",
+        "fecha": "2025-02-10",
+        "resumen": " Laborum facere consequatur sequi voluptatem natus. Voluptas doloremque iusto nihil quisquam reiciendis. Unde impedit labore repudiandae est expedita. Magni in omnis voluptas ipsum inventore. Dolorem quas doloremque placeat officia. Fugiat architecto culpa placeat dicta rem omnis. Praesentium tempore doloribus vero.",
+        "ranking": 4.8,
+        "id_director": 6
+    },
+    {
+        "id_pelicula": 25,
+        "titulo": "Veritatis consequatur voluptatum eos.",
+        "fecha": "2023-11-13",
+        "resumen": " Ea officiis sunt necessitatibus maxime unde. Sequi amet iste similique occaecati. Ex nam in debitis ut consequuntur quasi nostrum. Ad quis explicabo odit facere. Blanditiis velit odio quas. Omnis accusantium quas tempore odio veritatis. Accusantium doloribus ducimus eos deleniti impedit.",
+        "ranking": 4.4,
+        "id_director": 4
+    },
+    {
+        "id_pelicula": 26,
+        "titulo": "Odit nemo.",
+        "fecha": "2023-07-02",
+        "resumen": " Cumque quidem vitae soluta id facilis officia praesentium. Ipsa repellendus fugit iste. Temporibus est dolores deleniti. Doloribus quasi officiis vitae. Dolores temporibus dicta sapiente minima laborum. Provident commodi quos odit repellat. Inventore cum expedita. Ad tempore asperiores reprehenderit quam.\nIllo vitae dolor tenetur aspernatur. Maiores quaerat quibusdam.",
+        "ranking": 5.0,
+        "id_director": 10
+    },
+    {
+        "id_pelicula": 27,
+        "titulo": "Pariatur distinctio.",
+        "fecha": "2013-10-31",
+        "resumen": " Natus repellat laborum porro. Impedit distinctio hic occaecati commodi iusto. Esse voluptates odit possimus. Ipsa neque quam porro ab pariatur similique. Delectus natus ipsum error laudantium temporibus. Ipsam fugiat expedita ad. Expedita possimus iure a. Fugit saepe eaque molestias commodi debitis. Incidunt saepe nisi quam delectus cupiditate eos.",
+        "ranking": 1.9,
+        "id_director": 15
+    },
+    {
+        "id_pelicula": 28,
+        "titulo": "Sequi molestiae esse.",
+        "fecha": "2017-08-22",
+        "resumen": " Reprehenderit expedita distinctio vitae enim. Distinctio voluptates omnis odit incidunt cumque sit. Ex sapiente odio consequatur aliquam repudiandae. Dignissimos natus reprehenderit assumenda recusandae enim.\nUt dignissimos fugit. At enim ex nihil reiciendis eveniet. Dolore corrupti illo dolorum.",
+        "ranking": 3.1,
+        "id_director": 14
+    },
+    {
+        "id_pelicula": 29,
+        "titulo": "Harum nobis dignissimos.",
+        "fecha": "2009-06-22",
+        "resumen": " Dignissimos mollitia labore tempora repellat doloremque. Impedit suscipit soluta. Libero eaque ab eius. Reprehenderit repellat nobis modi. Maiores odit quas. Soluta minus asperiores sit sint minus nobis distinctio. Omnis quo non quod officia provident asperiores.",
+        "ranking": 1.8,
+        "id_director": 3
+    },
+    {
+        "id_pelicula": 30,
+        "titulo": "Voluptates alias.",
+        "fecha": "2019-09-03",
+        "resumen": " Quis minus vero sequi in illo. Officiis corporis rem ipsa. Sit nostrum odio quibusdam vel nesciunt deserunt. Omnis perspiciatis esse saepe voluptate optio. Ipsa nostrum voluptatum repudiandae. Beatae nostrum ratione necessitatibus sit tempore. Non iusto sit possimus. Repellendus officia accusamus.",
+        "ranking": 4.5,
+        "id_director": 14
+    },
+    {
+        "id_pelicula": 31,
+        "titulo": "Unde architecto.",
+        "fecha": "2020-08-01",
+        "resumen": " Minima enim atque. Vel tempore quae labore repellendus. Maiores enim rem minima. Rerum facere iusto mollitia. Ab consequuntur veritatis. Maiores aut labore quae natus. Fugit maiores distinctio magnam sed. Asperiores fugiat dolore. Ea animi eum veniam ad ullam. Quae vel atque iure veritatis illo.",
+        "ranking": 2.6,
+        "id_director": 7
+    },
+    {
+        "id_pelicula": 32,
+        "titulo": "Velit odio dolorem.",
+        "fecha": "2010-05-20",
+        "resumen": " Quam facilis repudiandae ex iusto molestias. Architecto explicabo est.\nItaque saepe cum nobis aut dicta cumque. Rem laborum cumque praesentium neque. Necessitatibus ab nam fugiat esse pariatur. Possimus labore maiores quia. Dolorem esse dolor dicta vero placeat eius esse. Deserunt ab repellat suscipit maxime earum. Possimus sit nisi repudiandae iusto impedit.",
+        "ranking": 2.2,
+        "id_director": 1
+    },
+    {
+        "id_pelicula": 33,
+        "titulo": "Accusantium dolor.",
+        "fecha": "2023-12-27",
+        "resumen": " Distinctio nulla possimus sed. Enim dolores magnam enim provident ipsa a.\nOfficia ipsum nostrum est eos error id. Aut laudantium saepe. Repudiandae et est hic exercitationem veritatis hic dolores. Esse provident adipisci. Dolore nemo quo error dolore molestias quae laudantium. Architecto omnis molestias ipsam maiores unde.",
+        "ranking": 2.6,
+        "id_director": 20
+    },
+    {
+        "id_pelicula": 34,
+        "titulo": "Eveniet assumenda est iure.",
+        "fecha": "2021-04-02",
+        "resumen": " Nobis facere aperiam maiores ut. Rem error quis fuga earum unde minima earum. Nulla error sed ex quos debitis aspernatur. Ullam a impedit accusantium excepturi asperiores voluptas delectus. Perferendis modi reprehenderit animi dolorum. Quidem cumque tempora aut amet. Velit amet maiores. Ducimus tenetur dolorem tempore cumque eligendi perferendis.",
+        "ranking": 4.3,
+        "id_director": 16
+    },
+    {
+        "id_pelicula": 35,
+        "titulo": "Ullam repudiandae nam.",
+        "fecha": "2018-04-11",
+        "resumen": " Ex mollitia facilis minima quos facere voluptatem. Fuga odio fuga odio minus nulla. Doloribus quos iusto laborum quos quas laboriosam iure. Similique fuga ab saepe culpa atque. Vitae itaque eos necessitatibus. Suscipit impedit quae illum rerum. Earum atque cupiditate. Nisi eos porro adipisci.\nRepudiandae dolore sapiente. Dignissimos minus illo in tempore.",
+        "ranking": 3.4,
+        "id_director": 7
+    },
+    {
+        "id_pelicula": 36,
+        "titulo": "Nesciunt ad.",
+        "fecha": "2008-09-09",
+        "resumen": " Aperiam libero dolores suscipit voluptatem. Totam rerum unde suscipit. Numquam iure laboriosam iusto ut. Numquam dolorem at hic eos. Possimus perferendis quisquam ipsa. Provident optio id porro voluptates sequi. Dolorem dolorum voluptate ipsa amet amet necessitatibus. Nesciunt voluptatum eius error ad.",
+        "ranking": 4.8,
+        "id_director": 18
+    },
+    {
+        "id_pelicula": 37,
+        "titulo": "Harum laboriosam quisquam.",
+        "fecha": "2019-01-13",
+        "resumen": " Libero doloribus porro laboriosam.\nQuia nemo accusantium ratione ad modi. Maxime molestias amet ducimus harum debitis. Fuga id quas. Iusto quae excepturi maiores tenetur dolorem asperiores. Corrupti ratione natus tenetur. Nisi ea consequatur accusamus. Repellat in aspernatur voluptatibus vel minima.",
+        "ranking": 1.7,
+        "id_director": 6
+    },
+    {
+        "id_pelicula": 38,
+        "titulo": "Nam qui.",
+        "fecha": "2022-07-15",
+        "resumen": " Laboriosam nihil a. Possimus labore culpa ipsum enim minima animi. Consequuntur similique dolorem sequi alias laboriosam debitis. Nam perferendis explicabo repellat. Sequi tempore quod esse. Illum eveniet enim adipisci laborum. Veritatis neque aliquam. Corrupti atque quis recusandae.",
+        "ranking": 4.1,
+        "id_director": 5
+    },
+    {
+        "id_pelicula": 39,
+        "titulo": "Et molestiae quia.",
+        "fecha": "2017-03-10",
+        "resumen": " Unde at magnam sapiente. Suscipit perspiciatis veniam. Corrupti eos perferendis magnam cumque. Ut minus consequuntur exercitationem. Soluta eligendi sit vero tempora. Aliquid voluptate nemo quidem esse nobis hic. Expedita optio ex quis nihil esse. Suscipit accusantium molestias quo vel totam. Nam natus soluta nobis dolorem libero eligendi rerum.",
+        "ranking": 4.0,
+        "id_director": 15
+    },
+    {
+        "id_pelicula": 40,
+        "titulo": "Sit ducimus molestias.",
+        "fecha": "2019-06-11",
+        "resumen": " Enim veritatis ab nemo corrupti et exercitationem. Dolorem amet atque voluptates provident ipsam pariatur. Rem numquam explicabo nam autem quis. Beatae ipsum itaque nobis magnam quo magni. Voluptas quod perferendis ratione soluta. Pariatur aliquam odit cum.",
+        "ranking": 3.9,
+        "id_director": 13
+    },
+    {
+        "id_pelicula": 41,
+        "titulo": "Hic.",
+        "fecha": "2023-06-15",
+        "resumen": " Error explicabo esse dolor nemo mollitia a. Unde provident cum. Ex deserunt omnis magni consequatur sit. Voluptates quae voluptatibus illo. Quas sit recusandae tenetur aperiam. Ea beatae deserunt corporis impedit. Fugiat aperiam ea quibusdam modi earum.",
+        "ranking": 2.6,
+        "id_director": 20
+    },
+    {
+        "id_pelicula": 42,
+        "titulo": "Rerum maiores reprehenderit.",
+        "fecha": "2019-12-09",
+        "resumen": " Hic nulla consequuntur nam inventore. Doloribus velit esse maiores asperiores. Qui labore voluptatibus earum sequi. Occaecati dolor eveniet animi ipsum explicabo repellendus. Eaque eveniet officia ut iure quis minus. Non architecto natus asperiores.",
+        "ranking": 1.1,
+        "id_director": 14
+    },
+    {
+        "id_pelicula": 43,
+        "titulo": "Neque quas.",
+        "fecha": "2016-07-22",
+        "resumen": " Facilis blanditiis corrupti. Ipsa reiciendis fugiat earum nostrum. Officiis explicabo ab repudiandae. Officiis repellat perspiciatis quasi. Ipsam culpa deleniti perspiciatis officia. Ut perspiciatis quidem magni non. Corporis tempora possimus corrupti ad.",
+        "ranking": 4.9,
+        "id_director": 9
+    },
+    {
+        "id_pelicula": 44,
+        "titulo": "Odit delectus nobis similique.",
+        "fecha": "2018-02-03",
+        "resumen": " Alias ipsam beatae rem cum ipsum. Nostrum asperiores impedit dolorum sequi repudiandae minus delectus. Deleniti repellat et illum quisquam. Consequatur illo quos quis tempore.\nIn ipsum accusantium. Hic id dolores debitis nemo suscipit. Voluptate et autem omnis qui perspiciatis aliquam.",
+        "ranking": 2.8,
+        "id_director": 10
+    },
+    {
+        "id_pelicula": 45,
+        "titulo": "Quasi voluptatum quod.",
+        "fecha": "2023-12-04",
+        "resumen": " Quia quos repellendus vero quaerat minus. Et placeat a ullam. Quae explicabo aut impedit doloremque omnis illo. Consectetur impedit possimus ipsam culpa cumque. Doloribus eius sequi iste tenetur rem harum. Quos dicta autem quam sint debitis. Maiores illo quod esse illum quo nesciunt at.",
+        "ranking": 3.9,
+        "id_director": 2
+    },
+    {
+        "id_pelicula": 46,
+        "titulo": "Sint nesciunt minus.",
+        "fecha": "2017-03-27",
+        "resumen": " Repellat dolor non quae suscipit placeat soluta. Dignissimos excepturi rem autem blanditiis. Quaerat animi commodi. Quod natus repudiandae. Mollitia quia provident. Sit possimus ullam nam amet neque id facere. A eaque nihil sit quam repellendus aliquid veniam. Fuga accusantium iure esse. Ab delectus quos vel assumenda quasi error.",
+        "ranking": 4.3,
+        "id_director": 13
+    },
+    {
+        "id_pelicula": 47,
+        "titulo": "Voluptas.",
+        "fecha": "2018-07-23",
+        "resumen": " Maxime sequi ratione iure harum unde. Iste eaque occaecati officia tempora. Quis corrupti exercitationem laudantium temporibus culpa. Saepe alias ipsam quidem incidunt. Fugit tempore magnam praesentium ipsam. Sed consectetur quas ipsam laborum. Adipisci ut quo corporis in. Cupiditate id hic qui dolorem. Ab quibusdam et.",
+        "ranking": 3.6,
+        "id_director": 11
+    },
+    {
+        "id_pelicula": 48,
+        "titulo": "Quisquam aperiam.",
+        "fecha": "2009-08-26",
+        "resumen": " Commodi eligendi error numquam eum illum dolore. Hic eos esse quidem voluptas nisi nam. Nostrum esse quo dolorem distinctio quis quos odio. Nemo ut dolore. Dolore aliquid quo et eveniet iste. Mollitia quaerat a error. Architecto sed nesciunt tenetur labore tempora quidem. Laborum suscipit nulla laboriosam eos recusandae. Illo fuga ab.",
+        "ranking": 4.1,
+        "id_director": 7
+    },
+    {
+        "id_pelicula": 49,
+        "titulo": "Atque sit sed.",
+        "fecha": "2013-07-06",
+        "resumen": " Temporibus aliquam magni error dicta consequuntur incidunt. Assumenda deleniti quidem porro enim omnis. Quaerat odio corrupti nisi repellat quo. Odio ab deserunt. Incidunt corporis eum laborum nam. Neque aliquid incidunt facilis culpa. Occaecati aut pariatur minima. Nesciunt repellat ea eveniet excepturi praesentium. Ipsam tempora adipisci dolorem quas.",
+        "ranking": 3.1,
+        "id_director": 16
+    },
+    {
+        "id_pelicula": 50,
+        "titulo": "Alias nam ab.",
+        "fecha": "2014-10-01",
+        "resumen": " Dolore consectetur culpa. Quod eius tenetur veniam. Ab alias quisquam quidem laudantium.\nQuibusdam quasi earum aliquam corporis. Eligendi aliquid expedita aliquam ipsa perspiciatis. Dolores incidunt natus sunt minus recusandae. Quae minima soluta ex et sit.",
+        "ranking": 4.1,
+        "id_director": 17
+    },
+    {
+        "id_pelicula": 51,
+        "titulo": "Labore non.",
+        "fecha": "2015-08-22",
+        "resumen": " Dolore saepe vitae. Veritatis molestias dolorem culpa. Repellat quod dolor at nam quia aliquam. Inventore blanditiis dolorem consequatur sapiente quas alias. Iusto quibusdam ratione repellat consequuntur cum. Ipsum quo sit itaque velit. Placeat amet fugit eius. Consequatur natus incidunt at. Ducimus molestias maxime dolore assumenda.",
+        "ranking": 3.6,
+        "id_director": 14
+    },
+    {
+        "id_pelicula": 52,
+        "titulo": "Magni minus rerum inventore.",
+        "fecha": "2012-05-01",
+        "resumen": " Error labore repellendus dolorem fuga. Possimus dicta blanditiis consectetur modi architecto repellat. Numquam modi quas qui rem quia. Aperiam facere ut adipisci quas. Nihil aliquid harum ducimus minima molestias ab. Fuga eos repudiandae ducimus. Quas perspiciatis tenetur nihil. Excepturi neque nulla amet mollitia accusamus.",
+        "ranking": 4.0,
+        "id_director": 11
+    },
+    {
+        "id_pelicula": 53,
+        "titulo": "Quaerat at.",
+        "fecha": "2022-07-13",
+        "resumen": " Eum modi incidunt unde exercitationem officiis occaecati. Molestias tempore fugiat repudiandae. Earum laboriosam dignissimos sunt. Laboriosam itaque recusandae dicta nisi aperiam temporibus. Ab commodi iure molestias quod. Hic necessitatibus minus cum natus accusantium deleniti. Nam beatae at fugiat ea.",
+        "ranking": 1.2,
+        "id_director": 10
+    },
+    {
+        "id_pelicula": 54,
+        "titulo": "Animi molestiae delectus.",
+        "fecha": "2021-11-27",
+        "resumen": " Recusandae perferendis deserunt debitis beatae atque. Quos expedita quod beatae esse quod eum ullam. Minima architecto accusamus quia dignissimos. Sed sint blanditiis enim. Itaque molestiae minima facere alias explicabo fugit. Ipsum ad alias praesentium et. Minus vel placeat consequatur ratione. Blanditiis neque neque temporibus voluptatibus deleniti.",
+        "ranking": 1.1,
+        "id_director": 8
+    },
+    {
+        "id_pelicula": 55,
+        "titulo": "Perferendis repellat.",
+        "fecha": "2023-04-21",
+        "resumen": " Iure harum saepe voluptates deleniti et. Quam odit quae id omnis veniam. Ea distinctio dolorum. Sequi nihil voluptate ex consequatur eaque velit. Officia unde qui ex. Porro placeat odit molestiae deserunt possimus veniam. Eius officia nam repudiandae.",
+        "ranking": 4.6,
+        "id_director": 5
+    },
+    {
+        "id_pelicula": 56,
+        "titulo": "Fugit iste nam.",
+        "fecha": "2010-10-07",
+        "resumen": " Nemo ad non praesentium ratione aspernatur deleniti architecto. Sunt non cumque vero. Consectetur odio unde laudantium. Perferendis quaerat fugit quae ducimus. Quia ex rerum voluptas. Nostrum quisquam accusantium nesciunt. Nobis consectetur perferendis sequi veniam quibusdam consectetur consequuntur.\nA sunt magni esse debitis necessitatibus. Totam alias dolorem iusto.",
+        "ranking": 3.1,
+        "id_director": 18
+    },
+    {
+        "id_pelicula": 57,
+        "titulo": "Nesciunt fugiat.",
+        "fecha": "2021-03-22",
+        "resumen": " Et dolore animi excepturi qui labore veritatis. Eius vero sit nam quam ipsum odit. Sint blanditiis voluptatibus recusandae. Magni iste dolores velit placeat impedit voluptate. Autem quia in aut odio repudiandae eius autem. Omnis autem voluptate sunt dolores.",
+        "ranking": 4.8,
+        "id_director": 14
+    },
+    {
+        "id_pelicula": 58,
+        "titulo": "Unde magni.",
+        "fecha": "2009-01-13",
+        "resumen": " Qui iusto voluptates beatae reprehenderit illo laudantium natus. Possimus dignissimos autem officia. Ipsam cupiditate molestias. Delectus fugiat ducimus impedit repellendus. Itaque necessitatibus maiores nostrum tenetur. Magnam porro aliquam natus rerum. Necessitatibus impedit et asperiores.",
+        "ranking": 4.7,
+        "id_director": 13
+    },
+    {
+        "id_pelicula": 59,
+        "titulo": "Odio exercitationem.",
+        "fecha": "2013-12-29",
+        "resumen": " Quam atque voluptatibus nam excepturi. Repellendus nulla sequi accusamus totam reiciendis. Maxime laudantium veniam dolore earum amet. Esse quia culpa. Magni voluptas eligendi nulla reiciendis necessitatibus. In quidem a maiores. In voluptatem iusto accusamus nemo pariatur nesciunt.",
+        "ranking": 4.8,
+        "id_director": 3
+    },
+    {
+        "id_pelicula": 60,
+        "titulo": "Ipsa molestias nobis eius.",
+        "fecha": "2008-02-28",
+        "resumen": " Nobis voluptatum aut commodi iure similique saepe. Cumque nisi adipisci. Quis harum consectetur cumque.\nFacere non quasi quos quidem rerum quis. Amet sapiente quae at fuga quaerat. Corporis maiores repellendus alias. Aliquam tempore eaque facilis dolor necessitatibus id similique.",
+        "ranking": 3.4,
+        "id_director": 17
+    },
+    {
+        "id_pelicula": 61,
+        "titulo": "Ullam totam consequatur.",
+        "fecha": "2025-04-29",
+        "resumen": " Minima autem consectetur consectetur. Nesciunt iusto animi dicta quia quidem. Modi cumque aliquam. Minus officiis esse veniam nemo minima libero. Voluptate accusamus ducimus suscipit. Enim reiciendis accusamus aliquam. Adipisci delectus et qui. Mollitia minus labore a ut labore sed. Quasi nesciunt odit alias qui fuga blanditiis.",
+        "ranking": 4.7,
+        "id_director": 3
+    },
+    {
+        "id_pelicula": 62,
+        "titulo": "Voluptatibus minima ullam.",
+        "fecha": "2010-06-20",
+        "resumen": " Reiciendis facilis fugiat accusamus. Rerum tempore porro dolor autem harum incidunt. Deserunt necessitatibus magni sunt quia animi ullam. Dolore eveniet sequi officia. Accusamus veritatis magnam quibusdam. Debitis pariatur ipsa nesciunt reiciendis ut quia.",
+        "ranking": 5.0,
+        "id_director": 11
+    },
+    {
+        "id_pelicula": 63,
+        "titulo": "Error facilis.",
+        "fecha": "2009-12-18",
+        "resumen": " Fuga consequatur libero nemo delectus est pariatur. Voluptas provident voluptatibus soluta suscipit ducimus. Qui officiis modi aperiam quae facere dignissimos voluptatem. Ut nostrum porro ab corporis unde ducimus. Voluptates quo modi facere rerum. Aliquam at minus hic animi. Quis iusto exercitationem a repellat. Ducimus ipsa consequatur odit molestias.",
+        "ranking": 3.0,
+        "id_director": 1
+    },
+    {
+        "id_pelicula": 64,
+        "titulo": "Quae sunt perferendis.",
+        "fecha": "2019-09-25",
+        "resumen": " Nam consectetur recusandae ratione nobis sint accusantium. Eius officiis magnam. Quod quisquam dolores quis eligendi. Atque facere sint distinctio.\nAspernatur est placeat iusto nobis. Neque iusto aperiam fugiat debitis ipsa iste. Accusamus laboriosam officia doloremque totam. Error officia officiis.\nCupiditate veniam at. Ex debitis fuga provident odio.",
+        "ranking": 1.8,
+        "id_director": 7
+    },
+    {
+        "id_pelicula": 65,
+        "titulo": "In.",
+        "fecha": "2020-02-09",
+        "resumen": " Rem nobis nulla occaecati. Soluta veritatis quidem cum sint facere rerum quasi. Nam tempore esse aliquid dolorum ullam. Quibusdam laudantium similique aliquam. Corporis accusantium numquam doloribus commodi. Omnis ab placeat maiores provident. Qui hic eligendi consectetur animi omnis. Quo iste eaque eaque mollitia accusamus corrupti.",
+        "ranking": 3.3,
+        "id_director": 19
+    },
+    {
+        "id_pelicula": 66,
+        "titulo": "Necessitatibus consequatur.",
+        "fecha": "2007-03-14",
+        "resumen": " Dignissimos debitis sint dolor minima id magnam. Atque aut quos quae. Nulla consectetur ab molestiae cumque excepturi. Ut officia repudiandae veniam asperiores. At modi architecto ut consequuntur et. Reprehenderit illo adipisci sunt expedita. Eaque ad alias facere optio rem. Qui ipsum quo molestias vitae optio blanditiis.",
+        "ranking": 3.7,
+        "id_director": 11
+    },
+    {
+        "id_pelicula": 67,
+        "titulo": "Nam saepe.",
+        "fecha": "2016-11-15",
+        "resumen": " Praesentium autem minus odit. Nostrum voluptatibus praesentium autem. Tempore ipsam officia suscipit adipisci quisquam. Placeat neque rerum sit nihil. Commodi aliquid quibusdam quia consequatur quos. Porro unde iusto incidunt hic. Officiis hic suscipit harum.\nIste fugit soluta maxime quibusdam.",
+        "ranking": 2.0,
+        "id_director": 17
+    },
+    {
+        "id_pelicula": 68,
+        "titulo": "Sit possimus temporibus.",
+        "fecha": "2018-01-03",
+        "resumen": " Nihil inventore nostrum mollitia odit dolorum. Ducimus eum natus eligendi officiis iure ad. Minus deleniti dolorum quas. Sunt sapiente quia provident nemo neque et. Doloremque excepturi nisi exercitationem nemo. Pariatur id illum alias alias natus. Nihil quis nihil soluta iste distinctio iste.",
+        "ranking": 1.1,
+        "id_director": 1
+    },
+    {
+        "id_pelicula": 69,
+        "titulo": "Amet magnam nobis.",
+        "fecha": "2007-11-16",
+        "resumen": " Voluptate placeat ab voluptate veniam quas. Architecto vitae dignissimos iusto saepe provident consectetur. Cumque rem ex. Omnis doloremque dolores consectetur. Pariatur totam veritatis provident.\nConsectetur sequi animi soluta. Itaque iste vero minus quibusdam nisi.",
+        "ranking": 4.4,
+        "id_director": 1
+    },
+    {
+        "id_pelicula": 70,
+        "titulo": "Animi consequuntur distinctio.",
+        "fecha": "2013-10-14",
+        "resumen": " Reprehenderit eius nesciunt modi. Maxime impedit libero pariatur. Iure recusandae ea nobis nostrum illo. Minus in voluptas atque. Repellendus ea exercitationem explicabo natus. Odio corrupti ducimus ratione architecto. Fuga eius libero odio maiores repellendus. Culpa fugit quod atque. Asperiores in officiis eaque qui minima quisquam.",
+        "ranking": 4.8,
+        "id_director": 6
+    },
+    {
+        "id_pelicula": 71,
+        "titulo": "Nulla occaecati nam.",
+        "fecha": "2016-04-21",
+        "resumen": " Delectus amet hic aut id optio doloribus. Maiores deserunt ducimus necessitatibus quos unde accusamus est. Eum rerum tenetur alias soluta. Aspernatur error molestias architecto laboriosam aliquid consequatur. Aliquam possimus sunt. At ut totam perferendis architecto. Veritatis adipisci praesentium veniam modi reiciendis fugit.",
+        "ranking": 2.7,
+        "id_director": 4
+    },
+    {
+        "id_pelicula": 72,
+        "titulo": "Eos a perspiciatis.",
+        "fecha": "2016-06-07",
+        "resumen": " Voluptatem distinctio in tempore aperiam. A alias occaecati ea quaerat doloremque. Quia laudantium facilis dolore occaecati ad. Ratione animi magnam quidem quod. Omnis perferendis ipsam vel placeat sed. Neque quod nostrum ipsam necessitatibus. Repellendus aliquam earum est.\nIusto error neque omnis neque enim. Quo reiciendis dolorum placeat a.",
+        "ranking": 3.5,
+        "id_director": 8
+    },
+    {
+        "id_pelicula": 73,
+        "titulo": "Repudiandae libero.",
+        "fecha": "2025-04-14",
+        "resumen": " Ad excepturi quas accusamus odit optio. Ut similique consectetur dolorem dolor beatae ea. Velit deserunt mollitia cum dolor error. Natus nesciunt sunt asperiores accusamus quae. Illo placeat quidem vitae fugit exercitationem hic aperiam. Nisi pariatur delectus voluptatum consequuntur odit aperiam eum. Illum nam magni expedita tempora. Voluptatibus aspernatur numquam nisi.",
+        "ranking": 3.9,
+        "id_director": 4
+    },
+    {
+        "id_pelicula": 74,
+        "titulo": "Tempore at quo.",
+        "fecha": "2007-08-06",
+        "resumen": " Soluta assumenda cumque quae non enim. Recusandae fugiat neque eaque non. Eum quia sunt placeat iusto voluptatibus. Veniam officiis illo provident. Praesentium commodi perferendis quidem quo recusandae. Unde velit possimus fuga. Ea cupiditate molestiae ex autem voluptate illum. Amet dignissimos ex voluptate officiis minus.",
+        "ranking": 4.9,
+        "id_director": 4
+    },
+    {
+        "id_pelicula": 75,
+        "titulo": "Unde soluta placeat.",
+        "fecha": "2007-11-29",
+        "resumen": " Dolorum in cupiditate repudiandae eos. Officia odit deleniti a in. Suscipit accusantium ducimus atque laudantium dolor earum. Earum libero consequuntur quas cumque. Exercitationem harum ab repudiandae quasi. Amet et sed temporibus. Ex soluta quibusdam sint quis dicta.\nDolorem sunt quidem saepe tempore. Harum voluptas nesciunt modi aspernatur fugit.",
+        "ranking": 3.1,
+        "id_director": 10
+    },
+    {
+        "id_pelicula": 76,
+        "titulo": "Fugiat.",
+        "fecha": "2013-06-16",
+        "resumen": " Repudiandae iure nesciunt. Iure rem porro animi illum facilis quisquam. Eius neque maxime tempore saepe. Pariatur necessitatibus minima ea asperiores porro nulla. Odit facere pariatur nulla voluptatem aliquid repellat. Ad dicta maiores sint. Eveniet fuga impedit doloremque eveniet omnis autem. Cupiditate accusamus enim delectus quos eum fugiat.",
+        "ranking": 3.8,
+        "id_director": 10
+    },
+    {
+        "id_pelicula": 77,
+        "titulo": "Fuga cupiditate ea.",
+        "fecha": "2020-06-15",
+        "resumen": " Ad impedit quo. Reprehenderit alias occaecati dolore. Hic odio tempore reprehenderit iure. Delectus beatae repellat harum. Ratione minima magni libero placeat vero esse odio. Sed officiis neque porro eaque quibusdam dolorem quod. Consequatur exercitationem mollitia. Culpa repellat accusamus quisquam pariatur labore.",
+        "ranking": 3.5,
+        "id_director": 11
+    },
+    {
+        "id_pelicula": 78,
+        "titulo": "Aliquam deleniti asperiores.",
+        "fecha": "2008-04-09",
+        "resumen": " Fugiat deserunt aliquid. Optio doloremque animi. Fuga laudantium veritatis eaque quisquam deserunt. Provident numquam hic at reiciendis numquam. Ipsa in totam quaerat repudiandae. Possimus veritatis id illum laborum dicta quibusdam. Accusamus expedita culpa blanditiis. Accusamus perspiciatis quisquam totam.",
+        "ranking": 2.9,
+        "id_director": 9
+    },
+    {
+        "id_pelicula": 79,
+        "titulo": "Enim officiis pariatur.",
+        "fecha": "2015-04-25",
+        "resumen": " Dignissimos laborum reprehenderit vitae.\nSunt alias aperiam ducimus laboriosam amet nisi. Dolores corporis odit ex cumque. Minima sunt perferendis eligendi iusto voluptatem. Doloremque voluptate magnam saepe ducimus rem culpa. Et id illum sed. Consequuntur voluptas adipisci libero praesentium quae. Earum voluptates itaque est corrupti.",
+        "ranking": 2.8,
+        "id_director": 6
+    },
+    {
+        "id_pelicula": 80,
+        "titulo": "Iste debitis.",
+        "fecha": "2023-07-14",
+        "resumen": " Sapiente magni minus velit. Dolor dignissimos nulla quasi animi debitis accusantium. Alias suscipit placeat facere hic.\nEnim enim excepturi. Quas commodi recusandae accusantium hic commodi quod. Odit aperiam asperiores repellat. Officia totam accusantium nisi ad. Ducimus suscipit repudiandae quisquam eaque.",
+        "ranking": 3.0,
+        "id_director": 1
+    },
+    {
+        "id_pelicula": 81,
+        "titulo": "Atque tempora.",
+        "fecha": "2019-03-27",
+        "resumen": " Accusantium vero quos ab esse reprehenderit. Consequuntur nostrum iusto debitis porro dolorum omnis numquam. Dolore molestiae fugit maiores. Eius quasi fugiat. Ex distinctio rem ducimus molestiae. Ut est nam in. Possimus ad nesciunt. Dignissimos aspernatur facere ea hic ex accusantium.",
+        "ranking": 4.5,
+        "id_director": 12
+    },
+    {
+        "id_pelicula": 82,
+        "titulo": "Aspernatur praesentium.",
+        "fecha": "2017-07-03",
+        "resumen": " Nesciunt ipsa perferendis impedit voluptatem cupiditate. Voluptates sequi ipsam quas. Veritatis tempora minima deleniti. Excepturi molestiae dolorum natus dicta quod. Explicabo distinctio sit sed eos consequatur odio. Cumque tenetur expedita fuga. Hic illum deleniti nihil quae accusantium quo minus.",
+        "ranking": 2.7,
+        "id_director": 20
+    },
+    {
+        "id_pelicula": 83,
+        "titulo": "Quas culpa.",
+        "fecha": "2007-01-30",
+        "resumen": " Ratione autem fugiat doloribus dicta quasi soluta. Molestiae recusandae omnis ex porro quaerat soluta. Cum sit et ad alias molestias perferendis. Minima expedita deleniti nostrum. Illum eius officia. Voluptatem inventore numquam deserunt facilis voluptates.",
+        "ranking": 2.5,
+        "id_director": 20
+    },
+    {
+        "id_pelicula": 84,
+        "titulo": "Similique at doloremque.",
+        "fecha": "2010-02-09",
+        "resumen": " Eaque possimus totam dolores unde nisi. Quaerat debitis repellendus distinctio harum. Adipisci perferendis facilis doloribus beatae fuga quo. Qui pariatur harum non. Modi beatae incidunt vel eos porro itaque. Nobis cum sint et iusto error eum. Eos quia sapiente non totam.",
+        "ranking": 4.0,
+        "id_director": 2
+    },
+    {
+        "id_pelicula": 85,
+        "titulo": "Optio nulla dolor.",
+        "fecha": "2024-03-12",
+        "resumen": " Necessitatibus atque nisi veniam ut ipsa. Magnam asperiores fugit dolore. Nobis veritatis ipsa vel unde. Dolorem fuga possimus asperiores nam ea dolorum. Veniam laudantium corrupti. Consectetur unde inventore. Quaerat fuga harum similique. Unde odit sit unde id quas. Autem velit provident expedita dignissimos aspernatur reprehenderit at.",
+        "ranking": 3.0,
+        "id_director": 2
+    },
+    {
+        "id_pelicula": 86,
+        "titulo": "Porro numquam nam.",
+        "fecha": "2006-07-10",
+        "resumen": " Quis voluptatem ducimus cumque iste. Porro enim atque distinctio tempore voluptas. Iste porro aperiam quam. Quo ducimus laborum ratione nesciunt.\nBeatae a est ab sit unde. Debitis et quis magni dolores delectus. Maxime unde ipsum temporibus sed at. Quis omnis quaerat beatae. Rerum facere officiis necessitatibus aspernatur.",
+        "ranking": 2.7,
+        "id_director": 5
+    },
+    {
+        "id_pelicula": 87,
+        "titulo": "Excepturi ut reiciendis.",
+        "fecha": "2017-02-06",
+        "resumen": " Totam nihil dolor tempore ut. Vel exercitationem tenetur quasi. Est necessitatibus debitis voluptates tempore ullam. Ea provident numquam est asperiores eos praesentium. Nihil tenetur ab esse soluta omnis. Facilis ipsum consectetur modi minus possimus asperiores iusto. Aperiam aliquid adipisci eius.",
+        "ranking": 2.6,
+        "id_director": 8
+    },
+    {
+        "id_pelicula": 88,
+        "titulo": "Soluta facilis.",
+        "fecha": "2011-04-22",
+        "resumen": " Aliquid vero quam repudiandae assumenda dolores corporis. Eum adipisci adipisci ipsa debitis amet in architecto. Alias fugiat natus. Officiis doloribus esse veniam autem impedit. Totam est qui sit quo odit quae aliquid. Autem ex ab laborum. Pariatur repellendus modi doloribus perferendis doloremque a.\nQuidem amet praesentium. Neque saepe molestias.",
+        "ranking": 3.0,
+        "id_director": 2
+    },
+    {
+        "id_pelicula": 89,
+        "titulo": "Veniam totam quibusdam.",
+        "fecha": "2023-10-22",
+        "resumen": " Quasi temporibus accusantium minima impedit nemo maiores. Provident repellendus odit beatae illo consectetur dolores natus. Maiores asperiores quaerat veniam harum earum vitae. Odio libero maxime sunt ut aliquam. Voluptatum quod consectetur dicta repellat. Repellendus quo autem nesciunt consectetur assumenda pariatur.",
+        "ranking": 4.1,
+        "id_director": 16
+    },
+    {
+        "id_pelicula": 90,
+        "titulo": "Delectus modi.",
+        "fecha": "2010-01-16",
+        "resumen": " Fugit voluptates omnis. Rem tempore enim ratione. Expedita ipsam commodi odit in. Necessitatibus atque iusto ad eum error. Dolorem tenetur aliquam nulla molestiae aliquam. Consectetur dignissimos quas. Cumque earum mollitia sequi facere. A quo earum tempore voluptate facere. Dolorum laboriosam commodi non.",
+        "ranking": 4.8,
+        "id_director": 14
+    },
+    {
+        "id_pelicula": 91,
+        "titulo": "Animi provident.",
+        "fecha": "2007-01-01",
+        "resumen": " Vel minus cumque saepe beatae. Praesentium veritatis officia inventore. Officia officia qui eum consequatur. Tempora ipsum sapiente repellat nobis debitis. Doloribus quis et quas laborum animi odio exercitationem. Explicabo repudiandae vitae eius. Amet quisquam modi excepturi nostrum excepturi. Voluptatibus laudantium vitae.",
+        "ranking": 4.3,
+        "id_director": 12
+    },
+    {
+        "id_pelicula": 92,
+        "titulo": "Quia voluptas.",
+        "fecha": "2022-03-30",
+        "resumen": " Deleniti perspiciatis sunt sunt molestiae quas. Occaecati quisquam animi dolores dicta. Omnis aliquid delectus. Blanditiis aspernatur tempora nesciunt tempore quam. Veniam debitis sed ea ipsam debitis itaque. Fugit dolorem eligendi sed odit adipisci vel. Magnam dolorum quas commodi. Blanditiis laudantium sint natus blanditiis laudantium veritatis.",
+        "ranking": 2.4,
+        "id_director": 12
+    },
+    {
+        "id_pelicula": 93,
+        "titulo": "Est similique harum.",
+        "fecha": "2020-03-03",
+        "resumen": " Quis vero eveniet sit possimus voluptate impedit. Earum veritatis nostrum magni magni sint. Cupiditate quae deleniti quibusdam magni assumenda eum. Possimus suscipit quibusdam sapiente. Quibusdam reiciendis consequuntur. Veritatis ut error ab. Hic sit modi minima necessitatibus quo. Magni iste nam dolores ea doloribus corporis.",
+        "ranking": 1.9,
+        "id_director": 3
+    },
+    {
+        "id_pelicula": 94,
+        "titulo": "Qui esse suscipit.",
+        "fecha": "2006-07-12",
+        "resumen": " Quia ducimus incidunt harum. Provident ab aspernatur asperiores quibusdam. Ea eveniet voluptatibus. Nulla deleniti quia autem at dolorum illo tenetur. Minus atque facere quos. Voluptatum pariatur esse doloremque. Labore ad possimus nostrum quod. Fuga dignissimos tenetur similique.",
+        "ranking": 1.2,
+        "id_director": 1
+    },
+    {
+        "id_pelicula": 95,
+        "titulo": "Reiciendis placeat quidem.",
+        "fecha": "2007-07-20",
+        "resumen": " Placeat ex nemo beatae blanditiis saepe autem. Amet aut vel tenetur placeat. Quae ipsa facilis harum quis aperiam necessitatibus dicta. Commodi dolorem molestiae. Perferendis magnam ipsam incidunt quia magni exercitationem. Quod nobis quasi provident.",
+        "ranking": 2.0,
+        "id_director": 20
+    },
+    {
+        "id_pelicula": 96,
+        "titulo": "Quos minus aut accusamus.",
+        "fecha": "2021-07-20",
+        "resumen": " A illum recusandae vero quibusdam neque odit. Minus quia harum reprehenderit commodi. Aperiam corrupti numquam mollitia dolorem exercitationem. Voluptatibus mollitia corrupti suscipit at excepturi quis. Placeat reprehenderit at sapiente. Distinctio et unde aut sunt distinctio minus ipsum.",
+        "ranking": 4.0,
+        "id_director": 5
+    },
+    {
+        "id_pelicula": 97,
+        "titulo": "Dignissimos tempora.",
+        "fecha": "2011-07-25",
+        "resumen": " Molestiae voluptatibus repudiandae nam nam nobis. Dicta tempora eius molestias quo dignissimos. Odio facilis distinctio laborum quas fugit earum. Ipsam libero laborum harum. Mollitia exercitationem adipisci. Quia repellendus quo rerum natus. Dolorem est totam dolorum sint ea sint. Ratione officiis repellendus optio aut ratione neque. Porro occaecati vitae tenetur.",
+        "ranking": 2.9,
+        "id_director": 8
+    },
+    {
+        "id_pelicula": 98,
+        "titulo": "Veritatis laborum delectus.",
+        "fecha": "2021-10-12",
+        "resumen": " Dolorem voluptas vitae incidunt atque. Accusamus quod error. Quas eum laboriosam. Laboriosam magni eligendi laboriosam. Odio ipsa voluptas fugit pariatur quae eum. Occaecati animi doloribus ipsa est ipsa. Dolore minima voluptates dolorem sint laboriosam deleniti.",
+        "ranking": 2.0,
+        "id_director": 12
+    },
+    {
+        "id_pelicula": 99,
+        "titulo": "Hic enim.",
+        "fecha": "2019-02-05",
+        "resumen": " Consequuntur id minus iusto aperiam itaque odit. Sequi eos dicta recusandae quos doloremque ducimus. Rem dicta magnam. Dolore repellat voluptatum adipisci necessitatibus recusandae. Iure quas provident. Maiores porro dicta nesciunt architecto accusamus animi.",
+        "ranking": 3.5,
+        "id_director": 12
+    },
+    {
+        "id_pelicula": 100,
+        "titulo": "Natus inventore deleniti.",
+        "fecha": "2024-09-29",
+        "resumen": " Modi cum omnis voluptatibus iure. Voluptatem error in reiciendis nulla officia quae. Quaerat facilis necessitatibus. Ullam impedit architecto facere vero. Quas soluta quas. Quos quibusdam at perferendis. Est natus optio. Molestiae incidunt eos occaecati soluta laboriosam.\nAt repellendus vero. Tempora error velit voluptatibus quas architecto.",
+        "ranking": 2.3,
+        "id_director": 11
+    },
+    {
+        "id_pelicula": 999,
+        "titulo": "Cinema Paradiso",
+        "fecha": "1990-08-15",
+        "resumen": " Explicabo ea tenetur blanditiis a iusto. Accusamus enim odit quae repudiandae labore rerum. Dolor earum itaque neque assumenda. Velit in aspernatur modi odit voluptate. Minus non ea optio nostrum accusamus. Facere eveniet illum nam neque sequi. In velit quasi nihil.",
+        "ranking": 4.8,
+        "id_director": 999
+    }
+]

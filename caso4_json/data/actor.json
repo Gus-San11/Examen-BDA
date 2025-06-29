@@ -1,0 +1,911 @@
+[
+    {
+        "id_actor": 1,
+        "nombre": "Hugo Eloisa Coronado",
+        "fecha_nac": "1996-05-15",
+        "lugar_nac": "San Víctor los altos",
+        "direccion": "Viaducto Guinea Ecuatorial 414 Edif. 049 , Depto. 035\nVieja Irán, DGO 99551",
+        "telefono": 8011333658,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 2,
+        "nombre": "Patricio Aguirre Gamboa",
+        "fecha_nac": "1996-09-19",
+        "lugar_nac": "Vieja Côte dIvoire",
+        "direccion": "Retorno Sur Cabrera 223 Interior 511\nVieja Barbados, VER 80431",
+        "telefono": 9227710719,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 3,
+        "nombre": "Marcela Jerónimo González",
+        "fecha_nac": "1988-05-09",
+        "lugar_nac": "Nueva Ucrania",
+        "direccion": "Diagonal Sur Burgos 001 Interior 487\nSan Alejandro los bajos, CHIS 03665-0143",
+        "telefono": 7851058870,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 4,
+        "nombre": "María Eugenia Cotto Curiel",
+        "fecha_nac": "1989-01-22",
+        "lugar_nac": "San Vicente los bajos",
+        "direccion": "Andador Mali 559 916\nVieja Paraguay, TLAX 92262",
+        "telefono": 8500166719,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 5,
+        "nombre": "Sonia Zaragoza Alcaraz",
+        "fecha_nac": "1997-03-26",
+        "lugar_nac": "Vieja Argentina",
+        "direccion": "Periférico Norte Amaya 444 Interior 961\nSan Elena los bajos, MEX 52154",
+        "telefono": 6124739265,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 6,
+        "nombre": "Ing. Benito Valladares",
+        "fecha_nac": "1992-08-18",
+        "lugar_nac": "San Lorena los bajos",
+        "direccion": "Viaducto Tlaxcala 304 Edif. 166 , Depto. 988\nSan Antonio los bajos, TAB 77051",
+        "telefono": 3050407193,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 7,
+        "nombre": "Hernán José Eduardo Valdés",
+        "fecha_nac": "1992-08-20",
+        "lugar_nac": "Vieja Mali",
+        "direccion": "Periférico Sur Arredondo 605 410\nVieja Malawi, MICH 46071-5377",
+        "telefono": 6867574255,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 8,
+        "nombre": "Mtro. Antonia Olmos",
+        "fecha_nac": "1968-06-19",
+        "lugar_nac": "San Irma los bajos",
+        "direccion": "Boulevard Chiapas 645 148\nVieja República de Corea, DGO 23675",
+        "telefono": 3832674169,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 9,
+        "nombre": "Marisela Estrada Pérez",
+        "fecha_nac": "1987-06-21",
+        "lugar_nac": "Vieja Bolivia",
+        "direccion": "Periférico Norte Prieto 106 Edif. 571 , Depto. 454\nSan Liliana los altos, SON 58029-3358",
+        "telefono": 4507549805,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 10,
+        "nombre": "Cristian Beatriz Rosas",
+        "fecha_nac": "1965-07-27",
+        "lugar_nac": "San Verónica de la Montaña",
+        "direccion": "Privada Sur Caraballo 978 545\nNueva Rwanda, DGO 16829-4651",
+        "telefono": 4673712626,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 11,
+        "nombre": "Caridad Puente",
+        "fecha_nac": "1969-01-08",
+        "lugar_nac": "Nueva China",
+        "direccion": "Circunvalación Rendón 688 653\nSan Julia de la Montaña, VER 41209-6093",
+        "telefono": 6950626307,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 12,
+        "nombre": "Ing. Ana María Peralta",
+        "fecha_nac": "1965-04-03",
+        "lugar_nac": "San Raúl de la Montaña",
+        "direccion": "Cerrada Sur García 938 527\nVieja Turquía, VER 48480-2054",
+        "telefono": 3998545400,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 13,
+        "nombre": "Lic. Pamela Barragán",
+        "fecha_nac": "1967-01-21",
+        "lugar_nac": "San Cristal de la Montaña",
+        "direccion": "Boulevard Tamaulipas 599 Edif. 686 , Depto. 291\nNueva Georgia, GTO 59576-1461",
+        "telefono": 2532503708,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 14,
+        "nombre": "Delia Arcelia Espinal",
+        "fecha_nac": "1965-10-11",
+        "lugar_nac": "San Arcelia de la Montaña",
+        "direccion": "Corredor Norte Pedroza 601 366\nNueva El Salvador, VER 01138-1289",
+        "telefono": 2453637614,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 15,
+        "nombre": "Jesús Nájera Tirado",
+        "fecha_nac": "1955-11-18",
+        "lugar_nac": "San María Elena los altos",
+        "direccion": "Eje vial ex República Yugoslava de Macedonia 233 Interior 049\nNueva Kenya, PUE 11028",
+        "telefono": 14492383,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 16,
+        "nombre": "Cristobal Rafaél Ballesteros",
+        "fecha_nac": "1996-12-12",
+        "lugar_nac": "Nueva Chile",
+        "direccion": "Avenida Campeche 309 Interior 065\nVieja Nigeria, BC 24707-2833",
+        "telefono": 8575040325,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 17,
+        "nombre": "Luis Miguel Rendón Carbajal",
+        "fecha_nac": "1975-04-06",
+        "lugar_nac": "San Miriam de la Montaña",
+        "direccion": "Continuación Serna 719 Edif. 956 , Depto. 965\nSan Delia de la Montaña, ZAC 23353",
+        "telefono": 3390942139,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 18,
+        "nombre": "Jaime Elisa Ledesma",
+        "fecha_nac": "1959-07-27",
+        "lugar_nac": "Vieja El Salvador",
+        "direccion": "Avenida Sevilla 070 398\nVieja Suecia, SLP 35456",
+        "telefono": 9841415798,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 19,
+        "nombre": "Mauricio Mauricio Mata",
+        "fecha_nac": "1988-04-19",
+        "lugar_nac": "San Camilo los altos",
+        "direccion": "Andador Jordania 947 Edif. 953 , Depto. 857\nSan Zoé los bajos, CHIH 67531-1394",
+        "telefono": 1075781229,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 20,
+        "nombre": "Arcelia Vela",
+        "fecha_nac": "1986-04-15",
+        "lugar_nac": "San Reynaldo los bajos",
+        "direccion": "Calle Portugal 817 Edif. 994 , Depto. 545\nVieja Granada, AGS 72918",
+        "telefono": 5709070144,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 21,
+        "nombre": "Abelardo Sonia Noriega Cintrón",
+        "fecha_nac": "1985-10-10",
+        "lugar_nac": "San Francisco Javier de la Montaña",
+        "direccion": "Ampliación Colima 575 726\nVieja Haití, AGS 19166-0536",
+        "telefono": 5813787371,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 22,
+        "nombre": "Alicia Violeta Fonseca",
+        "fecha_nac": "1989-12-09",
+        "lugar_nac": "Nueva Fiji",
+        "direccion": "Diagonal Yucatán 157 662\nSan Porfirio de la Montaña, TAMPS 68240-6932",
+        "telefono": 3305307275,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 23,
+        "nombre": "Darío Hilda Apodaca",
+        "fecha_nac": "1985-02-06",
+        "lugar_nac": "San José Emilio los altos",
+        "direccion": "Continuación Norte Barajas 364 Edif. 880 , Depto. 401\nVieja Rwanda, JAL 62041",
+        "telefono": 2360511423,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 24,
+        "nombre": "Virginia Iván Mojica Jáquez",
+        "fecha_nac": "1969-08-21",
+        "lugar_nac": "Vieja Antigua y Barbuda",
+        "direccion": "Pasaje ex República Yugoslava de Macedonia 083 450\nVieja República de Corea, HGO 93717-7432",
+        "telefono": 5902019195,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 25,
+        "nombre": "Yeni Micaela Mena",
+        "fecha_nac": "1986-04-16",
+        "lugar_nac": "San Antonio de la Montaña",
+        "direccion": "Retorno Norte Ríos 982 Interior 335\nNueva Croacia, TAB 90781",
+        "telefono": 6135319919,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 26,
+        "nombre": "Margarita Graciela Valenzuela",
+        "fecha_nac": "1991-10-14",
+        "lugar_nac": "San Daniela los bajos",
+        "direccion": "Eje vial Nauru 031 Interior 763\nSan Virginia de la Montaña, COAH 57412",
+        "telefono": 6426419171,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 27,
+        "nombre": "Pedro Fonseca",
+        "fecha_nac": "1978-05-11",
+        "lugar_nac": "San Jesús los altos",
+        "direccion": "Corredor Islas Marshall 143 583\nSan Victoria de la Montaña, JAL 89595",
+        "telefono": 9219815478,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 28,
+        "nombre": "Margarita Castañeda",
+        "fecha_nac": "1963-02-25",
+        "lugar_nac": "San José Emilio de la Montaña",
+        "direccion": "Circunvalación Nayarit 430 Interior 215\nSan Cecilia los bajos, ZAC 41799-3719",
+        "telefono": 1055972802,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 29,
+        "nombre": "Bernabé Ortega",
+        "fecha_nac": "1977-08-01",
+        "lugar_nac": "Vieja Malasia",
+        "direccion": "Peatonal Norte Carrasco 550 Edif. 428 , Depto. 949\nVieja República de Corea, BC 58081-2061",
+        "telefono": 7082938540,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 30,
+        "nombre": "Dr. Silvano Lozada",
+        "fecha_nac": "1980-06-25",
+        "lugar_nac": "Nueva Polonia",
+        "direccion": "Diagonal Norte Nava 258 592\nSan Julia los bajos, TAMPS 97403-2148",
+        "telefono": 1221363144,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 31,
+        "nombre": "Sr(a). Esparta Fonseca",
+        "fecha_nac": "1998-02-13",
+        "lugar_nac": "Vieja Sudáfrica",
+        "direccion": "Circunvalación México 080 Edif. 320 , Depto. 788\nSan Celia de la Montaña, TAB 23235-9295",
+        "telefono": 2799750416,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 32,
+        "nombre": "Jaime Peralta Coronado",
+        "fecha_nac": "1989-06-08",
+        "lugar_nac": "San Omar los bajos",
+        "direccion": "Corredor Baja California Sur 354 625\nVieja Somalia, MOR 14153",
+        "telefono": 1949474996,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 33,
+        "nombre": "Gonzalo Antonio Olivares Almaraz",
+        "fecha_nac": "1990-08-02",
+        "lugar_nac": "Vieja Liechtenstein",
+        "direccion": "Eje vial Calvillo 867 Interior 195\nSan Ángela los bajos, BCS 28008",
+        "telefono": 9545309299,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 34,
+        "nombre": "Marisol Valle Orozco",
+        "fecha_nac": "1970-07-28",
+        "lugar_nac": "San Gonzalo los bajos",
+        "direccion": "Avenida Nayarit 606 997\nSan Ariadna los altos, VER 97347",
+        "telefono": 1463664311,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 35,
+        "nombre": "Paulina Vera Corona",
+        "fecha_nac": "1989-05-24",
+        "lugar_nac": "Vieja Maldivas",
+        "direccion": "Periférico Sur Campos 106 Edif. 984 , Depto. 632\nVieja Sri Lanka, TAB 21378-8085",
+        "telefono": 2164540368,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 36,
+        "nombre": "Linda Peralta",
+        "fecha_nac": "1981-02-22",
+        "lugar_nac": "San Timoteo los bajos",
+        "direccion": "Calzada Norte Canales 172 201\nVieja Paraguay, MICH 25343",
+        "telefono": 3871977858,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 37,
+        "nombre": "Bruno Gabriela Franco Benítez",
+        "fecha_nac": "1992-01-31",
+        "lugar_nac": "Vieja Niger",
+        "direccion": "Privada Sisneros 968 Interior 736\nNueva Andorra, HGO 19823",
+        "telefono": 8243015948,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 38,
+        "nombre": "Ing. María del Carmen Abrego",
+        "fecha_nac": "1984-09-05",
+        "lugar_nac": "Vieja Austria",
+        "direccion": "Continuación México 790 618\nNueva Vietman, MEX 61032",
+        "telefono": 5368553562,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 39,
+        "nombre": "Alejandro Barrera Olivas",
+        "fecha_nac": "1992-06-06",
+        "lugar_nac": "San Héctor los altos",
+        "direccion": "Cerrada San Luis Potosí 111 Edif. 458 , Depto. 558\nSan Camilo de la Montaña, OAX 82797",
+        "telefono": 8858974395,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 40,
+        "nombre": "Delia Magaña Canales",
+        "fecha_nac": "1975-09-17",
+        "lugar_nac": "Vieja Australia",
+        "direccion": "Boulevard Norte Linares 770 Edif. 827 , Depto. 468\nSan Emilio de la Montaña, NAY 23192",
+        "telefono": 2061961324,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 41,
+        "nombre": "Bianca Cornelio Alba",
+        "fecha_nac": "1975-12-12",
+        "lugar_nac": "San Josefina los bajos",
+        "direccion": "Cerrada Baeza 223 Edif. 166 , Depto. 311\nNueva Kazajstán, COAH 34944",
+        "telefono": 5267349456,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 42,
+        "nombre": "Humberto Amelia Monroy",
+        "fecha_nac": "1999-10-07",
+        "lugar_nac": "Nueva Croacia",
+        "direccion": "Callejón San Luis Potosí 994 313\nVieja Pakistán, CAMP 43666",
+        "telefono": 8779604204,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 43,
+        "nombre": "Jacobo Jorge Luis Valdez Moya",
+        "fecha_nac": "1972-05-19",
+        "lugar_nac": "Vieja Azerbaiyán",
+        "direccion": "Calzada Guinea Bissau 735 667\nSan Adriana de la Montaña, MOR 34934-1299",
+        "telefono": 5974276278,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 44,
+        "nombre": "Dr. Jorge Feliciano",
+        "fecha_nac": "1999-10-17",
+        "lugar_nac": "Vieja Camerún",
+        "direccion": "Viaducto Maldonado 741 Edif. 642 , Depto. 159\nSan Guillermo los altos, AGS 22531-2497",
+        "telefono": 5447863147,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 45,
+        "nombre": "Mauricio Mariana Jimínez",
+        "fecha_nac": "1960-08-14",
+        "lugar_nac": "Nueva Palau",
+        "direccion": "Peatonal Sur Olivera 627 Edif. 768 , Depto. 524\nSan Pilar los bajos, BC 73457-3248",
+        "telefono": 7564948235,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 46,
+        "nombre": "Zacarías Burgos",
+        "fecha_nac": "1956-08-15",
+        "lugar_nac": "San Gabriel de la Montaña",
+        "direccion": "Circuito Sonora 237 Edif. 201 , Depto. 916\nVieja Brunei Darussalam, VER 54867",
+        "telefono": 9780112264,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 47,
+        "nombre": "Francisco Tórrez Tamez",
+        "fecha_nac": "1996-03-03",
+        "lugar_nac": "Nueva Alemania",
+        "direccion": "Continuación Norte Rocha 220 329\nNueva Marruecos, HGO 64940",
+        "telefono": 4265017217,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 48,
+        "nombre": "Sr(a). Adriana Cazares",
+        "fecha_nac": "1973-03-17",
+        "lugar_nac": "Vieja Perú",
+        "direccion": "Viaducto Sur Laureano 526 Interior 052\nNueva Malta, MEX 14443",
+        "telefono": 2335115502,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 49,
+        "nombre": "Sandra Cristian Huerta",
+        "fecha_nac": "1966-09-04",
+        "lugar_nac": "Vieja Iraq",
+        "direccion": "Calzada Hinojosa 993 Edif. 722 , Depto. 273\nVieja Australia, MICH 88096",
+        "telefono": 5648083319,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 50,
+        "nombre": "Leonardo Rael",
+        "fecha_nac": "1964-10-16",
+        "lugar_nac": "Nueva Guyana",
+        "direccion": "Periférico Tabasco 351 Edif. 546 , Depto. 441\nSan Jesús de la Montaña, COL 59835-8087",
+        "telefono": 7273651915,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 51,
+        "nombre": "María Eugenia Frida Díaz Barrera",
+        "fecha_nac": "1994-09-07",
+        "lugar_nac": "San Omar los altos",
+        "direccion": "Ampliación Mali 889 Edif. 236 , Depto. 404\nVieja Islas Salomón, AGS 08365-2124",
+        "telefono": 735790708,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 52,
+        "nombre": "Gerónimo Emilia Loya Razo",
+        "fecha_nac": "1958-04-03",
+        "lugar_nac": "Nueva España",
+        "direccion": "Viaducto República Federal Democrática de Nepal 903 Edif. 588 , Depto. 396\nSan Oswaldo los altos, NL 92274",
+        "telefono": 4207784536,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 53,
+        "nombre": "Reynaldo Valdés",
+        "fecha_nac": "1997-03-02",
+        "lugar_nac": "San Evelio de la Montaña",
+        "direccion": "Callejón Espinosa 086 747\nNueva Brasil, OAX 19179",
+        "telefono": 6887414650,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 54,
+        "nombre": "Reina Bustos Valverde",
+        "fecha_nac": "1958-01-17",
+        "lugar_nac": "San Teresa los bajos",
+        "direccion": "Corredor Pedraza 925 027\nNueva Bélgica, JAL 92170-7897",
+        "telefono": 8381359530,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 55,
+        "nombre": "Sofía Godínez Solorio",
+        "fecha_nac": "1955-05-15",
+        "lugar_nac": "Nueva Nicaragua",
+        "direccion": "Prolongación Quintanilla 243 Edif. 789 , Depto. 854\nSan Estela de la Montaña, TLAX 73967-7159",
+        "telefono": 2100750856,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 56,
+        "nombre": "Trinidad Dolores Bañuelos Rocha",
+        "fecha_nac": "1981-07-21",
+        "lugar_nac": "San Lucía los bajos",
+        "direccion": "Circuito San Luis Potosí 870 858\nSan Caridad de la Montaña, OAX 51485-1143",
+        "telefono": 2222537951,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 57,
+        "nombre": "Silvia Lerma",
+        "fecha_nac": "1997-06-14",
+        "lugar_nac": "San Trinidad los bajos",
+        "direccion": "Periférico República de Moldova 808 515\nNueva Marruecos, MICH 22510-9261",
+        "telefono": 6674457097,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 58,
+        "nombre": "Óliver Luis Manuel Puga Bahena",
+        "fecha_nac": "1965-10-14",
+        "lugar_nac": "Vieja Madagascar",
+        "direccion": "Retorno Zambia 583 Interior 752\nVieja Bahamas, TAB 42596",
+        "telefono": 7356137868,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 59,
+        "nombre": "Leticia Débora Matías Alarcón",
+        "fecha_nac": "1963-04-09",
+        "lugar_nac": "Vieja Luxemburgo",
+        "direccion": "Privada Quintana Roo 155 Edif. 354 , Depto. 467\nSan Roberto los bajos, NL 85622",
+        "telefono": 7442925419,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 60,
+        "nombre": "Esparta Arroyo",
+        "fecha_nac": "1988-08-03",
+        "lugar_nac": "San Eugenia los altos",
+        "direccion": "Circunvalación Chiapas 380 Edif. 670 , Depto. 299\nSan Felix los altos, MICH 38987-1847",
+        "telefono": 9458368990,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 61,
+        "nombre": "Ilse Pascual Briseño Ballesteros",
+        "fecha_nac": "1982-02-02",
+        "lugar_nac": "Vieja República Unida de Tanzanía",
+        "direccion": "Boulevard Tlaxcala 779 068\nSan Blanca los altos, QRO 55270-8743",
+        "telefono": 5181142661,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 62,
+        "nombre": "Leonel Miriam Raya",
+        "fecha_nac": "1967-02-21",
+        "lugar_nac": "San Elvia los altos",
+        "direccion": "Avenida Ramírez 573 Edif. 534 , Depto. 108\nSan Irene los bajos, NAY 97288-5200",
+        "telefono": 8399451011,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 63,
+        "nombre": "Marisol Murillo",
+        "fecha_nac": "1968-01-18",
+        "lugar_nac": "Vieja San Vicente y las Granadinas",
+        "direccion": "Continuación Barbados 657 997\nSan Barbara los bajos, GTO 09769",
+        "telefono": 9458892954,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 64,
+        "nombre": "Luz Ojeda Quintana",
+        "fecha_nac": "1966-04-15",
+        "lugar_nac": "Nueva Haití",
+        "direccion": "Boulevard Bolivia 581 Interior 467\nSan Gerardo los bajos, DGO 80650",
+        "telefono": 4702746973,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 65,
+        "nombre": "Wilfrido Uriel Ramírez Pacheco",
+        "fecha_nac": "1963-12-08",
+        "lugar_nac": "Nueva Ecuador",
+        "direccion": "Cerrada Chipre 666 Interior 032\nVieja Guinea, BC 77376",
+        "telefono": 5208788,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 66,
+        "nombre": "Lic. Elvia Rico",
+        "fecha_nac": "1965-07-19",
+        "lugar_nac": "Vieja Georgia",
+        "direccion": "Cerrada Norte Mesa 533 Edif. 686 , Depto. 499\nNueva Estonia, CAMP 86377-6671",
+        "telefono": 5675319336,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 67,
+        "nombre": "Liliana Rubén Quiñónez Saucedo",
+        "fecha_nac": "1997-08-30",
+        "lugar_nac": "Vieja Italia",
+        "direccion": "Retorno Alfaro 265 Interior 893\nVieja Gabón, BCS 76438-5808",
+        "telefono": 8040702684,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 68,
+        "nombre": "Mtro. Oswaldo Tirado",
+        "fecha_nac": "1996-06-30",
+        "lugar_nac": "Vieja Noruega",
+        "direccion": "Periférico Norte Noriega 446 955\nNueva Turquía, QRO 88315-9934",
+        "telefono": 2996829215,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 69,
+        "nombre": "Alfonso Diego Roque Serrato",
+        "fecha_nac": "1980-12-30",
+        "lugar_nac": "Vieja Andorra",
+        "direccion": "Avenida Norte Alfaro 114 Interior 837\nNueva Honduras, COAH 10935",
+        "telefono": 3791524783,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 70,
+        "nombre": "Lic. Débora Lovato",
+        "fecha_nac": "1975-06-22",
+        "lugar_nac": "Nueva Eslovaquia",
+        "direccion": "Pasaje Nayarit 188 Interior 109\nVieja Eslovenia, MEX 85682-8394",
+        "telefono": 678800730,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 71,
+        "nombre": "Agustín Sanches",
+        "fecha_nac": "1972-11-09",
+        "lugar_nac": "San Óscar los bajos",
+        "direccion": "Continuación Oaxaca 014 Edif. 489 , Depto. 918\nVieja Chad, BCS 39488",
+        "telefono": 9176509770,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 72,
+        "nombre": "Ing. Wilfrido Aponte",
+        "fecha_nac": "1964-06-21",
+        "lugar_nac": "Vieja Qatar",
+        "direccion": "Calle Cornejo 831 Interior 622\nSan Helena los bajos, TAB 59128-7655",
+        "telefono": 5014094938,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 73,
+        "nombre": "Ing. Cristobal Soria",
+        "fecha_nac": "1975-04-22",
+        "lugar_nac": "Vieja Suiza",
+        "direccion": "Circuito Noruega 677 Interior 230\nVieja Japón, NL 19154",
+        "telefono": 1914337645,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 74,
+        "nombre": "Jorge Violeta Bustamante Mascareñas",
+        "fecha_nac": "1966-06-12",
+        "lugar_nac": "San Hermelinda de la Montaña",
+        "direccion": "Diagonal San Luis Potosí 402 Interior 319\nNueva Benin, CAMP 12217",
+        "telefono": 7624335829,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 75,
+        "nombre": "Jorge Luis Oquendo Solano",
+        "fecha_nac": "1990-08-10",
+        "lugar_nac": "Nueva Pakistán",
+        "direccion": "Privada Norte Heredia 135 Edif. 543 , Depto. 058\nSan Silvano de la Montaña, GTO 27830",
+        "telefono": 7733239104,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 76,
+        "nombre": "Dr. Juana Vergara",
+        "fecha_nac": "1976-12-22",
+        "lugar_nac": "Nueva Congo",
+        "direccion": "Andador Oaxaca 396 Interior 807\nVieja Grecia, MEX 88873-0197",
+        "telefono": 6174372419,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 77,
+        "nombre": "Bianca Menchaca Chavarría",
+        "fecha_nac": "1957-12-13",
+        "lugar_nac": "San Fernando los bajos",
+        "direccion": "Peatonal Chavarría 521 769\nSan Francisca los bajos, TAMPS 60859",
+        "telefono": 4511519047,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 78,
+        "nombre": "Mayte Puga",
+        "fecha_nac": "1960-09-01",
+        "lugar_nac": "San Esther de la Montaña",
+        "direccion": "Privada Belarús 324 564\nSan Víctor los altos, HGO 54928-0582",
+        "telefono": 6362407009,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 79,
+        "nombre": "Alta  Gracia Conchita Urías Olivas",
+        "fecha_nac": "1985-10-02",
+        "lugar_nac": "San Jorge de la Montaña",
+        "direccion": "Cerrada Muro 051 Interior 399\nNueva Mongolia, AGS 10783",
+        "telefono": 6574357172,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 80,
+        "nombre": "Eloisa Emilia Polanco Granados",
+        "fecha_nac": "1983-04-07",
+        "lugar_nac": "Nueva Irán",
+        "direccion": "Calle Roque 415 Edif. 201 , Depto. 794\nSan Trinidad de la Montaña, TAMPS 34584",
+        "telefono": 4185927983,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 81,
+        "nombre": "Norma Aguilera Nájera",
+        "fecha_nac": "1965-09-01",
+        "lugar_nac": "Nueva Japón",
+        "direccion": "Circunvalación Sur Santiago 760 Interior 402\nSan Clara los bajos, MOR 16302-2663",
+        "telefono": 9542336244,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 82,
+        "nombre": "Raquel Mata Suárez",
+        "fecha_nac": "1959-08-27",
+        "lugar_nac": "San Carlos los bajos",
+        "direccion": "Eje vial Tonga 902 650\nVieja Serbia, MICH 08322",
+        "telefono": 6381631586,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 83,
+        "nombre": "Mtro. Mayte Velázquez",
+        "fecha_nac": "1971-10-11",
+        "lugar_nac": "Vieja Egipto",
+        "direccion": "Andador Norte Olivares 014 Interior 119\nSan Reynaldo los bajos, SLP 15935-2341",
+        "telefono": 8345477708,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 84,
+        "nombre": "Sr(a). Concepción Mercado",
+        "fecha_nac": "1987-08-01",
+        "lugar_nac": "San Margarita de la Montaña",
+        "direccion": "Viaducto Hernández 113 Interior 550\nSan Rafaél los altos, Q. ROO 67723-7971",
+        "telefono": 4112693541,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 85,
+        "nombre": "Pilar Andrea Reyna",
+        "fecha_nac": "1984-02-21",
+        "lugar_nac": "San Antonio de la Montaña",
+        "direccion": "Diagonal Australia 313 988\nSan Aldo los bajos, SIN 97018",
+        "telefono": 5655867249,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 86,
+        "nombre": "María Cristina Escobar Moreno",
+        "fecha_nac": "1980-06-19",
+        "lugar_nac": "San Sergio los bajos",
+        "direccion": "Callejón Ocasio 682 895\nSan Lilia los bajos, QRO 96369",
+        "telefono": 9579346587,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 87,
+        "nombre": "Florencia Rebeca Vásquez Núñez",
+        "fecha_nac": "1973-01-02",
+        "lugar_nac": "San Abel los altos",
+        "direccion": "Diagonal Norte Benavides 515 Interior 997\nSan Uriel de la Montaña, BCS 90998-5390",
+        "telefono": 6967574140,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 88,
+        "nombre": "Andrea María Eugenia Gonzales",
+        "fecha_nac": "1981-08-06",
+        "lugar_nac": "Nueva Malasia",
+        "direccion": "Andador Sur Otero 432 Edif. 625 , Depto. 690\nNueva Brunei Darussalam, HGO 03476",
+        "telefono": 2533780179,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 89,
+        "nombre": "Reynaldo Herrera",
+        "fecha_nac": "1960-01-04",
+        "lugar_nac": "San Patricia los altos",
+        "direccion": "Circuito Gallegos 241 Edif. 046 , Depto. 924\nVieja Gabón, BCS 76158",
+        "telefono": 6536805078,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 90,
+        "nombre": "Flavio Luis Manuel Jaime",
+        "fecha_nac": "1987-02-14",
+        "lugar_nac": "San Evelio los altos",
+        "direccion": "Andador Longoria 670 Interior 243\nSan José Carlos de la Montaña, BC 34343",
+        "telefono": 9623396884,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 91,
+        "nombre": "Natalia Rodrígez",
+        "fecha_nac": "1981-10-12",
+        "lugar_nac": "San Guillermina los altos",
+        "direccion": "Cerrada Sur Olivera 588 Interior 910\nSan Lucas los bajos, SON 30322-8159",
+        "telefono": 129870413,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 92,
+        "nombre": "Lic. Gustavo Borrego",
+        "fecha_nac": "1982-05-28",
+        "lugar_nac": "San Rodrigo de la Montaña",
+        "direccion": "Pasaje Sur Linares 317 Interior 963\nVieja Chad, TAMPS 75315-3938",
+        "telefono": 4641505568,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 93,
+        "nombre": "Dr. Esmeralda Acuña",
+        "fecha_nac": "1963-04-26",
+        "lugar_nac": "Vieja Sri Lanka",
+        "direccion": "Privada Zacatecas 003 Interior 992\nSan Marisela de la Montaña, CHIH 31552-9367",
+        "telefono": 149672883,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 94,
+        "nombre": "Mtro. José María Tamayo",
+        "fecha_nac": "1979-07-17",
+        "lugar_nac": "Nueva Uganda",
+        "direccion": "Ampliación India 904 Edif. 009 , Depto. 489\nNueva Palau, HGO 47228-8446",
+        "telefono": 777322797,
+        "estado_civil": "Casado"
+    },
+    {
+        "id_actor": 95,
+        "nombre": "Héctor Catalina Cabán",
+        "fecha_nac": "1989-05-30",
+        "lugar_nac": "San Eugenia de la Montaña",
+        "direccion": "Andador Sur Ordóñez 229 Edif. 324 , Depto. 464\nSan Marisol los altos, TAB 63667-8832",
+        "telefono": 168400377,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 96,
+        "nombre": "Indira Ofelia Parra Ruelas",
+        "fecha_nac": "1966-05-24",
+        "lugar_nac": "San Ángela los bajos",
+        "direccion": "Circuito Norte Rincón 328 Edif. 450 , Depto. 890\nVieja Federación de Rusia, TAMPS 59733-6023",
+        "telefono": 710035979,
+        "estado_civil": "Union libre"
+    },
+    {
+        "id_actor": 97,
+        "nombre": "Guillermina Altamirano Lovato",
+        "fecha_nac": "1967-12-15",
+        "lugar_nac": "San Isabela los bajos",
+        "direccion": "Peatonal Norte Tello 913 Interior 367\nSan Esteban los bajos, SIN 28023",
+        "telefono": 7800747200,
+        "estado_civil": "Divorciado"
+    },
+    {
+        "id_actor": 98,
+        "nombre": "Luis Catalina Cantú",
+        "fecha_nac": "1990-05-24",
+        "lugar_nac": "Nueva Chipre",
+        "direccion": "Periférico Finlandia 922 Edif. 054 , Depto. 414\nSan Gabriel de la Montaña, CHIH 16885",
+        "telefono": 5356713019,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 99,
+        "nombre": "René Magdalena Bañuelos",
+        "fecha_nac": "1973-06-28",
+        "lugar_nac": "San Manuel los altos",
+        "direccion": "Diagonal Ulloa 535 Interior 958\nVieja Omán, TLAX 32461",
+        "telefono": 460968252,
+        "estado_civil": "Soltero"
+    },
+    {
+        "id_actor": 100,
+        "nombre": "Ángela Frías Quintero",
+        "fecha_nac": "1968-03-15",
+        "lugar_nac": "Nueva Malawi",
+        "direccion": "Pasaje Congo 409 Interior 608\nSan Uriel de la Montaña, CHIS 91721-1081",
+        "telefono": 6261108110,
+        "estado_civil": "Viudo"
+    },
+    {
+        "id_actor": 999,
+        "nombre": "Salvatore Di Vita",
+        "fecha_nac": "1960-03-12",
+        "lugar_nac": "Roma",
+        "direccion": "Calle Cine 123",
+        "telefono": 9014804100,
+        "estado_civil": "Soltero"
+    }
+]

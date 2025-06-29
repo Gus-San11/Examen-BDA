@@ -1,0 +1,140 @@
+[
+    {
+        "id_actor": 999,
+        "id_pelicula": 999,
+        "tipo": "Protagonista",
+        "salario": 1500000.0
+    },
+    {
+        "id_actor": 1,
+        "id_pelicula": 1,
+        "tipo": "Protagonista",
+        "salario": 850000.0
+    },
+    {
+        "id_actor": 2,
+        "id_pelicula": 1,
+        "tipo": "Secundario",
+        "salario": 320000.0
+    },
+    {
+        "id_actor": 3,
+        "id_pelicula": 2,
+        "tipo": "Protagonista",
+        "salario": 750000.0
+    },
+    {
+        "id_actor": 4,
+        "id_pelicula": 2,
+        "tipo": "Secundario",
+        "salario": 280000.0
+    },
+    {
+        "id_actor": 5,
+        "id_pelicula": 3,
+        "tipo": "Protagonista",
+        "salario": 620000.0
+    },
+    {
+        "id_actor": 6,
+        "id_pelicula": 3,
+        "tipo": "Secundario",
+        "salario": 250000.0
+    },
+    {
+        "id_actor": 7,
+        "id_pelicula": 4,
+        "tipo": "Protagonista",
+        "salario": 900000.0
+    },
+    {
+        "id_actor": 8,
+        "id_pelicula": 4,
+        "tipo": "Secundario",
+        "salario": 350000.0
+    },
+    {
+        "id_actor": 9,
+        "id_pelicula": 5,
+        "tipo": "Protagonista",
+        "salario": 1200000.0
+    },
+    {
+        "id_actor": 10,
+        "id_pelicula": 5,
+        "tipo": "Secundario",
+        "salario": 450000.0
+    },
+    {
+        "id_actor": 11,
+        "id_pelicula": 6,
+        "tipo": "Protagonista",
+        "salario": 680000.0
+    },
+    {
+        "id_actor": 12,
+        "id_pelicula": 6,
+        "tipo": "Secundario",
+        "salario": 300000.0
+    },
+    {
+        "id_actor": 1,
+        "id_pelicula": 7,
+        "tipo": "Secundario",
+        "salario": 400000.0
+    },
+    {
+        "id_actor": 2,
+        "id_pelicula": 8,
+        "tipo": "Protagonista",
+        "salario": 800000.0
+    },
+    {
+        "id_actor": 3,
+        "id_pelicula": 9,
+        "tipo": "Secundario",
+        "salario": 330000.0
+    },
+    {
+        "id_actor": 4,
+        "id_pelicula": 10,
+        "tipo": "Protagonista",
+        "salario": 720000.0
+    },
+    {
+        "id_actor": 5,
+        "id_pelicula": 11,
+        "tipo": "Secundario",
+        "salario": 290000.0
+    },
+    {
+        "id_actor": 6,
+        "id_pelicula": 12,
+        "tipo": "Protagonista",
+        "salario": 950000.0
+    },
+    {
+        "id_actor": 7,
+        "id_pelicula": 13,
+        "tipo": "Secundario",
+        "salario": 380000.0
+    },
+    {
+        "id_actor": 8,
+        "id_pelicula": 14,
+        "tipo": "Protagonista",
+        "salario": 1100000.0
+    },
+    {
+        "id_actor": 9,
+        "id_pelicula": 15,
+        "tipo": "Secundario",
+        "salario": 420000.0
+    },
+    {
+        "id_actor": 10,
+        "id_pelicula": 16,
+        "tipo": "Protagonista",
+        "salario": 760000.0
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "id_critica": 1,
+        "medio": "La Repubblica",
+        "fecha": "1990-08-16",
+        "autor": "Mario Rossi",
+        "id_pelicula": 999
+    },
+    {
+        "id_critica": 2,
+        "medio": "Corriere della Sera",
+        "fecha": "1990-08-29",
+        "autor": "Lucia Bianchi",
+        "id_pelicula": 999
+    },
+    {
+        "id_critica": 3,
+        "medio": "Il Giornale",
+        "fecha": "1990-08-10",
+        "autor": "Enzo Ferrari",
+        "id_pelicula": 999
+    },
+    {
+        "id_critica": 4,
+        "medio": "El País",
+        "fecha": "2013-06-15",
+        "autor": "Ana García",
+        "id_pelicula": 1
+    },
+    {
+        "id_critica": 5,
+        "medio": "Le Monde",
+        "fecha": "2013-06-20",
+        "autor": "Pierre Dubois",
+        "id_pelicula": 1
+    },
+    {
+        "id_critica": 6,
+        "medio": "The Guardian",
+        "fecha": "2018-09-05",
+        "autor": "John Smith",
+        "id_pelicula": 2
+    },
+    {
+        "id_critica": 7,
+        "medio": "La Vanguardia",
+        "fecha": "2018-09-12",
+        "autor": "Carmen López",
+        "id_pelicula": 2
+    },
+    {
+        "id_critica": 8,
+        "medio": "El Universal",
+        "fecha": "2014-12-01",
+        "autor": "Miguel Torres",
+        "id_pelicula": 3
+    },
+    {
+        "id_critica": 9,
+        "medio": "Clarín",
+        "fecha": "2014-12-08",
+        "autor": "María Fernández",
+        "id_pelicula": 3
+    },
+    {
+        "id_critica": 10,
+        "medio": "The New York Times",
+        "fecha": "2022-02-20",
+        "autor": "Sarah Johnson",
+        "id_pelicula": 4
+    },
+    {
+        "id_critica": 11,
+        "medio": "Los Angeles Times",
+        "fecha": "2022-02-25",
+        "autor": "David Wilson",
+        "id_pelicula": 4
+    },
+    {
+        "id_critica": 12,
+        "medio": "Variety",
+        "fecha": "2009-04-10",
+        "autor": "Lisa Brown",
+        "id_pelicula": 5
+    },
+    {
+        "id_critica": 13,
+        "medio": "Hollywood Reporter",
+        "fecha": "2009-04-15",
+        "autor": "Mark Davis",
+        "id_pelicula": 5
+    },
+    {
+        "id_critica": 14,
+        "medio": "Cahiers du Cinéma",
+        "fecha": "2012-08-20",
+        "autor": "Jean-Luc Martin",
+        "id_pelicula": 6
+    },
+    {
+        "id_critica": 15,
+        "medio": "Sight & Sound",
+        "fecha": "2012-08-25",
+        "autor": "Emma Thompson",
+        "id_pelicula": 6
+    },
+    {
+        "id_critica": 16,
+        "medio": "Rolling Stone",
+        "fecha": "2009-12-28",
+        "autor": "Alex Rodriguez",
+        "id_pelicula": 7
+    },
+    {
+        "id_critica": 17,
+        "medio": "Entertainment Weekly",
+        "fecha": "2010-01-05",
+        "autor": "Jennifer Lee",
+        "id_pelicula": 7
+    },
+    {
+        "id_critica": 18,
+        "medio": "Cinéma Télérama",
+        "fecha": "2020-04-10",
+        "autor": "François Dubois",
+        "id_pelicula": 8
+    },
+    {
+        "id_critica": 19,
+        "medio": "Positif",
+        "fecha": "2020-04-18",
+        "autor": "Marie Claire",
+        "id_pelicula": 8
+    },
+    {
+        "id_critica": 20,
+        "medio": "Film Comment",
+        "fecha": "2022-04-02",
+        "autor": "Robert Taylor",
+        "id_pelicula": 9
+    },
+    {
+        "id_critica": 21,
+        "medio": "Cineaste",
+        "fecha": "2022-04-10",
+        "autor": "Susan Miller",
+        "id_pelicula": 9
+    },
+    {
+        "id_critica": 22,
+        "medio": "IndieWire",
+        "fecha": "2024-09-22",
+        "autor": "Tom Anderson",
+        "id_pelicula": 10
+    },
+    {
+        "id_critica": 23,
+        "medio": "The Wrap",
+        "fecha": "2024-09-28",
+        "autor": "Rachel Green",
+        "id_pelicula": 10
+    },
+    {
+        "id_critica": 24,
+        "medio": "Screen International",
+        "fecha": "2022-11-15",
+        "autor": "James White",
+        "id_pelicula": 11
+    }
+]

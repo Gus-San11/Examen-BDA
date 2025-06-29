@@ -1,0 +1,117 @@
+[
+    {
+        "id_productor": 999,
+        "id_pelicula": 999,
+        "aportacion_economica": 2500000.0
+    },
+    {
+        "id_productor": 1,
+        "id_pelicula": 1,
+        "aportacion_economica": 1800000.0
+    },
+    {
+        "id_productor": 2,
+        "id_pelicula": 2,
+        "aportacion_economica": 2200000.0
+    },
+    {
+        "id_productor": 3,
+        "id_pelicula": 3,
+        "aportacion_economica": 1650000.0
+    },
+    {
+        "id_productor": 4,
+        "id_pelicula": 4,
+        "aportacion_economica": 2100000.0
+    },
+    {
+        "id_productor": 5,
+        "id_pelicula": 5,
+        "aportacion_economica": 3200000.0
+    },
+    {
+        "id_productor": 6,
+        "id_pelicula": 6,
+        "aportacion_economica": 1900000.0
+    },
+    {
+        "id_productor": 7,
+        "id_pelicula": 7,
+        "aportacion_economica": 2400000.0
+    },
+    {
+        "id_productor": 8,
+        "id_pelicula": 8,
+        "aportacion_economica": 2800000.0
+    },
+    {
+        "id_productor": 9,
+        "id_pelicula": 9,
+        "aportacion_economica": 2600000.0
+    },
+    {
+        "id_productor": 10,
+        "id_pelicula": 10,
+        "aportacion_economica": 1750000.0
+    },
+    {
+        "id_productor": 11,
+        "id_pelicula": 11,
+        "aportacion_economica": 2300000.0
+    },
+    {
+        "id_productor": 12,
+        "id_pelicula": 12,
+        "aportacion_economica": 2000000.0
+    },
+    {
+        "id_productor": 1,
+        "id_pelicula": 13,
+        "aportacion_economica": 1950000.0
+    },
+    {
+        "id_productor": 2,
+        "id_pelicula": 14,
+        "aportacion_economica": 3500000.0
+    },
+    {
+        "id_productor": 3,
+        "id_pelicula": 15,
+        "aportacion_economica": 1850000.0
+    },
+    {
+        "id_productor": 4,
+        "id_pelicula": 16,
+        "aportacion_economica": 2150000.0
+    },
+    {
+        "id_productor": 5,
+        "id_pelicula": 1,
+        "aportacion_economica": 800000.0
+    },
+    {
+        "id_productor": 6,
+        "id_pelicula": 2,
+        "aportacion_economica": 650000.0
+    },
+    {
+        "id_productor": 7,
+        "id_pelicula": 3,
+        "aportacion_economica": 900000.0
+    },
+    {
+        "id_productor": 8,
+        "id_pelicula": 4,
+        "aportacion_economica": 750000.0
+    },
+    {
+        "id_productor": 9,
+        "id_pelicula": 5,
+        "aportacion_economica": 1100000.0
+    },
+    {
+        "id_productor": 10,
+        "id_pelicula": 6,
+        "aportacion_economica": 700000.0
+    }
+]

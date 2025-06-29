@@ -1,0 +1,128 @@
+[
+    {
+        "id_director": 1,
+        "nombre": "José Emilio León",
+        "direccion": "Calzada Sur Mota 272 Edif. 664 , Depto. 555\nSan Óscar de la Montaña, COL 12829",
+        "telefono": 3119290943
+    },
+    {
+        "id_director": 2,
+        "nombre": "Rosa Zaragoza",
+        "direccion": "Retorno Tamaulipas 330 784\nSan Graciela los altos, TLAX 15721-1959",
+        "telefono": 595328868
+    },
+    {
+        "id_director": 3,
+        "nombre": "María José Tania Fuentes Marín",
+        "direccion": "Peatonal Dominicana 735 Edif. 876 , Depto. 259\nSan Nancy los bajos, JAL 93975-4395",
+        "telefono": 2401755036
+    },
+    {
+        "id_director": 4,
+        "nombre": "Jos Barajas",
+        "direccion": "Diagonal Islandia 634 611\nSan Olga los bajos, OAX 09008-1162",
+        "telefono": 5100293270
+    },
+    {
+        "id_director": 5,
+        "nombre": "Gerónimo Sofía Escobedo",
+        "direccion": "Pasaje Portugal 883 Interior 707\nNueva Irán, ZAC 11986-0378",
+        "telefono": 6322005347
+    },
+    {
+        "id_director": 6,
+        "nombre": "Ángela Jaqueline Aranda Jasso",
+        "direccion": "Andador Qatar 203 Edif. 866 , Depto. 827\nVieja Jordania, TAMPS 51726",
+        "telefono": 4064424014
+    },
+    {
+        "id_director": 7,
+        "nombre": "Olivia León Correa",
+        "direccion": "Andador Castellanos 912 829\nNueva Sudán, YUC 32603-9240",
+        "telefono": 6280138031
+    },
+    {
+        "id_director": 8,
+        "nombre": "Juan Angulo Padilla",
+        "direccion": "Callejón Téllez 803 Edif. 308 , Depto. 188\nSan Abigail de la Montaña, NAY 07389-8900",
+        "telefono": 5370627035
+    },
+    {
+        "id_director": 9,
+        "nombre": "Alfredo Alejandro Santiago",
+        "direccion": "Retorno Arabia Saudita 442 Edif. 528 , Depto. 409\nSan Asunción de la Montaña, CAMP 20165",
+        "telefono": 5352163418
+    },
+    {
+        "id_director": 10,
+        "nombre": "Helena Vergara Ulibarri",
+        "direccion": "Continuación Norte Ávalos 475 Interior 078\nNueva Sri Lanka, HGO 07539-4724",
+        "telefono": 4757736229
+    },
+    {
+        "id_director": 11,
+        "nombre": "Sofía Uriel Colón Montoya",
+        "direccion": "Circunvalación Tabasco 844 137\nNueva Federación de Rusia, BCS 35764",
+        "telefono": 4452469094
+    },
+    {
+        "id_director": 12,
+        "nombre": "Mariano Óliver Figueroa Córdova",
+        "direccion": "Andador San Luis Potosí 604 Edif. 043 , Depto. 473\nVieja Kuwait, YUC 35451",
+        "telefono": 6062333692
+    },
+    {
+        "id_director": 13,
+        "nombre": "Espartaco Raquel Madrigal Amaya",
+        "direccion": "Cerrada Norte Laureano 881 612\nNueva Qatar, COL 16008",
+        "telefono": 8693215954
+    },
+    {
+        "id_director": 14,
+        "nombre": "Celia Salvador Olivares Ceballos",
+        "direccion": "Continuación Puebla 161 Edif. 073 , Depto. 807\nNueva República Árabe Siria, SON 27978-7421",
+        "telefono": 3677917763
+    },
+    {
+        "id_director": 15,
+        "nombre": "Ernesto Graciela Quiñónez Borrego",
+        "direccion": "Avenida Fiji 926 Interior 941\nNueva Líbano, NL 32394",
+        "telefono": 2278094239
+    },
+    {
+        "id_director": 16,
+        "nombre": "Sr(a). María Luisa Prado",
+        "direccion": "Continuación Distrito Federal 508 Edif. 791 , Depto. 786\nNueva San Vicente y las Granadinas, TAMPS 00934",
+        "telefono": 196343357
+    },
+    {
+        "id_director": 17,
+        "nombre": "Carmen Toledo",
+        "direccion": "Corredor Norte Crespo 695 Edif. 954 , Depto. 763\nNueva Liechtenstein, SON 95691-3540",
+        "telefono": 3409839807
+    },
+    {
+        "id_director": 18,
+        "nombre": "Citlali Santiago Carrero",
+        "direccion": "Cerrada Tamaulipas 863 772\nSan Óscar de la Montaña, OAX 79592",
+        "telefono": 3352885626
+    },
+    {
+        "id_director": 19,
+        "nombre": "Emiliano Bernabé Olivera Rodarte",
+        "direccion": "Avenida Uzbekistán 656 Interior 108\nSan Helena los bajos, PUE 71542",
+        "telefono": 5883179376
+    },
+    {
+        "id_director": 20,
+        "nombre": "Susana Munguía",
+        "direccion": "Boulevard Sur Olvera 948 927\nSan Camila los bajos, NAY 42438-4254",
+        "telefono": 6634756615
+    },
+    {
+        "id_director": 999,
+        "nombre": "Giuseppe Tornatore",
+        "direccion": "Via Roma 1, Italia",
+        "telefono": 405178901
+    }
+]

@@ -1,0 +1,100 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Esquema de Base de Datos de Películas MongoDB",
+  "description": "Esquema JSON para el modelo semiestructurado de películas en MongoDB",
+  
+  "definitions": {
+    "pelicula": {
+      "type": "object",
+      "properties": {
+        "_id": { "type": "string" },
+        "id_pelicula": { "type": "integer" },
+        "titulo": { "type": "string" },
+        "fecha": { "type": "string", "format": "date" },
+        "resumen": { "type": "string" },
+        "ranking": { "type": "number", "minimum": 0, "maximum": 5 },
+        "director": {
+          "type": "object",
+          "properties": {
+            "id_director": { "type": "integer" },
+            "nombre": { "type": "string" },
+            "direccion": { "type": "string" },
+            "telefono": { "type": "integer" }
+          },
+          "required": ["id_director", "nombre"]
+        },
+        "actores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id_actor": { "type": "integer" },
+              "nombre": { "type": "string" },
+              "fecha_nac": { "type": "string", "format": "date" },
+              "lugar_nac": { "type": "string" },
+              "direccion": { "type": "string" },
+              "telefono": { "type": "integer" },
+              "estado_civil": { "type": "string", "enum": ["Soltero", "Casado", "Divorciado", "Viudo"] },
+              "tipo_actuacion": { "type": "string", "enum": ["Protagonista", "Secundario", "Extra"] },
+              "salario": { "type": "number", "minimum": 0 },
+              "edad_actual": { "type": "integer", "minimum": 0 }
+            },
+            "required": ["id_actor", "nombre", "tipo_actuacion", "salario"]
+          }
+        },
+        "productores": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id_productor": { "type": "integer" },
+              "nombre": { "type": "string" },
+              "direccion": { "type": "string" },
+              "telefono": { "type": "integer" },
+              "aportacion_economica": { "type": "number", "minimum": 0 }
+            },
+            "required": ["id_productor", "nombre", "aportacion_economica"]
+          }
+        },
+        "premios": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id_premio": { "type": "integer" },
+              "nombre": { "type": "string" },
+              "lugar_certamen": { "type": "string" },
+              "fecha": { "type": "string", "format": "date" },
+              "ranking_premio": { "type": "number", "minimum": 0 }
+            },
+            "required": ["id_premio", "nombre", "lugar_certamen"]
+          }
+        },
+        "criticas": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id_critica": { "type": "integer" },
+              "medio": { "type": "string" },
+              "fecha": { "type": "string", "format": "date" },
+              "autor": { "type": "string" },
+              "contenido": { "type": "string" },
+              "ranking": { "type": "number", "minimum": 0, "maximum": 5 }
+            },
+            "required": ["id_critica", "medio", "fecha", "autor"]
+          }
+        }
+      },
+      "required": ["id_pelicula", "titulo", "fecha", "director"]
+    }
+  },
+  
+  "type": "object",
+  "properties": {
+    "peliculas": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/pelicula" }
+    }
+  }
+}

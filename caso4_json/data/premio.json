@@ -1,0 +1,182 @@
+[
+    {
+        "id_premio": 1,
+        "nombre": "Oscar",
+        "resumen": "Mejor película extranjera",
+        "certamen": "Internacional",
+        "lugar": "EEUU",
+        "tipo": "Internacional",
+        "id_pelicula": 999
+    },
+    {
+        "id_premio": 2,
+        "nombre": "Palme d'Or",
+        "resumen": "Mejor película",
+        "certamen": "Festival de Cannes",
+        "lugar": "Francia",
+        "tipo": "Internacional",
+        "id_pelicula": 5
+    },
+    {
+        "id_premio": 3,
+        "nombre": "León de Oro",
+        "resumen": "Mejor película",
+        "certamen": "Festival de Venecia",
+        "lugar": "Italia",
+        "tipo": "Internacional",
+        "id_pelicula": 5
+    },
+    {
+        "id_premio": 4,
+        "nombre": "Oso de Oro",
+        "resumen": "Mejor película",
+        "certamen": "Festival de Berlín",
+        "lugar": "Alemania",
+        "tipo": "Internacional",
+        "id_pelicula": 14
+    },
+    {
+        "id_premio": 5,
+        "nombre": "Goya",
+        "resumen": "Mejor película",
+        "certamen": "Premios Goya",
+        "lugar": "España",
+        "tipo": "Nacional",
+        "id_pelicula": 2
+    },
+    {
+        "id_premio": 6,
+        "nombre": "César",
+        "resumen": "Mejor película extranjera",
+        "certamen": "Premios César",
+        "lugar": "Francia",
+        "tipo": "Internacional",
+        "id_pelicula": 2
+    },
+    {
+        "id_premio": 7,
+        "nombre": "BAFTA",
+        "resumen": "Mejor película extranjera",
+        "certamen": "Premios BAFTA",
+        "lugar": "Reino Unido",
+        "tipo": "Internacional",
+        "id_pelicula": 1
+    },
+    {
+        "id_premio": 8,
+        "nombre": "Globo de Oro",
+        "resumen": "Mejor película dramática",
+        "certamen": "Globos de Oro",
+        "lugar": "EEUU",
+        "tipo": "Internacional",
+        "id_pelicula": 4
+    },
+    {
+        "id_premio": 9,
+        "nombre": "Premio del Jurado",
+        "resumen": "Mención especial",
+        "certamen": "Festival de Cannes",
+        "lugar": "Francia",
+        "tipo": "Internacional",
+        "id_pelicula": 8
+    },
+    {
+        "id_premio": 10,
+        "nombre": "Concha de Oro",
+        "resumen": "Mejor película",
+        "certamen": "Festival de San Sebastián",
+        "lugar": "España",
+        "tipo": "Internacional",
+        "id_pelicula": 9
+    },
+    {
+        "id_premio": 11,
+        "nombre": "Silver Bear",
+        "resumen": "Mejor actor",
+        "certamen": "Festival de Berlín",
+        "lugar": "Alemania",
+        "tipo": "Internacional",
+        "id_pelicula": 6
+    },
+    {
+        "id_premio": 12,
+        "nombre": "Prix Louis-Delluc",
+        "resumen": "Mejor película francesa",
+        "certamen": "Francia",
+        "lugar": "Francia",
+        "tipo": "Nacional",
+        "id_pelicula": 7
+    },
+    {
+        "id_premio": 13,
+        "nombre": "David di Donatello",
+        "resumen": "Mejor película",
+        "certamen": "Italia",
+        "lugar": "Italia",
+        "tipo": "Nacional",
+        "id_pelicula": 3
+    },
+    {
+        "id_premio": 14,
+        "nombre": "Critics Choice",
+        "resumen": "Mejor película",
+        "certamen": "Critics Choice Awards",
+        "lugar": "EEUU",
+        "tipo": "Internacional",
+        "id_pelicula": 10
+    },
+    {
+        "id_premio": 15,
+        "nombre": "Screen Actors Guild",
+        "resumen": "Mejor reparto",
+        "certamen": "SAG Awards",
+        "lugar": "EEUU",
+        "tipo": "Internacional",
+        "id_pelicula": 11
+    },
+    {
+        "id_premio": 16,
+        "nombre": "Satellite Award",
+        "resumen": "Mejor película dramática",
+        "certamen": "Satellite Awards",
+        "lugar": "EEUU",
+        "tipo": "Internacional",
+        "id_pelicula": 12
+    },
+    {
+        "id_premio": 17,
+        "nombre": "Independent Spirit",
+        "resumen": "Mejor película",
+        "certamen": "Independent Spirit Awards",
+        "lugar": "EEUU",
+        "tipo": "Nacional",
+        "id_pelicula": 13
+    },
+    {
+        "id_premio": 18,
+        "nombre": "Ariel",
+        "resumen": "Mejor película",
+        "certamen": "Premios Ariel",
+        "lugar": "México",
+        "tipo": "Nacional",
+        "id_pelicula": 15
+    },
+    {
+        "id_premio": 19,
+        "nombre": "Coral",
+        "resumen": "Mejor película",
+        "certamen": "Festival de La Habana",
+        "lugar": "Cuba",
+        "tipo": "Internacional",
+        "id_pelicula": 16
+    },
+    {
+        "id_premio": 20,
+        "nombre": "Cóndor de Plata",
+        "resumen": "Mejor película",
+        "certamen": "Argentina",
+        "lugar": "Argentina",
+        "tipo": "Nacional",
+        "id_pelicula": 1
+    }
+]
